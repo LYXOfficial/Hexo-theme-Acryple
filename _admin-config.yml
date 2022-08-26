@@ -1,0 +1,6 @@
+options:
+  nineyaImageFilePath: true
+  askImageFilename: false
+  lineNumbers: false
+editor:
+  lineNumbers: false
