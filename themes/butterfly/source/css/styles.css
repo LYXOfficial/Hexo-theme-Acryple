@@ -2496,7 +2496,7 @@ a:hover{
     background-color: var(--lyx-theme)!important;
     color:white!important;
 }
-.tk-icon.__comments,.tk-action-link{
+.tk-icon.__comments,.tk-action-link,.tk-action-icon{
     color:var(--lyx-theme)!important
 }
 .site-data > a:hover div{
