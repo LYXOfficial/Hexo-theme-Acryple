@@ -55,7 +55,7 @@
     "hexo-theme-landscape": "^0.0.3",
     "hexo-theme-volantis": "^5.3.2",
     "hexo-wordcount": "^6.0.1",
-    "leancloud-storage": "^4.13.1",
+    "leancloud-storage": "^4.13.2",
     "live2d-widget-model-hibiki": "^1.0.5",
     "live2d-widget-model-koharu": "^1.0.5",
     "object-assign": "^4.1.1",
