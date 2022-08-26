@@ -1,0 +1,17 @@
+.card-widget.card-weather(style='width:100%,height:270px')
+  .item-headline
+    i(class="fas fa-cloud-sun")
+    span="天气"
+  #he-plugin-standard
+  script.
+    WIDGET = {
+      "CONFIG": {
+        "layout": "2",
+        "width": 270,
+        "height": 270,
+        "background": "5",
+        "dataColor": "000000",
+        "key": "!{theme.aside.card_weather.key}"
+      }
+    }
+  script(src='https://widget.qweather.net/standard/static/js/he-standard-common.js?v=2.0')

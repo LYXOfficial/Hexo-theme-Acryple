@@ -1,0 +1,30 @@
+
+.settings
+    .shead
+        <center style="width:350px"><h2>博客设置</h2></center><a href="javascript:void(0)" onclick="rmf.openSettings()" style="font-size:20px">×</a>
+    p
+        h3.content-head 性能设置
+        p
+            .content(style="display:flex")
+                input(type="checkbox" id="blur" onclick="setBlur()")
+                .content-text 禁用模糊效果
+            .content(style="display:flex")
+                input(type="checkbox" id="yjjs" onclick="yjjs1()")
+                .content-text 硬件加速
+        h3.content-head 主题设置
+        p
+            .content(style="display:flex")
+                button(class="content-button" onclick="switchTheme()") 切换主题
+            h3.content-head 主题色
+            p
+                .content(style="display:flex")
+                    input(type="radio",id="red" name="colors" value=" " onclick="setColor('red')")
+                    input(type="radio",id="orange" name="colors" value=" " onclick="setColor('orange')")
+                    input(type="radio",id="yellow" name="colors" value=" " onclick="setColor('yellow')")
+                    input(type="radio",id="green" name="colors" value=" " onclick="setColor('green')")
+                    input(type="radio",id="blue" name="colors" value=" " onclick="setColor('blue')")
+                    input(type="radio",id="heoblue" name="colors" value=" " onclick="setColor('heoblue')")
+                    input(type="radio",id="darkblue" name="colors" value=" " onclick="setColor('darkblue')")
+                    input(type="radio",id="purple" name="colors" value=" " onclick="setColor('purple')")
+                    input(type="radio",id="pink" name="colors" value=" " onclick="setColor('pink')")
+                    

@@ -1,0 +1,113 @@
+// 垂直居中卡片样式（排除toc目录卡片）
+.fixed-card-widget
+  &:not(#card-toc)
+    visibility visible!important
+    display block!important
+    position fixed!important
+    bottom 0
+    left 0
+    top 0
+    right 0
+    margin auto
+    margin-bottom auto!important
+    margin-top auto!important
+    max-width 300px
+    max-height 500px
+    width auto
+    height fit-content
+    z-index 999
+    animation rotateX 0.5s ease
+    animation-fill-mode forwards
+// 针对说说卡片做样式兼容适配
+.card-shuo
+  &.fixed-card-widget
+    #artitalk_main
+      max-height 460px
+      overflow scroll
+      &::-webkit-scrollbar
+        display: none
+    #operare_artitalk
+      .c2
+        z-index 1000
+// 针对标签卡片做样式兼容适配
+.card-tags
+  &.fixed-card-widget
+    .card-tag-cloud
+      max-height 460px
+      overflow scroll
+      &::-webkit-scrollbar
+        display: none
+// 控制手机端可见
+@media screen and (max-width: 900px)
+  div#fixedcard-dashboard
+    display flex!important
+// 侧栏悬浮按钮样式
+div#fixedcard-dashboard
+  position fixed
+  top 150px
+  width fit-content
+  height 40px
+  opacity 0.3
+  transition all 0.5s
+  display none
+  background rgba(255,255,255,0.9)
+  padding 5px 10px
+  border-top-right-radius 20px
+  border-bottom-right-radius 20px
+  z-index 1000
+  &:hover
+    opacity 1
+    button
+      &.fixedcard-activebtn
+        width 30px
+        opacity 1
+        pointer-events all
+// 按钮样式
+button
+  &.fixedcard-activebtn
+    width 0px
+    height 30px
+    transition all .5s
+    display flex
+    opacity 0
+    align-items center
+    justify-content space-around
+    pointer-events none
+    color #757273
+// 悬浮按钮头像
+.fixedcard-user-avatar
+  display inline-block
+  img
+    &.fixedcard-user-avatar-img
+      width 30px
+      height 30px
+      border-radius 50%
+// 悬浮按钮夜间模式适配
+[data-theme="dark"]
+  div#fixedcard-dashboard
+    background rgba(55,55,55,0.9)
+  button
+    &.fixedcard-activebtn
+      color #bcbdbd
+
+// 卡片开启动画效果
+@keyframes rotateX
+  from
+    transform rotateX(90deg)
+  to
+    transform rotateX(0deg)
+// 退出蒙版效果
+div#quit-box
+  position fixed
+  display block
+  left 0
+  top 0
+  width 100vh
+  height 100vh
+  z-index 99
+  background rgba(25,25,25,0.3)
+
+
+[data-theme="dark"]
+  div#quit-box
+    background rgba(147, 146, 128, 0.3)

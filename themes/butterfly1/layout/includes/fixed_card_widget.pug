@@ -1,0 +1,11 @@
+#fixedcard-dashboard
+  if is_post()
+    each poitem in theme.fixed_card_widget.post
+      button.fixedcard-activebtn(type="button" title=poitem.title onclick=`FixedCardWidget("` + poitem.type + `","` + poitem.name + `","` + poitem.index + `")`)
+        i(class=poitem.icon)
+  else
+    each paitem in theme.fixed_card_widget.page
+      button.fixedcard-activebtn(type="button" title=paitem.title onclick=`FixedCardWidget("` + paitem.type + `","` + paitem.name + `","` + paitem.index + `")`)
+        i(class=paitem.icon)
+  .fixedcard-user-avatar.fixedcard-activebtn(onclick="RemoveFixedCardWidget()")
+    img.fixedcard-user-avatar-img(src=url_for(theme.avatar.img) title=config.author)
