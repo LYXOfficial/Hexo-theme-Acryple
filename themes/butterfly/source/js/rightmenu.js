@@ -80,6 +80,9 @@ rmf.switchDarkMode = function () {
     window.DISQUS && document.getElementById('disqus_thread').children.length && setTimeout(() => window.disqusReset(), 200)
 };
 rmf.yinyong=function(){
+    var e = document.getElementsByClassName("el-textarea__inner")[0],
+        t = document.createEvent("HTMLEvents");
+    t.initEvent("input", !0, !0), e.value = d.value = "> "+getSelection().toString()+"\n\n", e.dispatchEvent(t);
     console.log(getSelection().toString());
     document.getElementsByClassName("el-textarea__inner")[0].value="> "+getSelection().toString()+"\n\n";
 }

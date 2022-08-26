@@ -212,9 +212,7 @@ type: "links"
     descr: 记录学习，记录生活。
     theme_color: '#6cf'
 {% endflink %}
-# 如何申请友链？
 
-按照格式评论在下方即可。
 
 {% hideToggle 我的信息 %}
 
@@ -260,21 +258,6 @@ type: "links"
 {% endtabs  %}
 
 {% endhideToggle %}
-{% hideToggle 评论格式 %}
-
-现在统一格式：
-
-  名字： {你的博客名字}
-
-  链接： {你的博客主页链接}（建议不要用其它主页，后续可能会做鱼塘，爬取不到）
-
-  头像： {你的头像}（为了节省空间，我的友链直接使用原链接，如果您的网站有防盗链机制，请在备注中说明）
-
-  描述： {简单描述一下你的网站}
-
-  备注： {一些其它的事项，可以特意说明要不要加入流畅或者推荐标签内}
-
-{% endhideToggle %}
 
 {% hideToggle 推荐标签衡量标准 %}
 
@@ -295,11 +278,11 @@ type: "links"
 3.网站Ping值小于100ms
 
 {% endhideToggle %}
-<script src = "https://cdn1.tianli0.top/gh/zhheo/JS-Heo@main/moments/random-friends-post.js"></script>
-<script type="text/javascript">
-fdataUser = {
-   apiurl: 'https://fcircle.yisous.xyz/',
-  defaultFish: 500,
-  hungryFish: 500,
-  }
-</script>
+
+<h1>如何申请友链？</h1>
+
+点下面的按钮！
+<script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
+<script src = "/js/randomFriend.js"></script>
+
+<a href="javascript:void(0)" onclick="addflink()">快速添加友链</a>
