@@ -141,7 +141,10 @@ type: "links"
     link: https://www.siteweb.cn/
     avatar: https://websitecssjs.oss-cn-beijing.aliyuncs.com/links/favicon.ico
     descr: 愿以赤子之心，共建网络空间安全
-
+  - name: Gahotx
+    link: https://gahotx.cn/
+    avatar: https://pub.gahotx.cn/photo/cat.jpg
+    descr: Don't repeat yourself
 
 - class_name: 流畅
   class_desc: 这些网站速度很快，没事可以逛逛
@@ -211,6 +214,10 @@ type: "links"
     avatar: https://www.aohuiliu.fun/images/avatar.jpeg
     descr: 记录学习，记录生活。
     theme_color: '#6cf'
+  - name: Gahotx
+    link: https://gahotx.cn/
+    avatar: https://pub.gahotx.cn/photo/cat.jpg
+    descr: Don't repeat yourself
 {% endflink %}
 
 
