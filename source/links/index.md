@@ -126,8 +126,8 @@ type: "links"
     avatar: https://mengluo.work/source/img/avatar.jpg
     descr: 因为不可能，所以才值得相信
   - name: Terorの客栈
-    link: https://fox.js.cool
-    avatar: https://fox.js.cool/img/avatar.png
+    link: https://blog.trfox.eu.org/
+    avatar: https://blog.trfox.eu.org/img/avatar.png
     descr: 方寸之间，深不见底
   - name: Saiodgm
     link: https://blog.saiodgm.gq/
@@ -184,10 +184,6 @@ type: "links"
     link: https://kmar.top/
     avatar: https://fastly.jsdelivr.net/npm/@kmar/fonts/avatar/own.png
     descr: 开发学习启发性二刺螈
-  - name: Terorの客栈
-    link: https://fox.js.cool
-    avatar: https://fox.js.cool/img/avatar.png
-    descr: 方寸之间，深不见底
   - name: Android
     link: https://android99.me
     avatar: https://android99.me/img/avatar.png
