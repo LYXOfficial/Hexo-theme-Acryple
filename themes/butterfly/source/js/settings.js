@@ -1,28 +1,11 @@
-function setCookie(cname,cvalue)
-{
-  var d = new Date();
-  d.setTime(d.getTime()+(11451*24*60*60*1000));
-  var expires = "expires="+d.toGMTString();
-  document.cookie = cname + "=" + cvalue + "; " + expires;
-}
-function getCookie(cname){
-  var name = cname + "=";
-  var ca = document.cookie.split(';');
-  for(var i=0; i<ca.length; i++) 
-  {
-    var c = ca[i].trim();
-    if (c.indexOf(name)==0) return c.substring(name.length,c.length);
-  }
-  return "";
-}
-if(getCookie("blur")=="false"){
+if(localStorage.getItem("blur")=="false"){
 var blur=0;
 document.getElementById("blur").checked=true;
 }else{
     var blur=1;
 
 }
-if(getCookie("yjjs")=="true"){
+if(localStorage.getItem("yjjs")=="true"){
     var yjjs=1;
     document.getElementById("yjjs").checked=true;
 }else{
@@ -42,7 +25,7 @@ if(!blur){
     }
 function setBlur(){
     blur=!blur;
-    setCookie("blur",blur);
+    localStorage.setItem("blur",blur);
     if(!blur){
     document.getElementById("settingStyle").innerText=`
     *{
@@ -66,7 +49,7 @@ function setBlur(){
 //     }
 function yjjs1(){
     // yjjs=!yjjs;
-    // setCookie("yjjs",yjjs)
+    // localStorage.setItem("yjjs",yjjs)
     // if(yjjs){
     // document.getElementById("yjjs").innerText=`
     // *:not(#web_bg){
@@ -77,26 +60,27 @@ function yjjs1(){
     //     document.getElementById("yjjs").innerText=``
     // }
 }
-if(getCookie("theme")=="acrylic"){
+if(localStorage.getItem("theme")=="acrylic"){
     document.getElementById("css").href=""
 }
 switchTheme=function(){
     if(document.getElementById("css").href==window.location.protocol+"//"+window.location.host+"/css/stylessimple.css"){
         document.getElementById("css").href=""
-        setCookie("theme","acrylic");
+        localStorage.setItem("theme","acrylic");
     }else{
         document.getElementById("css").href="/css/stylessimple.css"
-        setCookie("theme","simple");
+        localStorage.setItem("theme","simple");
     }
 }
 setColor=function(c){
     document.getElementById("themeColor").innerText=`:root{--lyx-theme:var(--lyx-${c})!important}`;
-    setCookie("themeColor",c);
+    localStorage.setItem("themeColor",c);
+
 }
 
-if(getCookie("themeColor")==""){
-    setCookie("themeColor","pink");
+if(localStorage.getItem("themeColor")==undefined){
+    localStorage.setItem("themeColor","pink");
 }
 
-setColor(getCookie("themeColor"));
-$("#"+getCookie("themeColor")).attr("checked", true);
+setColor(localStorage.getItem("themeColor"));
+$("#"+localStorage.getItem("themeColor")).attr("checked", true);
