@@ -23,7 +23,7 @@ console.log(count);
 $(".shuoshuo").hover(function(){
 	clearInterval(timer);
 },function () {
-        timer=setInterval(()=>{
+        timer2=setInterval(()=>{
             document.getElementsByClassName("shuoshuo")[0].innerHTML=speaks[count%speaks.length];
             count++;
             console.log(count);
