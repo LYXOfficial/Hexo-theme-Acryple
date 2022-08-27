@@ -145,7 +145,10 @@ type: "links"
     link: https://gahotx.cn/
     avatar: https://pub.gahotx.cn/photo/cat.jpg
     descr: Don't repeat yourself
-
+  - name: 西瓜撞地球
+    link: https://bio-w.cn/
+    avatar: https://bio-w.cn/img/avater.jpg
+    descr: 我在人间贩卖彩虹
 - class_name: 流畅
   class_desc: 这些网站速度很快，没事可以逛逛
   link_list:
@@ -218,6 +221,10 @@ type: "links"
     link: https://gahotx.cn/
     avatar: https://pub.gahotx.cn/photo/cat.jpg
     descr: Don't repeat yourself
+  - name: 西瓜撞地球
+    link: https://bio-w.cn/
+    avatar: https://bio-w.cn/img/avater.jpg
+    descr: 我在人间贩卖彩虹
 {% endflink %}
 
 
