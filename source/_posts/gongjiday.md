@@ -15,7 +15,7 @@ cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/days
 ---
 今天是世界慰安妇纪念日，我都是意外知道的，就顺便编写了一个简单的js来怀念那些同胞们，在一些节日也会弹窗庆祝。
 
-~~这个脚本使用cookie记录，保证不会多次弹窗影响浏览体验，支持传统节日和公历节日的计算。~~
+<del class="noheimu">这个脚本使用cookie记录，保证不会多次弹窗影响浏览体验，支持传统节日和公历节日的计算。</del>
 
 8.27更新，在Saiodgm的建议下，换用了会话存储，效果更好，不会受到cookie限时不合理的限制
 
