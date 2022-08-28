@@ -2510,9 +2510,12 @@ a:hover{
     border-radius: 10px;
     z-index: 9999;
     display: none;
-    width: 120px;
-    height: 120px;
+    transform: translate(0, -105%);
     overflow: hidden;
+}
+
+[data-theme=dark] #owo-big {
+    background-color: #4a4a4a
 }
 
 #owo-big img {
