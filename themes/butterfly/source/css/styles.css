@@ -1950,10 +1950,10 @@ html {
     height:100%;
 } */
 .category-list-item::marker{
-    content: '';
+    content: ''!important;
 }
 .category-list{
-    overflow: hidden;
+    overflow: hidden!important;
 }
 .fl{
     background-color: var(--lyx-white-acrylic1);
@@ -2517,4 +2517,8 @@ a:hover{
 
 #owo-big img {
     width: 100%;
+}
+
+.recent-posts .category-list{
+    flex-wrap: nowrap!important;
 }

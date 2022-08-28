@@ -1,6 +1,4 @@
 
-
-
 console.log(
     "Codes uses GPL Licence"
 )
@@ -127,14 +125,6 @@ rmf.translate = function () {
     document.getElementById("translateLink").click();
 }
 
-// 右键菜单事件
-document.onkeydown = function (event) {
-    event = (event || window.event);
-    if (event.keyCode == 17) {
-        console.log("你知道的太多了");
-        return;
-    }
-}
 document.body.addEventListener('touchmove', function(e){
     
 }, { passive: false });
@@ -197,6 +187,15 @@ function popupMenu() {
                 txa.select();
                 document.execCommand("Copy");
                 document.body.removeChild(txa);
+            }
+            rmf.saveAs=function(){
+                var a = document.createElement('a');
+                var url = el.src;
+                var filename = url.split("/")[-1];
+                a.href = url;
+                a.download = filename;
+                a.click();
+                window.URL.revokeObjectURL(url);
             }
         } else if (el.tagName == "TEXTAREA" || el.tagName == "INPUT") {
             $('#menu-paste').show();
