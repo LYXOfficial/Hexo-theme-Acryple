@@ -1005,6 +1005,7 @@ categoryBar:
     - rgba(235, 146, 12,0.6)
     - rgba(12, 135, 235,0.6)
     - '#425aef88'
+    - '#ed709b88'
 
 # tag-plugins-plus
 # see https://akilar.top/posts/615e2dec/
@@ -1093,17 +1094,7 @@ fixed_card_widget:
       icon: fas fa-comment-dots
       title: 最新评论
     - type: class
-      name: card-tags
-      index: 0
-      icon: fas fa-tags
-      title: 标签
-    - type: class
       name: card-calendar
       index: 0
       icon: fas fa-calendar
       title: 文章日历
-    - type: class
-      name: card-webinfo
-      index: 0
-      icon: fas fa-chart-line
-      title: 网站资讯
