@@ -27,7 +27,7 @@ menu:
     追番: /bangumis/ || fa-fw fas fa fa-film
     # 音乐: /musics/ || fa fa-music
     关于我: /about/ || fa fa-info-circle
-    声明: /license/ || fas fa-bimage.pngalance-scale
+    声明: /license/ || fas fa-balance-scale
 # Code Blocks (代碼相關)
 # --------------------------------------
 
