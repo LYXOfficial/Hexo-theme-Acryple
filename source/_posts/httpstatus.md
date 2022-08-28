@@ -2,7 +2,9 @@
 title: 帮助你理解各种HTTP状态码（带表情包）
 abbrlink: 53e6b356
 date: 2022-08-28 11:23:00
-tags:
+tags: 网络
+categories:
+  - 网络
 cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/httpstatuscode.webp
 ---
 
