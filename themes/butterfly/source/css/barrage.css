@@ -78,3 +78,11 @@ word-break:keep-all;white-space:nowrap;}
 .barrage *{
 	flex-shrink: 0;
 }
+#barrage-container {
+    position: fixed;
+    z-index: 114514;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
