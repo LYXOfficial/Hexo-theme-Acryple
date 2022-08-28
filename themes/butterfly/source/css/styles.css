@@ -2502,3 +2502,19 @@ a:hover{
 .site-data > a:hover div{
     color:var(--lyx-theme)!important;
 }
+#owo-big {
+    position: fixed;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px #aaa solid;
+    border-radius: 10px;
+    z-index: 9999;
+    display: none;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+}
+
+#owo-big img {
+    width: 100%;
+}

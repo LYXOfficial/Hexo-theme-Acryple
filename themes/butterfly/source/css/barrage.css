@@ -75,6 +75,6 @@ word-break:keep-all;white-space:nowrap;}
 .barrage{
 	transition: all 15s!important;
 }
-.barrage:hover{
-	animation-play-state:paused
+.barrage *{
+	flex-shrink: 0;
 }

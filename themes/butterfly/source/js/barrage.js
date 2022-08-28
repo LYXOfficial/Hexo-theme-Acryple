@@ -77,7 +77,6 @@ function popBarrage(data){
 	let ran = Math.floor(Math.random()*barrageColors.length)
 	barrage.style.background = barrageColors[ran][0];
 	barrage.style.color = barrageColors[ran][1];
-
 	barrage.innerHTML = `
 		<div class="barrageHead">
 			<div class="barrageNick">${data.nick}</div>

@@ -904,6 +904,7 @@ inject:
   - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
   - <script src="/js/bbtalklunbo.js"></script>
   - <script src="/js/settings.js"></script>
+  - <script src="/js/owo.js"></script>
   # - <script type="text/javascript" src="/js/fixbugpjax.js"></script>
   - <script src="https://f.zhheo.com/JS-Heo/bb/showbb_in_index.js" data-pjax="" defer=""></script>
   - <script data-pace-options='{ "restartOnRequestAfter":false,"eventLag":false}' src="https://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
