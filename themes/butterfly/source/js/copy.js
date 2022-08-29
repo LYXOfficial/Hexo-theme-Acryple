@@ -30,6 +30,6 @@ Snackbar.show({
 setTimeout(function(){Snackbar.show({
     text: '本站使用Cookie和本地/会话存储保证浏览体验和网站统计',
     pos: 'bottom-right',
-    showAction: false,
+    actionText: "查看博客声明",
 })},3000)}
 sessionStorage.setItem("popWelcomeWindow","0");

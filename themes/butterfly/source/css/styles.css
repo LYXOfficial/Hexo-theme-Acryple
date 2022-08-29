@@ -2531,5 +2531,22 @@ a:hover{
 }
 .snackbar-container{
     border-radius:8px!important;
-    opacity:   .8!important;
+    background-color: #000000aa!important;
+}
+.OwO-body{
+    backdrop-filter: blur(10px)!important;
+    -webkit-backdrop-filter: blur(10px)!important;
+    background: #ffffff77!important;
+}
+[data-theme="dark"] .OwO-body{
+    background: #00000055!important;
+}
+.snackbar-container .action{
+    color:var(--lyx-theme)!important;
+    background-color: #000000aa!important;
+}
+.snackbar-container{
+    font-family: 'HYTMR','PingFang SC','Ubuntu Mono','Noto Sans','Microsoft Yahei','SimSun'!important;
+    backdrop-filter: blur(10px)!important;
+    -webkit-backdrop-filter: blur(10px)!important;
 }
