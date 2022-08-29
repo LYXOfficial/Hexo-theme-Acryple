@@ -886,11 +886,12 @@ inject:
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/swiper/swiper-bundle.min.css">
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css">
   - <link rel="stylesheet" href="/css/commentBarrage.css">
+  - <link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/npm/node-snackbar@latest/dist/snackbar.min.css" />
   bottom:
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
   # - <script type="text/javascript" src="https://code.jquery.com/jquery-1.4.1.min.js"></script>
   - <script type="text/javascript" src="/js/rightmenu.js"></script>
-  - <script type="text/javascript" src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/copy.js"></script>
+  - <script type="text/javascript" src="/js/copy.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
   - <script type="text/javascript" src="/js/resizeTop.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/calendar.js"></script>
@@ -917,6 +918,7 @@ inject:
   - <script type="text/javascript" src="/js/commentsCount.js"></script>
   - <script type="text/javascript" src="/js/latest.js"></script>
   - <script data-pjax defer src="/js/fixed_card_widget.js"></script>
+  - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/node-snackbar@latest/src/js/snackbar.min.js"></script>
   # - <script type="text/javascript" src="/js/commentBarrage.js"></script>
   # - <script src="https://cdn1.tianli0.top/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.js"></script>
   # - <script src="//code.tidio.co/aecbdb267oiplwsetmonv47lkdxwzzoh.js" async></script>

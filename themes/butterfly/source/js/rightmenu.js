@@ -83,6 +83,11 @@ rmf.yinyong=function(){
     t.initEvent("input", !0, !0), e.value = d.value = "> "+getSelection().toString()+"\n\n", e.dispatchEvent(t);
     console.log(getSelection().toString());
     document.getElementsByClassName("el-textarea__inner")[0].value="> "+getSelection().toString()+"\n\n";
+    Snackbar.show({
+        text: '为保证最佳评论阅读体验，建议不要删除空行',
+        pos: 'top-center',
+        showAction: false,
+    })
 }
 rmf.copyWordsLink = function () {
     let url = window.location.href
@@ -92,7 +97,11 @@ rmf.copyWordsLink = function () {
     txa.select();
     document.execCommand("Copy");
     document.body.removeChild(txa);
-    Swal.fire("复制成功！");
+    Snackbar.show({
+        text: '链接复制成功！快去分享吧！',
+        pos: 'top-right',
+        showAction: false
+    });
 }
 rmf.switchReadMode = function () {
     const $body = document.body
@@ -219,7 +228,11 @@ function popupMenu() {
                                 insertAtCursor(el, text)
                             })
                         } else {
-                            alert('请允许读取剪贴板！')
+                            Snackbar.show({
+                                text: '请允许读取剪贴板！',
+                                pos: 'top-center',
+                                showAction: false,
+                            })
                         }
                     })
             }
