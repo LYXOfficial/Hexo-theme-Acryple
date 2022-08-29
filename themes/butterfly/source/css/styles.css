@@ -2530,5 +2530,6 @@ a:hover{
     color:var(--font-color)!important;
 }
 .snackbar-container{
-    border-radius:8px;
+    border-radius:8px!important;
+    opacity:   .8!important;
 }
