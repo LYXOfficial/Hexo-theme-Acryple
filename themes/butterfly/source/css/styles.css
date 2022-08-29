@@ -2525,3 +2525,7 @@ a:hover{
 .recent-posts .category-list{
     flex-wrap: nowrap!important;
 }
+[data-theme="dark"] .cf-overshow-content,.cf-overshow-content span{
+    background-color: black!important;
+    color:var(--font-color)!important;
+}
