@@ -14,6 +14,7 @@
   "dependencies": {
     "butterfly-friend": "^3.2.0",
     "editor.md": "^1.5.0",
+    "gulp": "^4.0.2",
     "hexo": "^6.2.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-admin": "^2.3.0",
@@ -74,5 +75,8 @@
     "url": "https://github.com/LYXOfficial/blog/issues"
   },
   "homepage": "https://github.com/LYXOfficial/blog#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "gulp-fontmin": "^0.7.4"
+  }
 }
