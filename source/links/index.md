@@ -58,7 +58,7 @@ type: "links"
     avatar: /img/8DSTSS20990281646044689944.PNG
     descr: 分享设计与科技生活
   - name: 十贰的小窝
-    link: https://hehysh.vercel.app/
+    link: https://hehysh.eu.org/
     avatar: https://s3.bmp.ovh/imgs/2022/07/18/92ff096fd0a0f727.jpeg
     descr: 十贰的博客：技术，人生，思考
   - name: Akilar
