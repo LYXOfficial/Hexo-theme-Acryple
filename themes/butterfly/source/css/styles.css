@@ -2741,3 +2741,6 @@ a:hover{
     -ms-border-radius: 0!important;
     -o-border-radius: 0!important;
 }
+.toc-link.active:hover{
+    color:white!important
+}
