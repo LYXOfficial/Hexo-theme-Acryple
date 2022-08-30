@@ -1101,24 +1101,6 @@ hr{
 .cards{
     width:100%
 }
-.flink-name>a{
-    color:var(--font-color)!important;
-}
-.flink-name>a:hover{
-    text-decoration:none!important;
-}
-.flink-list-item>a{
-    border: 2px soild var(--lyx-border)!important;
-}
-[data-theme="light"] .flink-list-item>a:hover{
-    color:white!important;
-}
-[data-theme="dark"] .flink-list-item>a:hover{
-    color:black!important;
-}
-.flink-item-desc{
-    word-wrap: normal;
-}
 [data-theme="light"] #tagCloud{
     margin-bottom:20px;
     border-radius: 8px;
@@ -1345,13 +1327,6 @@ h6:before{
     border-bottom: 1px solid var(--lyx-theme);
     color:var(--font-color);
     padding:2px
-}
-.flink-list-item{
-    border: 1px solid var(--lyx-border);
-}
-.flink-item-item:hover{
-    border: 1px solid var(--lyx-theme)!important;
-    box-shadow:0 0 3px var(--lyx-theme)!important;
 }
 [data-theme='light'] .full_page{
     background-image: url(/img/2.webp)!important;
@@ -2094,19 +2069,6 @@ span.card-archive-list-count {
 .flink-list-item{
     transition: all .5s!important;
 }
-.flink-list-item:hover{
-    scale: 1.03;
-    padding-left: 20px!important;
-}
-.flink-list-item:hover .flink-item-name{
-    color:white!important;
-}
-.flink-list-item:hover .flink-item-desc{
-    color:white!important;
-}
-.flink-list-item:hover .flink-item-icon{
-    display: none;
-}
 #search-button:hover,#randoms:hover,#travellings:hover,.site-page:hover,.menus_item:hover{
     scale:1.03
 }
@@ -2236,7 +2198,7 @@ li.categoryBar-list-item{
 }
 input[name="colors"]{
     margin-right: 15px;
-    width: 1rem;
+    min-width: 1rem;
     height: 1rem;
     appearance: none;
     -webkit-appearance: none;
@@ -2743,4 +2705,28 @@ a:hover{
 }
 .toc-link.active:hover{
     color:white!important
+}
+.fa-fcircle{
+    bacckground-image:url("file:///C:/Users/lyx-blbl/Documents/tencent%20files/2192016328/filerecv/fcircle2.0.svg")
+}
+.flink-list-item{
+    transition: background-color .3s!important;
+    -webkit-transition: background-color .3s!important;
+    -moz-transition: background-color .3s!important;
+    -ms-transition: background-color .3s!important;
+    -o-transition: background-color .3s!important;
+    
+}
+.flink-item-name,.flink-item-desc{
+
+    color:white!important
+}
+blockquote {
+    border: 1px solid var(--lyx-border);
+    border-radius: 8px;
+    background-color: var(--lyx-gray);
+    padding: 10px;
+}
+blockquote p:first-child{
+    margin-top:0;
 }
