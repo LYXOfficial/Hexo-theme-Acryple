@@ -5,7 +5,7 @@
     src: url('https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/font/HYTangMeiRen55W.woff2') format("truetype");/*/font/HYTangMeiRen55W.ttf*/
 }
 body {
-    font-family: 'HYTMR','PingFang SC','Ubuntu Mono','Noto Sans','Microsoft Yahei','SimSun';
+    font-family: 'HYTMR',-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif;
 }
 /* .layout_post .post-copyright .post-copyright-info a {
     text-decoration: none;
@@ -2729,4 +2729,10 @@ blockquote {
 }
 blockquote p:first-child{
     margin-top:0;
+}
+#loadcat{
+    position: fixed;
+    z-index:19198100;
+    left:calc(50% - 200px);
+    top:calc(50% - 50px);
 }

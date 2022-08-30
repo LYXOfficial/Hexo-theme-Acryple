@@ -9,7 +9,7 @@ tags:
   - 建站
 categories:
   - hexo魔改
-cover: https://cdn1.tianli0.top/gh/lyxofficial/lyxofficial.github.io/covers/someasides.webp
+cover: https://cdn1.tianli0.top/gh/lyxofficial/lyxofficial.github.io/covers/someaside.webp
 ---
 之前弄了一些插件，糖果屋的群友们也找我问了问，所以我就顺便写了个文章介绍一下这些插件吧。
 
@@ -66,10 +66,10 @@ if theme.aside.card_calendar.enable
   if is_post()
     - const tocStyle = page.toc_style_simple
     ...
-      
+    
   else
     //- page
-    ...    
+    ...  
     .sticky_layout
       if showToc
         include ./card_post_toc.pug
@@ -94,7 +94,7 @@ if theme.aside.card_calendar.enable
 +      !=partial('includes/widget/card_calendar', {}, {cache: true})
       .sticky_layout
         ...
-      
+    
   else
     //- page
     ...
@@ -1240,7 +1240,7 @@ calendar:
 +        !=partial('includes/widget/card_weather', {}, {cache: true})
         //- 如果不想在文章页显示可以不要
         !=partial('includes/widget/card_ad', {}, {cache: true})
-      
+    
   else
     //- page
     !=partial('includes/widget/card_author', {}, {cache: true})
