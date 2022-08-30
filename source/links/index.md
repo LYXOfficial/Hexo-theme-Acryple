@@ -184,6 +184,11 @@ type: "links"
     avatar: https://bio-w.cn/img/avater.jpg
     descr: 我在人间贩卖彩虹
     theme_color: "#bb9c84"
+  - name: MrZeFr的小窝
+    link: https://blog.mrzefr.cn
+    avatar: https://cdn.afdelivr.top/npm/hexo-mrzefr-filebed@1.3.4/image/ICO/Doraemon.ico
+    descr: Hello World
+    theme_color: "#6ca4c9"
 {% endflink %}
 
 
