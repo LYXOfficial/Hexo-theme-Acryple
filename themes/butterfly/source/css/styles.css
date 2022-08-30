@@ -2542,7 +2542,7 @@ a:hover{
 }
 .snackbar-container .action{
     color:var(--lyx-theme)!important;
-    background-color: #000000aa!important;
+    background-color: transparent!important;
 }
 .snackbar-container{
     font-family: 'HYTMR','PingFang SC','Ubuntu Mono','Noto Sans','Microsoft Yahei','SimSun'!important;

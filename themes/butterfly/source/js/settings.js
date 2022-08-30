@@ -98,10 +98,7 @@ function toggleRightside(){
     $("#rightside").toggle();
     localStorage.setItem("hideRightside",Math.abs(Number(localStorage.getItem("hideRightside"))-1))
 }
-document.getElementsByClassName("reSettings")[0].onclick=function(){
-    localStorage.clear()
-    window.location.reload()
-}
+
 
 
 
@@ -159,7 +156,10 @@ function changeBg(s, flag) {
 // 创建窗口
 var winbox = ''
 
+var isMax=false;
 function createWinbox() {
+    div = document.createElement('div')
+    document.body.appendChild(div)
     winbox = WinBox({
         id: 'changeBgBox',
         index: 999,
@@ -168,8 +168,19 @@ function createWinbox() {
         y: "center",
         minwidth: '300px',
         height: "60%",
-        background: '#49b1f5'
+        background: '#49b1f5',
+        onmaximize: () => {
+            isMax=true;
+            div.innerHTML = `<style>body::-webkit-scrollbar {display: none;}div#changeBgBox {width: 100% !important;}</style>`
+        },
+        onrestore: () => {
+            isMax=false;
+            div.innerHTML = ''
+        },
     });
+    document.getElementsByClassName("wb-close")[0].onclick=function(){
+        sessionStorage.setItem("settingWindow","close");
+    }
     winResize();
     window.addEventListener('resize', winResize)
 
@@ -254,21 +265,29 @@ function createWinbox() {
     </br>注意:切换背景功能仅在Acrylic主题中生效，在Simple主题中无效
     <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:var(--lyx-theme);display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
 `;
+
+document.getElementsByClassName("reSettings")[0].onclick=function(){
+    localStorage.clear()
+    window.location.reload()
+}
 }
 
-// 适应窗口大小
 function winResize() {
+    if(!isMax){
     var offsetWid = document.documentElement.clientWidth;
     if (offsetWid <= 768) {
         winbox.resize(offsetWid * 0.95 + "px", "90%").move("center", "center");
     } else {
         winbox.resize(offsetWid * 0.6 + "px", "70%").move("center", "center");
-    }
+    }}
 }
 
 // 切换状态，窗口已创建则控制窗口显示和隐藏，没窗口则创建窗口
 function toggleWinbox() {
-    if (document.querySelector('#changeBgBox')) winbox.toggleClass('hide');
-    else createWinbox();
-
+    if (document.querySelector('#changeBgBox')) {winbox.toggleClass('hide');sessionStorage.setItem("settingWindow","close");}
+    else {createWinbox();sessionStorage.setItem("settingWindow","open");}
+}
+if(sessionStorage.getItem("settingWindow")=="open"){
+    createWinbox();
+    
 }
