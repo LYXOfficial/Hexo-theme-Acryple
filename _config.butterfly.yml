@@ -877,7 +877,7 @@ inject:
   - <link id="css" rel="stylesheet" href="/css/stylessimple.css">
   # - <link rel="stylesheet" href="https://blog.zhheo.com/zhheo/zhheoblog.css">
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/css/iconfont.css">
-  - "<style>#article-container.post-content h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 3s linear infinite; -moz-animation: avatar_turn_around 3s linear infinite; -o-animation: avatar_turn_around 3s linear infinite; -ms-animation: avatar_turn_around 3s linear infinite; animation: avatar_turn_around 3s linear infinite; }</style>"
+  - "<style>#article-container h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 3s linear infinite; -moz-animation: avatar_turn_around 3s linear infinite; -o-animation: avatar_turn_around 3s linear infinite; -ms-animation: avatar_turn_around 3s linear infinite; animation: avatar_turn_around 3s linear infinite; }</style>"
   - <style id="barragesColor"></style>
   - <style id="settingStyle"></style>
   - <style id="yjjs"></style>
@@ -890,6 +890,7 @@ inject:
   bottom:
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
   # - <script type="text/javascript" src="https://code.jquery.com/jquery-1.4.1.min.js"></script>
+  - <script src="https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script>
   - <script type="text/javascript" src="/js/rightmenu.js"></script>
   - <script type="text/javascript" src="/js/copy.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>

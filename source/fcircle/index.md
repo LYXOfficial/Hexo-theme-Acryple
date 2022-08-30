@@ -2,7 +2,14 @@
 title: 朋友圈
 date: 2022-01-29 15:23:17
 ---
+<div class="title-h2-a">
+  <div class="title-h2-a-left">
+    <h2 style="padding-top: 0;margin:0.6rem 0 0.6rem;">🎣 钓鱼</h2><a class="random-post-start" href="javascript:fetchRandomPost();"><i class="fa-solid fa-arrow-rotate-right"></i></a>
+  </div>
+</div>
+<div id="random-post"></div>
 
+<link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/gh/zhheo/JS-Heo@main/moments/random-friends-post.css">
 <!-- 挂载友链朋友圈的容器 -->
 <div class="post-content">
 <div id="cf-container">与主机通讯中……</div>
@@ -16,3 +23,5 @@ date: 2022-01-29 15:23:17
 </script>
 <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.css">
 <script type="text/javascript" src="https://cdn1.tianli0.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.js"></script>
+<script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
+<script src = "/js/randomFriend.js"></script>

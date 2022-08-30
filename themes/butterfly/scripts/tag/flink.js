@@ -19,13 +19,13 @@ const flinkFn = (args, content) => {
 
     i.link_list.forEach(j => {
       listResult += `
-          <div class="flink-list-item" style="background-color:${j.theme_color}">
+          <div class="flink-list-item"">
             <a href="${j.link}" title="${j.name}" target="_blank">
               <div class="flink-item-icon">
                 <img class="no-lightbox" src="${j.avatar}" onerror='this.onerror=null;this.src="${urlFor(hexo.theme.config.error_img.flink)}"' alt="${j.name}" />
               </div>
-              <div class="flink-item-name">${j.name}</div> 
-              <div class="flink-item-desc" title="${j.descr}">${j.descr}</div>
+              <div class="flink-item-name" style="background-color:${j.theme_color}>${j.name}</div> 
+              <div class="flink-item-desc" title="${j.descr}" style="background-color:${j.theme_color}>${j.descr}</div>
             </a>
           </div>`
     })

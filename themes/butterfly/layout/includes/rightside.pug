@@ -31,6 +31,9 @@ mixin rightsideItem(array)
             i.fas.fa-comments
             a#switch_commentBarrage(href="javascript:switchCommentBarrage();" title="开关弹幕")
               i.iconfont.icon-danmu
+
+  button(type="button" title='切换背景' onclick="toggleWinbox()")
+    i.fa.fa-images
   a#opensettings(href="javascript:rmf.openSettings();" title="博客设置")
     i.fa.fa-cog
 #rightside
