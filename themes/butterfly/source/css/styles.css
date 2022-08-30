@@ -2736,3 +2736,9 @@ blockquote p:first-child{
     left:calc(50% - 200px);
     top:calc(50% - 50px);
 }
+body{
+    overflow: visible!important;
+}
+#aside-content .sticky_layout{
+    top:50px
+}
