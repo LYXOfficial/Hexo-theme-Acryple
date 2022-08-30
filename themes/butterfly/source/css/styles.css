@@ -2148,25 +2148,6 @@ span.card-archive-list-count {
 #recent-posts > .recent-post-item >.recent-post-info > .article-title:hover, #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover{
     color:var(--lyx-theme)!important
 }
-.settings {
-    position: fixed;
-    left: calc(50% - 200px);
-    top: calc(50% - 250px);
-    background-color: #ffffffaa;
-    padding: 15px;
-    width: 400px;
-    z-index: 999;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 8px;
-    border: 1px solid var(--lyx-border);
-}
-[data-theme="dark"] .settings{
-    background-color: var(--lyx-black-acrylic1)!important;
-}
-.settings:hover{border: 1px solid var(--lyx-theme);
-    box-shadow:0 0 3px var(--lyx-theme)!important;
-    transition: all 0.2s;}
 .settings .content{
     margin-left:20px;
 }
@@ -2636,10 +2617,6 @@ a:hover{
     background-position: center;
 }
 
-[data-theme='dark'] .wb-body,
-[data-theme='dark'] #changeBgBox {
-    background: #333 !important;
-}
 
 .bgbox {
     display: flex;
@@ -2673,25 +2650,6 @@ a:hover{
     height: 100px;
 }
 
-/* 老用户如果不再使用页面版可删除下面代码 */
-/* #color {
-    border: none;
-    background: transparent;
-    width: 166px;
-    height: 110px;
-    margin: 5px 10px;
-    position: relative;
-    cursor: pointer;
-}
-
-#color::before {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    left: 38px;
-    top: 44px;
-    content: '自定义颜色';
-} */
-
 @media screen and (max-width: 768px) {
     /* 背景 */
     .pimgbox,
@@ -2703,18 +2661,6 @@ a:hover{
     .pimgbox {
         height: 205px;
     }
-    /* 老用户如果不再使用页面版可删除下面代码 */
-    /* #color {
-        width: 141px;
-        height: 83px;
-        margin: 7px;
-    }
-    #color::before {
-        left: 33px;
-        top: 33px;
-    }     */
-
-    /* 2.0新增内容 */    
     .wb-min {
         display: none;
     }
@@ -2735,13 +2681,51 @@ a:hover{
 .fas.fa-thumbs-up:hover{
     color:var(--lyx-theme)!important
 }
-#changeBgBox{
-    background-color: var(--lyx-theme)!important;
-}
 #article-container h1::before{
     color:#f47466!important
 }
+.reSettings{
+    color:var(--font-color)!important
+}
 .reSettings::before{
     content:"\f021";
-    font-family:var(--fa-style-family,"Font Awesome 6 Free");font-weight:var(--fa-style,900)
+    font-family:var(--fa-style-family,"Font Awesome 6 Free");font-weight:var(--fa-style,900);
+    color:var(--lyx-blue)!important
+}
+.reSettings:hover{
+    cursor: pointer;
+}
+#rightMenu{
+    z-index: 1919810!important;
+}
+.settings{
+    margin:15px
+}
+.wb-title{
+    color:black;
+    font-family: 'HYTMR','PingFang SC','Ubuntu Mono','Noto Sans','Microsoft Yahei','SimSun'!important;
+}
+#changeBgBox{
+        background: #fffa!important;
+        border-radius: 8px;
+        backdrop-filter: blur(20px);
+        
+}
+.wb-close{
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB0PSIxNjYxODMyNDg4NDQ2IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjI2MzAiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cGF0aCBkPSJNNTU2LjggNTEyTDgzMiAyMzYuOGMxMi44LTEyLjggMTIuOC0zMiAwLTQ0LjgtMTIuOC0xMi44LTMyLTEyLjgtNDQuOCAwTDUxMiA0NjcuMmwtMjc1LjItMjc3LjMzMzMzM2MtMTIuOC0xMi44LTMyLTEyLjgtNDQuOCAwLTEyLjggMTIuOC0xMi44IDMyIDAgNDQuOGwyNzUuMiAyNzcuMzMzMzMzLTI3Ny4zMzMzMzMgMjc1LjJjLTEyLjggMTIuOC0xMi44IDMyIDAgNDQuOCA2LjQgNi40IDE0LjkzMzMzMyA4LjUzMzMzMyAyMy40NjY2NjYgOC41MzMzMzNzMTcuMDY2NjY3LTIuMTMzMzMzIDIzLjQ2NjY2Ny04LjUzMzMzM0w1MTIgNTU2LjggNzg3LjIgODMyYzYuNCA2LjQgMTQuOTMzMzMzIDguNTMzMzMzIDIzLjQ2NjY2NyA4LjUzMzMzM3MxNy4wNjY2NjctMi4xMzMzMzMgMjMuNDY2NjY2LTguNTMzMzMzYzEyLjgtMTIuOCAxMi44LTMyIDAtNDQuOEw1NTYuOCA1MTJ6IiBwLWlkPSIyNjMxIj48L3BhdGg+PC9zdmc+");}
+.wb-max{
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB0PSIxNjYxODMyNjU2MTQ0IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjI5MjMiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cGF0aCBkPSJNNzk0LjQzMiA5ODMuNTUySDUxLjJhMjUuNiAyNS42IDAgMCAxLTI1LjYtMjUuNlYyMTQuNzg0YTI1LjYgMjUuNiAwIDAgMSAyNS42LTI1LjZoMTUyLjc2OFY2Ni4xMTJhMjUuNiAyNS42IDAgMCAxIDI1LjYtMjUuNkg5NzIuOGEyNS42IDI1LjYgMCAwIDEgMjUuNiAyNS42djc0My4yMzJhMjUuNiAyNS42IDAgMCAxLTI1LjYgMjUuNmgtMTUyLjc2OHYxMjMuMDA4YTI1LjYgMjUuNiAwIDAgMS0yNS42IDI1LjZ6IG0tNzE3LjYzMi01MS4yaDY5Mi4wMzJWMjQwLjM4NEg3Ni44djY5MS45Njh6IG03NDMuMjMyLTE0OC42NzJIOTQ3LjJWOTEuNjQ4SDI1NS4xNjh2OTcuNDcyaDUzOS4yNjRhMjUuNiAyNS42IDAgMCAxIDI1LjYgMjUuNnY1NjguOTZ6IiBwLWlkPSIyOTI0Ij48L3BhdGg+PC9zdmc+");
+}
+.wb-min{
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB0PSIxNjYxODMyNzE4OTgzIiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjM4MzQiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIj48cGF0aCBkPSJNMTkyLjEyOCA3NjhsNjM5LjY4IDBDODY3LjI2NCA3NjggODk2IDc5Ni40MTYgODk2IDgzMmMwIDM1LjM5Mi0yOS4xODQgNjQtNjQuMTkyIDY0TDE5Mi4xMjggODk2QzE1Ni43MzYgODk2IDEyOCA4NjcuNTg0IDEyOCA4MzIgMTI4IDc5Ni42MDggMTU3LjE4NCA3NjggMTkyLjEyOCA3Njh6IiBwLWlkPSIzODM1Ij48L3BhdGg+PC9zdmc+");
+}
+.wb-body{
+    background:#fffa!important;
+}
+.winbox.focus.max {
+    border-radius: 0!important;
+    -webkit-border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    -ms-border-radius: 0!important;
+    -o-border-radius: 0!important;
 }

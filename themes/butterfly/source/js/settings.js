@@ -163,7 +163,7 @@ function createWinbox() {
     winbox = WinBox({
         id: 'changeBgBox',
         index: 999,
-        title: "切换背景",
+        title: "博客设置",
         x: "center",
         y: "center",
         minwidth: '300px',
@@ -175,10 +175,45 @@ function createWinbox() {
 
     // 每一类我放了一个演示，直接往下复制粘贴 a标签 就可以，需要注意的是 函数里面的链接 冒号前面需要添加反斜杠\进行转义
     winbox.body.innerHTML = `
-    <div id="article-container" style="padding:10px;">
-    
-    <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:var(--lyx-theme);display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
-    <h2 id="图片（手机）"><a href="#图片（手机）" class="headerlink" title="图片（手机）"></a>图片（手机）</h2>
+    <div class="settings" style="display: block;"><a class="reSettings">恢复默认设置</a>
+    <p></p>
+    <h2 class="content-head">性能设置</h2>
+    <p></p>
+    <div class="content" style="display:flex"><input type="checkbox" id="blur" onclick="setBlur()">
+        <div class="content-text">禁用模糊效果</div>
+    </div>
+    <div class="content" style="display:flex"><input type="checkbox" id="yjjs" onclick="yjjs1()"
+            value="onrightMenurightMenu">
+        <div class="content-text">硬件加速</div>
+    </div>
+    <p></p>
+    <h2 class="content-head">主题设置</h2>
+    <p></p>
+    <div class="content" style="display:flex"><button class="content-button"
+            onclick="switchTheme()">切换主题</button><br><input type="checkbox" id="hideAside" onclick="toggleRightside()">
+        <div class="content-text">隐藏侧边栏</div>
+    </div>
+    <h3 class="content-head">&nbsp;&nbsp;主题色</h3>
+    <p></p>
+    <div class="content" style="display:flex"><input type="radio" id="red" name="colors" value=" "
+            onclick="setColor('red')"><input type="radio" id="orange" name="colors" value=" "
+            onclick="setColor('orange')"><input type="radio" id="yellow" name="colors" value=" "
+            onclick="setColor('yellow')"><input type="radio" id="green" name="colors" value=" "
+            onclick="setColor('green')"><input type="radio" id="blue" name="colors" value=" "
+            onclick="setColor('blue')"><input type="radio" id="heoblue" name="colors" value=" "
+            onclick="setColor('heoblue')"><input type="radio" id="darkblue" name="colors" value=" "
+            onclick="setColor('darkblue')"><input type="radio" id="purple" name="colors" value=" "
+            onclick="setColor('purple')"><input type="radio" id="pink" name="colors" value=" "
+            onclick="setColor('pink')" checked="checked"><input type="radio" id="black" name="colors" value=" "
+            onclick="setColor('black')"><input type="radio" id="blackgray" name="colors" value=" "
+            onclick="setColor('blackgray')"></div>
+    <p></p>
+    <p></p>
+    <p></p>
+</div>
+    <h2 style="margin-left:10px">背景设置</h2>
+    <div id="article-container" style="padding:20px;">
+    <h3 id="图片（手机）"><a href="#图片（手机）" class="headerlink" title="图片（手机）"></a>图片（手机）</h3>
     <div class="bgbox">
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://bu.dusays.com/2022/08/30/630d6d4d539a5.webp)" class="pimgbox" onclick="changeBg('url(https://bu.dusays.com/2022/08/30/630d6d4d539a5.webp)')"></a>
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://bu.dusays.com/2022/08/30/630d6d4e15c9d.webp)" class="pimgbox" onclick="changeBg('url(https://bu.dusays.com/2022/08/30/630d6d4e15c9d.webp)')"></a>
@@ -188,7 +223,7 @@ function createWinbox() {
 
     </div>
     
-    <h2 id="图片（电脑）"><a href="#图片（电脑）" class="headerlink" title="图片（电脑）"></a>图片（电脑）</h2>
+    <h3 id="图片（电脑）"><a href="#图片（电脑）" class="headerlink" title="图片（电脑）"></a>图片（电脑）</h3>
     <div class="bgbox">
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://bu.dusays.com/2022/08/30/630d6d5574d0e.webp)" class="imgbox" onclick="changeBg('url(https://bu.dusays.com/2022/08/30/630d6d5574d0e.webp)')"></a>
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://bu.dusays.com/2022/08/30/630d6d529adf9.webp)" class="imgbox" onclick="changeBg('url(https://bu.dusays.com/2022/08/30/630d6d529adf9.webp)')"></a>
@@ -203,7 +238,7 @@ function createWinbox() {
     
     
     
-    <h2 id="渐变色"><a href="#渐变色" class="headerlink" title="渐变色"></a>渐变色</h2>
+    <h3 id="渐变色"><a href="#渐变色" class="headerlink" title="渐变色"></a>渐变色</h3>
     <div class="bgbox">
     <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #eecda3, #ef629f)" onclick="changeBg('linear-gradient(to right, #eecda3, #ef629f)')"></a>
     <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(25deg, #31354b, #38536c, #3b738e, #3995b2)" onclick="changeBg('inear-gradient(25deg, #31354b, #38536c, #3b738e, #3995b2)')"></a>
@@ -212,10 +247,12 @@ function createWinbox() {
 
     </div>
     
-    <h2 id="纯色"><a href="#纯色" class="headerlink" title="纯色"></a>纯色</h2>
+    <h3 id="纯色"><a href="#纯色" class="headerlink" title="纯色"></a>纯色</h3>
     <div class="bgbox">
     <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #7D9D9C" onclick="changeBg('#7D9D9C')"></a> 
     </div>
+    </br>注意:切换背景功能仅在Acrylic主题中生效，在Simple主题中无效
+    <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:var(--lyx-theme);display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
 `;
 }
 

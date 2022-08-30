@@ -1,5 +1,36 @@
-<div class="snackbar-container  snackbar-pos top-center" style="width: auto; background: rgb(50, 50, 50); opacity: 1;">
-    <p
-        style="margin: 0px; padding: 0px; color: rgb(255, 255, 255); font-size: 14px; font-weight: 300; line-height: 1em;">
-        为保证最佳评论阅读体验，建议不要删除空行</p>
+<div class="settings" style="display: block;"><a class="reSettings">恢复默认设置</a>
+    <p></p>
+    <h2 class="content-head">性能设置</h2>
+    <p></p>
+    <div class="content" style="display:flex"><input type="checkbox" id="blur" onclick="setBlur()">
+        <div class="content-text">禁用模糊效果</div>
+    </div>
+    <div class="content" style="display:flex"><input type="checkbox" id="yjjs" onclick="yjjs1()"
+            value="onrightMenurightMenu">
+        <div class="content-text">硬件加速</div>
+    </div>
+    <p></p>
+    <h2 class="content-head">主题设置</h2>
+    <p></p>
+    <div class="content" style="display:flex"><button class="content-button"
+            onclick="switchTheme()">切换主题</button><br><input type="checkbox" id="hideAside" onclick="toggleRightside()">
+        <div class="content-text">隐藏侧边栏</div>
+    </div>
+    <h3 class="content-head">&nbsp;&nbsp;主题色</h3>
+    <p></p>
+    <div class="content" style="display:flex"><input type="radio" id="red" name="colors" value=" "
+            onclick="setColor('red')"><input type="radio" id="orange" name="colors" value=" "
+            onclick="setColor('orange')"><input type="radio" id="yellow" name="colors" value=" "
+            onclick="setColor('yellow')"><input type="radio" id="green" name="colors" value=" "
+            onclick="setColor('green')"><input type="radio" id="blue" name="colors" value=" "
+            onclick="setColor('blue')"><input type="radio" id="heoblue" name="colors" value=" "
+            onclick="setColor('heoblue')"><input type="radio" id="darkblue" name="colors" value=" "
+            onclick="setColor('darkblue')"><input type="radio" id="purple" name="colors" value=" "
+            onclick="setColor('purple')"><input type="radio" id="pink" name="colors" value=" "
+            onclick="setColor('pink')" checked="checked"><input type="radio" id="black" name="colors" value=" "
+            onclick="setColor('black')"><input type="radio" id="blackgray" name="colors" value=" "
+            onclick="setColor('blackgray')"></div>
+    <p></p>
+    <p></p>
+    <p></p>
 </div>

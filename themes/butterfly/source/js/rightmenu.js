@@ -58,9 +58,6 @@ rmf.showRightMenu = function (isTrue, x = 0, y = 0) {
         $rightMenu.hide();
     }
 }
-rmf.openSettings=function(){
-    $(".settings").fadeToggle();
-}
 rmf.switchDarkMode = function () {
     const nowMode = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'
     if (nowMode === 'light') {
