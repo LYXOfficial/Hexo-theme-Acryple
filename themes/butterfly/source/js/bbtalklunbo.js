@@ -20,13 +20,9 @@ var count=0;
 document.getElementsByClassName("shuoshuo")[0].innerHTML=speaks[count%speaks.length];
 count++;
 console.log(count);
-$(".shuoshuo").hover(function(){
-	clearInterval(timer);
-},function () {
-        timer2=setInterval(()=>{
-            document.getElementsByClassName("shuoshuo")[0].innerHTML=speaks[count%speaks.length];
-            count++;
-            console.log(count);
-        },5000)
-})
+setInterval(()=>{
+    document.getElementsByClassName("shuoshuo")[0].innerHTML=speaks[count%speaks.length];
+    count++;
+    console.log(count);
+},5000)
 }
