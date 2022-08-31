@@ -62,7 +62,8 @@ HTTP状态码很多，有时候搞得人不明所以，我就介绍一下吧。
 
 如图：
 
-![1661662919775](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/httpstatus/1661662919775.png)
+![1661662919775](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/httpstatus/1661909590778.png)
+
 
 ## 203 Non-Authoritative Information
 
