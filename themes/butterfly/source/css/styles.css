@@ -909,9 +909,6 @@ hr{
 #nav{
     justify-content: center;
 }
-#menus{
-    flex:1 1 auto
-}
 [data-theme='light'] .category-list-bar{
     background-color: var(--lyx-white)!important;
     height: 30px!important;
@@ -2741,4 +2738,53 @@ body{
 }
 #aside-content .sticky_layout{
     top:50px
+}
+#nav{
+    flex-wrap: wrap;
+}
+#name-container{
+    width: 100%;
+}
+#page-name{
+    font-size:18px;
+    padding:8px;
+    position: relative;
+}
+
+#toggleButtons{
+    display: flex;
+    flex:1 1 auto;
+    justify-content: flex-end;
+}
+#page-name::after{
+    font-size:18px;
+    position: absolute;
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+    color:white!important;
+    top:0;
+    left:0;
+    content:'回到顶部';
+    background-color: var(--lyx-theme);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    opacity: 0;
+    box-shadow: 0 0 3px var(--lyx-theme);
+}
+#page-name:hover:after{
+    opacity: 1;
+}
+#name-container{
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+#name-container:hover{
+    scale: 1.03!important;
 }

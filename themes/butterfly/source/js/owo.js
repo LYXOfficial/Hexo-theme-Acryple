@@ -36,7 +36,7 @@ function owoBig() {
                             div.style.top = top + 'px'
                             div.style.display = 'flex'
                             div.innerHTML = `<img src="${e.target.src}">`
-                        }, 300);
+                        }, 100);
                     }
                 })
 

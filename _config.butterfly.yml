@@ -915,6 +915,7 @@ inject:
   - <script src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/random.js"></script>
   - <script src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/lunar.js"></script>
   - <script src="/js/day.js"></script>
+  - <script src="/js/nav.js"></script>
   - <script type="text/javascript" src="/js/dianzan.js"></script>
   - <script type="text/javascript" src="/js/commentsCount.js"></script>
   - <script type="text/javascript" src="/js/latest.js"></script>
@@ -1019,12 +1020,12 @@ tag_plugins:
   link:
     placeholder: /img/link.png #link_card标签默认的图标图片
   CDN:
-    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
-    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
+    anima: https://cdn1.tianli0.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js #issues标签依赖
+    issues: https://cdn1.tianli0.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
-    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
-    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+    carousel: https://cdn1.tianli0.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
+    tag_plugins_css: https://cdn1.tianli0.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
 #侧栏悬浮卡片控制按钮
 #https://akilar.top/posts/451ac5f8/
 fixed_card_widget:

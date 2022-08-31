@@ -23,5 +23,5 @@ date: 2022-01-29 15:23:17
 </script>
 <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.css">
 <script type="text/javascript" src="https://cdn1.tianli0.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.js"></script>
-<script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script>
 <script src = "/js/randomFriend.js"></script>
