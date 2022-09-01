@@ -12,7 +12,7 @@ categories:
   - 白嫖教程
 abbrlink: 8245da27
 date: 2022-08-08 07:36:49
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/goorm4.webp
+cover: https://bu.dusays.com/2022/09/01/63103a69227fd.webp
 ---
 咕咕咕。。。
 

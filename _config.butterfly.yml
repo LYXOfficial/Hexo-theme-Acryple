@@ -97,23 +97,23 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/img/favicon.jpg
+favicon: https://bu.dusays.com/2022/09/01/63103c75da20e.webp
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/img/a.webp
+  img: https://bu.dusays.com/2022/09/01/63103c5038313.webp
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 # The banner image of home page
-index_img: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/img/background.webp
+index_img: https://bu.dusays.com/2022/09/01/63103c8a03a24.webp
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/img/background.webp
+default_top_img: https://bu.dusays.com/2022/09/01/63103c8a03a24.webp
 
 # The banner image of archive page
-archive_img: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/img/background.webp
+archive_img: https://bu.dusays.com/2022/09/01/63103c8a03a24.webp
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
@@ -148,7 +148,7 @@ cover:
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/img/friend_404.gif
-  post_page: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/img/404.jpg
+  post_page: https://bu.dusays.com/2022/09/01/63103d8f14652.webp
 
 # A simple 404 page
 error_404:
@@ -515,7 +515,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(https://xxxxxx.com/xxx.jpg)
-background: url(https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/img/b.webp)
+background: '#f7f9fe'
 
 # Footer Background
 footer_bg: transparent

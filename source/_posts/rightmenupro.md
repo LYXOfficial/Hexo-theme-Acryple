@@ -11,7 +11,7 @@ categories:
   - hexo魔改
 swiper_index: 9
 description: 更好的右键菜单mod
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/rightmenupro.webp
+cover: https://bu.dusays.com/2022/09/01/63103a589651a.webp
 ---
 很久以前，[Dorakika](https://blog.dorakika.cn)自己做了一个不错的右键菜单，借鉴于Volantis主题，当然我是在[洪哥的博客](https://blog.zhheo.com/p/5e931b65.html)里面看到的。
 

@@ -8,7 +8,7 @@ tags:
   - 推荐文章
 categories:
   - 白嫖教程
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/off365e5.webp
+cover: https://bu.dusays.com/2022/09/01/63103a5b3cd6b.webp
 ---
 # 之前的一些事
 

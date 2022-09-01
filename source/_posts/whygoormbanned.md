@@ -1,7 +1,7 @@
 ---
 title: GoormIDE封号原因分析以及解决办法
 abbrlink: 3ee11b0f
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/goormwhybanned.webp
+cover: https://bu.dusays.com/2022/09/01/63103a66d8213.webp
 tags:
   - 白嫖
   - 建站

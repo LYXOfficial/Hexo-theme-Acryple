@@ -9,7 +9,7 @@ tags:
   - 建站
 categories:
   - hexo魔改
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/dianzan.webp
+cover: https://bu.dusays.com/2022/08/22/6302df361a344.webp
 swiper_index: 8
 description: 搞一个像钉钉网课一样可以连点器点的文章点赞
 ---

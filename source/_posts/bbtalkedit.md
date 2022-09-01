@@ -10,7 +10,7 @@ tags:
   - bbtalk
 categories:
   - hexo魔改
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/bbtalkedit.webp
+cover: https://bu.dusays.com/2022/09/01/63103a7aee588.webp
 ---
 因为bbtalk默认的样式是时间轴（如图），但是我更喜欢瀑布流的样式（比如洪哥的），所以就写了一个简单的css用于修改样式。
 

@@ -9,7 +9,7 @@ tags:
   - 热门文章
 categories:
   - 经验教程
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/cvng.webp
+cover: https://bu.dusays.com/2022/09/01/63103a73b198b.webp
 description: Github Pages的加速方式
 abbrlink: e433f3d
 date: 2022-07-08 16:30:51

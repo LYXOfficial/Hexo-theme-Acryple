@@ -8,7 +8,7 @@ tags:
   - 推荐文章
 categories:
   - 避坑教程
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/InternalServerError.webp
+cover: https://bu.dusays.com/2022/09/01/63103bb7690d6.webp
 abbrlink: 61b9829e
 date: 2022-07-25 15:05:21
 ---

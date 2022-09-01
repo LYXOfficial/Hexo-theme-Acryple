@@ -9,7 +9,7 @@ tags:
   - 建站
 categories:
   - hexo魔改
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/homebanner.webp
+cover: https://bu.dusays.com/2022/09/01/63103a65e883d.webp
 ---
 
 {% note warning simple %}

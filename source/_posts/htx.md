@@ -1,6 +1,6 @@
 ---
 title: 关于我对现在的何同学的看法
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/htx.webp
+cover: https://bu.dusays.com/2022/09/01/63103a60d3471.webp
 abbrlink: 45897d5c
 date: 2022-08-14 08:39:02
 tags:

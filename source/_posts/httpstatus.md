@@ -5,7 +5,7 @@ date: 2022-08-28 11:23:00
 tags: 网络
 categories:
   - 网络
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/httpstatuscode.webp
+cover: https://bu.dusays.com/2022/09/01/63103a62198f1.webp
 ---
 
 HTTP状态码很多，有时候搞得人不明所以，我就介绍一下吧。

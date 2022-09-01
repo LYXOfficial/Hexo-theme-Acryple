@@ -12,7 +12,7 @@ tags:
   - goorm
 categories:
   - 白嫖教程
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/goorm3.webp
+cover: https://bu.dusays.com/2022/09/01/63103a6a14ff6.webp
 ---
 # 前言
 

@@ -11,7 +11,7 @@ abbrlink: '69707535'
 date: 2022-08-17 13:50:44
 swiper_index: 10
 description: 更好的留言弹幕mod
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/commentbarragepro.webp
+cover: https://bu.dusays.com/2022/08/22/6302df3623687.webp
 ---
 最早这个留言弹幕是我直接找Dorakika抄的，见：
 

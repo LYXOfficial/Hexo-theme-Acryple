@@ -6,7 +6,7 @@ tags:
 - 3D打印
 - 干货教程
 categories: 3D打印
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/3dtouch.webp
+cover: https://bu.dusays.com/2022/09/01/63103a7db6570.webp
 ---
 反正这篇文章也没几个人会看，因为3D打印机没几个人研究，还是小树这种低价垃圾机子。
 

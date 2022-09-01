@@ -10,7 +10,7 @@ tags:
 categories:
   - 白嫖教程
 description: eu.org域名注册教程
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/euorg.webp
+cover: https://bu.dusays.com/2022/09/01/63103a6ec8591.webp
 swiper_index: 1
 abbrlink: aedd05c3
 date: 2022-07-06 11:50:53

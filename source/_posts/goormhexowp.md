@@ -2,7 +2,7 @@
 title: GoormIDE的VPS白嫖（2）-搭配宝塔面板搭建你的wordpress或Hexo服务器
 abbrlink: bbc95d58
 date: 2022-07-28 14:00:32
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/goorm2.webp
+cover: https://bu.dusays.com/2022/09/01/63103a6c77dde.webp
 tags:
   - 白嫖
   - 建站

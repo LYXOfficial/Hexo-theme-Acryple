@@ -11,7 +11,7 @@ categories:
   - hexo魔改
 swiper_index: 7
 description: 怀念同胞、庆祝节日的弹窗和滤镜功能
-cover: https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/covers/days.webp
+cover: https://bu.dusays.com/2022/09/01/63103a7114c00.webp
 ---
 今天是世界慰安妇纪念日，我都是意外知道的，就顺便编写了一个简单的js来怀念那些同胞们，在一些节日也会弹窗庆祝。
 
