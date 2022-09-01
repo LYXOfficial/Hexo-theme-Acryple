@@ -9,7 +9,7 @@ tags:
   - 建站
 categories:
   - hexo魔改
-cover: https://cdn1.tianli0.top/gh/lyxofficial/lyxofficial.github.io/covers/someaside.webp
+cover: https://bu.dusays.com/2022/09/01/631038497d8d7.jpg
 ---
 之前弄了一些插件，糖果屋的群友们也找我问了问，所以我就顺便写了个文章介绍一下这些插件吧。
 
