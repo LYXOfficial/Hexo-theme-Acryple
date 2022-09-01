@@ -2857,3 +2857,6 @@ body{
 #footer-wrap{
     flex-wrap: wrap;
 }
+.post-copyright-cc-info{
+    color:var(--lyx-theme)!important;
+}
