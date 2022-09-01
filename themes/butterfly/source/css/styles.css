@@ -2739,9 +2739,6 @@ body{
 #aside-content .sticky_layout{
     top:50px
 }
-#nav{
-    flex-wrap: wrap;
-}
 #name-container{
     width: 100%;
 }
@@ -2787,4 +2784,37 @@ body{
 }
 #name-container:hover{
     scale: 1.03!important;
+}
+.fa-fcircle{
+    background-color: url(/img/fcircle-for-iconfont.svg);
+}
+#footer::before{
+    backdrop-filter: blur(10px);
+}
+[data-theme="light"] #footer::before{
+    background-color: var(--lyx-white-acrylic2);
+}
+[data-theme="dark"] #footer::before{
+    background-color: var(--lyx-black-acrylic2);
+}
+.footer_custom_text,.copyright{
+    color:var(--font-color);
+}
+[data-theme="dark"] blockquote{
+    background-color: black!important;
+}
+#footer-wrap{
+    display: flex;
+    padding:20px 30px!important;
+}
+.footer_custom_text{
+    flex: 1;
+    text-align: right;
+    
+}
+.copyright{
+    margin-right: 20px;
+}
+.framework-info{
+    transform: translateY(5px);
 }

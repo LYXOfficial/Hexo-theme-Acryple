@@ -18,12 +18,6 @@
 .page-number{
     box-shadow:none;
 }
-#footer:before{
-    background:transparent!important;
-}
-#footer *{
-    color:var(--text-color)!important;
-}
 .page #page:not(.home #page){
     background: transparent!important;
     border: none!important;
