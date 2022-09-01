@@ -2818,11 +2818,3 @@ body{
 .framework-info{
     transform: translateY(5px);
 }
-.card-widget,#post,#page,.recent-post-item,#archive,#tag,#category,.swiper-div,#random,.category-list-bar,.gc{
-    box-shadow: none!important;
-    backdrop-filter: none!important;
-}
-#web_bg{
-    filter:blur(30px) saturate(180%);
-    -webkit-filter:blur(30px) saturate(180%);
-}
