@@ -3,12 +3,12 @@ title: Hexo butterfly首页随便逛逛banner教程
 abbrlink: bd7ef112
 date: 2022-08-25 13:52:35
 tags: 
-  - hexo魔改
+  - Hexo魔改
   - 干货教程
   - 推荐文章
   - 建站
 categories:
-  - hexo魔改
+  - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a65e883d.webp
 ---
 

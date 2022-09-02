@@ -3,13 +3,13 @@ title: BBTalk魔改：让bbtalk的样式变成瀑布流
 abbrlink: '70734559'
 date: 2022-08-15 14:55:03
 tags:
-  - hexo魔改
+  - Hexo魔改
   - 干货教程
   - 推荐文章
   - 建站
   - bbtalk
 categories:
-  - hexo魔改
+  - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a7aee588.webp
 ---
 因为bbtalk默认的样式是时间轴（如图），但是我更喜欢瀑布流的样式（比如洪哥的），所以就写了一个简单的css用于修改样式。

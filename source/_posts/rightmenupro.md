@@ -3,12 +3,12 @@ title: butterfly博客自定义右键菜单升级版
 abbrlink: 11eb4aac
 date: 2022-08-17 09:07:28
 tags: 
-  - hexo魔改
+  - Hexo魔改
   - 干货教程
   - 推荐文章
   - 建站
 categories:
-  - hexo魔改
+  - Hexo魔改
 swiper_index: 9
 description: 更好的右键菜单mod
 cover: https://bu.dusays.com/2022/09/01/63103a589651a.webp

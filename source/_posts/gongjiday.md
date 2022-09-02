@@ -3,12 +3,12 @@ title: 让你的网站在一些日子中自动弹窗/灰屏
 abbrlink: 7e9276a3
 date: 2022-08-14 15:29:39
 tags: 
-  - hexo魔改
+  - Hexo魔改
   - 干货教程
   - 推荐文章
   - 建站
 categories:
-  - hexo魔改
+  - Hexo魔改
 swiper_index: 7
 description: 怀念同胞、庆祝节日的弹窗和滤镜功能
 cover: https://bu.dusays.com/2022/09/01/63103a7114c00.webp

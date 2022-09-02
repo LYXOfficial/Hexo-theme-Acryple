@@ -3,12 +3,12 @@ title: 让butterfly主题支持文章点赞
 abbrlink: 1b850b16
 date: 2022-08-16 10:51:44
 tags: 
-  - hexo魔改
+  - Hexo魔改
   - 干货教程
   - 推荐文章
   - 建站
 categories:
-  - hexo魔改
+  - Hexo魔改
 cover: https://bu.dusays.com/2022/08/22/6302df361a344.webp
 swiper_index: 8
 description: 搞一个像钉钉网课一样可以连点器点的文章点赞

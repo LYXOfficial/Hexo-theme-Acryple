@@ -1,12 +1,12 @@
 ---
 title: Butterfly主题的留言弹幕界面增强版（支持Twikoo、Waline、Valine）
 tags:
-  - hexo魔改
+  - Hexo魔改
   - 干货教程
   - 推荐文章
   - 建站
 categories:
-  - hexo魔改
+  - Hexo魔改
 abbrlink: '69707535'
 date: 2022-08-17 13:50:44
 swiper_index: 10

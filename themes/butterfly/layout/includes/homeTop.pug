@@ -7,6 +7,9 @@ div(class="top" id="top" style="width:1470px")
         .swiper-div#swiper-div
     .cards2
         .gc#gc
+            if theme.gitcalendar.enable
+                .recent-post-item(style='width:100%;overflow:hidden;')
+                    !=partial('includes/gitcalendar', {}, {cache:theme.fragment_cache})
         .fl#fl
             if theme.categoryBar.enable
                 .mangentContent(style='height:auto;width:100%;padding:0px;')

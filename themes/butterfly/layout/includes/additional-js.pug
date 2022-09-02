@@ -1,7 +1,7 @@
 div
+  script(src=url_for(theme.asset.vue))
   script(src=url_for(theme.asset.utils))
   script(src=url_for(theme.asset.main))
-
   if theme.translate.enable
     script(src=url_for(theme.asset.translate))
 
@@ -44,7 +44,8 @@ div
 
     if commentsJsLoad
       include ./third-party/comments/js.pug
-
+    if theme.gitcalendar.enable
+      !=partial('includes/gitcalendar-js', {}, {cache:theme.fragment_cache})
   != partial("includes/third-party/prismjs", {}, { cache: true })
 
   if theme.aside.enable && theme.newest_comments.enable

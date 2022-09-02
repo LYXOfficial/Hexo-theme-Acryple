@@ -27,7 +27,7 @@
 .tk-main>.tk-content{
     background-color: var(--lyx-whitegray);
     padding:5px 20px;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 [data-theme="dark"] .tk-main>.tk-content{
     background-color: var(--lyx-blackgray)!important;

@@ -3,12 +3,12 @@ title: Hexo Butterfly宽屏适配指北
 abbrlink: d1fc759
 date: 2022-08-15 10:24:43
 tags: 
-  - hexo魔改
+  - Hexo魔改
   - 干货教程
   - 推荐文章
   - 建站
 categories:
-  - hexo魔改
+  - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a785d717.webp
 swiper_index: 6
 description: 让你的博客看起来更舒服

@@ -65,7 +65,7 @@ mixin postUI(posts)
                   time(datetime=date_xml(article[date_type]) title=date_title + ' ' + full_date(article[date_type]))=date(article[date_type], config.date_format)
             if (theme.post_meta.page.categories && article.categories.data.length > 0)
               span.article-meta
-                span.article-meta-separator |
+                //- span.article-meta-separator |
                 i.fas.fa-inbox
                 each item, index in article.categories.data
                   a(href=url_for(item.path)).article-meta__categories #[=item.name]
@@ -174,7 +174,7 @@ mixin postUI(posts)
                   time(datetime=date_xml(article[date_type]) title=date_title + ' ' + full_date(article[date_type]))=date(article[date_type], config.date_format)
             if (theme.post_meta.page.categories && article.categories.data.length > 0)
               span.article-meta
-                span.article-meta-separator |
+                //- span.article-meta-separator |
                 i.fas.fa-inbox
                 each item, index in article.categories.data
                   a(href=url_for(item.path)).article-meta__categories #[=item.name]

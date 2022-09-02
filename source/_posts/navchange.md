@@ -1,12 +1,12 @@
 ---
 title: 关于Butterfly的导航栏的一些教程
 tags:
-  - hexo魔改
+  - Hexo魔改
   - 干货教程
   - 推荐文章
   - 建站
 categories:
-  - hexo魔改
+  - Hexo魔改
 cover: 'https://bu.dusays.com/2022/09/01/631068b943a16.jpg'
 abbrlink: 895003b5
 date: 2022-09-01 14:33:38

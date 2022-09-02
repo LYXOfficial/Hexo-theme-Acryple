@@ -991,7 +991,7 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
-
+    vue: https://npm.elemecdn.com/vue@2.6.11  # vue.js依赖
 # hexo-butterfly-categories-card
 # see https://akilar.top/posts/a9131002/
 
@@ -1001,9 +1001,9 @@ categoryBar:
   row: 2 #显示行数，默认两行，超过行数切换为滚动显示
   descr:
     - 3D打印分享
-    - hexo魔改教程
+    - Hexo魔改教程
     - 自己的杂谈和事情
-    - 绝不会付费！
+    - 白嫖党万岁！
     - 一些教程
     - 解决一些bug与避坑
   cover:
@@ -1106,3 +1106,22 @@ fixed_card_widget:
       index: 0
       icon: fas fa-calendar
       title: 文章日历
+gitcalendar:
+  enable: true
+  simplemode: false
+  user: LYXOfficial
+  # layout:
+  #   type: class
+  #   name: gc
+  #   index: 0
+  # githubcalendar_html: '<div class="recent-post-item" style="width:100%;height:auto;"><div id="github_loading" style="width:10%;height:100%;margin:0 auto;display: block"><svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"  viewBox="0 0 50 50" style="enable-background:new 0 0 50 50" xml:space="preserve"><path fill="#d0d0d0" d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z" transform="rotate(275.098 25 25)"><animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite"></animateTransform></path></svg></div><div id="github_container"></div></div>'
+  # pc_minheight: 140px
+  # mobile_minheight: 0px
+# color: "['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f']" #浅紫色调
+# color: "['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06']" #橘黄色调
+#  color: "['#ebedf0', '#f0fff4', '#dcffe4', '#bef5cb', '#85e89d', '#34d058', '#28a745', '#22863a', '#176f2c', '#165c26', '#144620']" #翠绿色调
+  color: "['#ebedf0', '#f1f8ff', '#dbedff', '#c8e1ff', '#79b8ff', '#2188ff', '#0366d6', '#005cc5', '#044289', '#032f62', '#05264c']" #天青色调
+  apiurl: gcapi.yisous.xyz
+  # api: https://python-gitee-calendar-api.vercel.app/api
+  # calendar_js: https://cdn1.tianli0.top/npm/reverse-stu-allversions@1.0.1/butterfly/diy/hexo_githubcalendar.js
+  # plus_style: ""

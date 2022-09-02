@@ -1,0 +1,45 @@
+#gitcalendar.gitcalendar
+  #gitmessage(:style='{top:y+px,left:x+px,position: fixed,zIndex:9999}')
+    .angle-wrapper
+      span {{span1}} &nbsp;
+      span {{span2}} 次上传
+  .position-relative
+    .border.py-2.graph-before-activity-overview
+      .js-gitcalendar-graph.mx-md-2.mx-3.d-flex.flex-column.flex-items-end.flex-xl-items-center.overflow-hidden.pt-1.is-graph-loading.graph-canvas.gitcalendar-graph.height-full.text-center
+        #gitcalendarcanvasbox(v-if='simplemode')
+          canvas#gitcanvas(style='animation: none;')
+        svg.js-gitcalendar-graph-svg(width='100%', viewBox='0 0 770 128', v-if='!simplemode')
+          text.month(:x='32 + monthindex*64', y='20', v-for='(month,monthindex) in monthchange') {{month}}
+          text.wday(text-anchor='start', dx='0', dy='40')  日
+          text.wday(text-anchor='start', dx='0', dy='65')  二
+          text.wday(text-anchor='start', dx='0', dy='90')  四
+          text.wday(text-anchor='start', dx='0', dy='115') 六
+          g(v-for='(weekitem,weekIndex) in data', :transform='\'translate(\'+ (16 + weekIndex*14) + \',\' + \'0)\'')
+            rect(@mouseover="selectStyle(dayitem,$event)"  @mouseleave="outStyle()" v-for='(dayitem,dayIndex) in weekitem', :style='{fill:thiscolor(dayitem.count),shapeRendering:crispedges}', :data-score='dayitem.count', :data-date='dayitem.date', x='0', :y=' 30 + dayIndex*13 ', width='11', height='11')
+      .contrib-footer.clearfix.mt-1.mx-3.px-3.pb-1
+        .float-left.text-gray
+          | 数据来源
+          a(:href="'https://github.com/'+ user ", target='blank') @{{user}}
+        .contrib-legend.text-gray
+          | Less
+
+          ul.legend
+            li(:style='{backgroundColor:color[0]}')
+            li(:style='{backgroundColor:color[2]}')
+            li(:style='{backgroundColor:color[4]}')
+            li(:style='{backgroundColor:color[6]}')
+            li(:style='{backgroundColor:color[8]}')
+          | More
+
+  .contrib-column.contrib-column-first.table-column
+    span.text-muted 过去一年提交
+    span.contrib-number {{total}}
+    span.text-muted {{oneyearbeforeday}}&nbsp;-&nbsp;{{thisday}}
+  .contrib-column.table-column
+    span.text-muted 最近一月提交
+    span.contrib-number {{thisweekdatacore}}
+    span.text-muted {{amonthago}}&nbsp;-&nbsp;{{thisday}}
+  .contrib-column.table-column
+    span.text-muted 最近一周提交
+    span.contrib-number {{weekdatacore}}
+    span.text-muted {{aweekago}}&nbsp;-&nbsp;{{thisday}}
