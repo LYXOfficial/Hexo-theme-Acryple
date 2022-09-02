@@ -74,7 +74,8 @@ let cdn = {//镜像列表
         },
         sourcegcdn: {
             "url": "https://npm.sourcegcdn.com/npm"
-        }
+        },
+
 
     }
 }

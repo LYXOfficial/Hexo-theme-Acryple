@@ -52,16 +52,24 @@ if hexo-config('preloader')
 
     &.loaded
       .loading-left-bg
-        transition: all .5s
-        transform: translate(-100%, 0)
+        transition: all .7s
+        opacity 0
+        // transform: translate(-100%, 0)
 
       .loading-right-bg
-        transition: all .5s
-        transform: translate(100%, 0)
+        transition: all .7s
+        opacity 0
+        // transform: translate(100%, 0)
 
       .spinner-box
         display: none
       #loadcat
+        display: none
+    &.loadend
+      .loading-left-bg
+        display: none
+
+      .loading-right-bg
         display: none
 
   @keyframes configure-clockwise
