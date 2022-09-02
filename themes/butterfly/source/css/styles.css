@@ -1,8 +1,8 @@
 
 @font-face{
     font-family: 'HYTMR';
-    font-display: swap;
-    src: url('https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/font/HYTangMeiRen55W.woff2') format("truetype");/*/font/HYTangMeiRen55W.ttf*/
+    font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
+    src: url('https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/font/HYTangMeiRen55W.woff2') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
 }
 body {
     font-family: 'HYTMR',-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif;
