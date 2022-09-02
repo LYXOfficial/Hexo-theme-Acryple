@@ -2,8 +2,9 @@ nav#nav
   span#blog_name
     a#site-name(href=url_for('/')) #[=config.title]
     
-  #menus
 
+  #menus
+    
     !=partial('includes/header/menu_item', {}, {cache: true})
     center(id="name-container")
       a(id="page-name" href="javascript:rmf.scrollToTop()") PAGE_NAME

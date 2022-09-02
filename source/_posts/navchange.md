@@ -10,6 +10,8 @@ categories:
 cover: 'https://bu.dusays.com/2022/09/01/631068b943a16.jpg'
 abbrlink: 895003b5
 date: 2022-09-01 14:33:38
+swiper_index: 11
+description: 更好的导航栏mod
 ---
 
 在开始前，先说一些事情吧。最近要开学了，所以博客的更新会放缓，大概能够周更，不过几周鸽几下也是有可能的。
@@ -312,4 +314,102 @@ butterfly的顶栏滚动时会自动收起，我并不喜欢，所以通过修�
 ![1662019598832.png](https://bu.dusays.com/2022/09/01/6310681abbcbb.png)
 ![1662019583585.png](https://bu.dusays.com/2022/09/01/631068225dfad.png)
 
-我写作业去了，咕咕咕...
+因为技术原因，并没有实现上下滑动的动画效果，可以找洪哥扒一扒。
+
+{% note warning %}
+由于魔改项目不同，可能会出现排版错乱的问题，请自行调整css或者在评论区中询问
+{% endnote %}
+
+修改`[blogRoot]\themes\Butterfly\layout\includes\header\nav.pug`
+```diff
+nav#nav
+  span#blog_name
+    a#site-name(href=url_for('/')) #[=config.title]
+    
+  #menus
+    !=partial('includes/header/menu_item', {}, {cache: true})
++    center(id="name-container")
++      a(id="page-name" href="javascript:rmf.scrollToTop()") PAGE_NAME
+  ...
+```
+
+然后添加`nav.js`，并且按照注释修改配置
+```javascript
+//js有一个小问题：就是只要鼠标滚动不论哪里都会响应，即便你滚动的是子元素
+document.getElementById("name-container").setAttribute("style","display:none");
+
+var scrollFunc = function (e) {
+    var e = e || window.event;
+    if (e.wheelDelta) {
+      if (e.wheelDelta > 0) {
+        document.getElementsByClassName("menus_items")[1].setAttribute("style","");
+        document.getElementById("name-container").setAttribute("style","display:none");
+      }
+      if (e.wheelDelta < 0) { 
+        document.getElementById("name-container").setAttribute("style","");
+        document.getElementsByClassName("menus_items")[1].setAttribute("style","display:none!important");
+      }
+    } else if (e.detail) {
+      if (e.detail < 0) { 
+        document.getElementsByClassName("menus_items")[1].setAttribute("style","");
+        document.getElementById("name-container").setAttribute("style","display:none");
+      }
+      if (e.detail > 0) { 
+        document.getElementById("name-container").setAttribute("style","");
+        document.getElementsByClassName("menus_items")[1].setAttribute("style","display:none!important");
+      }
+    }
+  }
+  window.addEventListener("DOMMouseScroll", scrollFunc)
+  window.addEventListener("wheel", scrollFunc)  
+
+document.getElementById("page-name").innerText=document.title.split(" | LYXの小破站")[0]; 
+/*这里是去掉你的网站全局名称的设置，如果你不需要去掉，你可以写成：
+document.getElementById("page-name").innerText=document.title
+
+或者把你的网站的分隔符和全局网站名称加上去*/
+
+```
+
+最后添加如下css，按照注释修改参数：
+```css
+#page-name::before{
+    font-size:18px;
+    position: absolute;
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+    color:white!important;
+    top:0;
+    left:0;
+    content:'回到顶部';
+    background-color: var(--lyx-theme);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    opacity: 0;
+    box-shadow: 0 0 3px var(--lyx-theme);
+    line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/
+}
+#page-name:hover:before{
+    opacity: 1;
+}
+#name-container{
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+#name-container:hover{
+    scale:1.03
+}
+#page-name{
+    position: relative;
+    padding:10px 30px/*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
+}
+```
+
+恭喜你获得了一个更好的导航栏！

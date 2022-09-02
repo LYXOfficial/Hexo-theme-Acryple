@@ -893,6 +893,7 @@ inject:
   - <script src="https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script>
   - <script type="text/javascript" src="/js/rightmenu.js"></script>
   - <script type="text/javascript" src="/js/copy.js"></script>
+  - <script type="text/javascript" src="/js/referer.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
   - <script type="text/javascript" src="/js/resizeTop.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/calendar.js"></script>

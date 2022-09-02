@@ -2860,3 +2860,7 @@ body{
 .post-copyright-cc-info{
     color:var(--lyx-theme)!important;
 }
+#page-name{
+    padding-left: 30px;
+    padding-right: 30px;
+}
