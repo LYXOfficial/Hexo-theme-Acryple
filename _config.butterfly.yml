@@ -893,11 +893,11 @@ inject:
   - <script>new LingQue.Monitor().init({id:"JnnW6bt2WtyehVan"});</script>
   bottom:
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
-  # - <script type="text/javascript" src="https://code.jquery.com/jquery-1.4.1.min.js"></script>
+  - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
   - <script src="https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script>
   - <script type="text/javascript" src="/js/rightmenu.js"></script>
   - <script type="text/javascript" src="/js/copy.js"></script>
-  - <script type="text/javascript" src="/js/referer.js"></script>
+  - <script type="text/javascript" src="/js/welcome.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
   - <script type="text/javascript" src="/js/resizeTop.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/calendar.js"></script>
@@ -908,7 +908,6 @@ inject:
   - <script type="text/javascript" src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/sitetime.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/seo.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/heimu.js"></script>
-  - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
   - <script src="/js/bbtalklunbo.js"></script>
   - <script src="/js/settings.js"></script>
   - <script src="/js/owo.js"></script>
