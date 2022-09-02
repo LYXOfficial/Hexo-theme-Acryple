@@ -891,6 +891,7 @@ inject:
   - '<script>LA.init({id: "JnlSnWLD7XChjrlx",ck: "JnlSnWLD7XChjrlx"})</script>'
   - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
   - <script>new LingQue.Monitor().init({id:"JnnW6bt2WtyehVan"});</script>
+  - <script src="/swReg.js"></script>
   bottom:
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
   - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>

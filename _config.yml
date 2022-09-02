@@ -182,18 +182,6 @@ butterfly_article_double_row:
 nofollow:
   enable: true
   field: site
-service_worker:
-  maximumFileSizeToCacheInBytes: 10000000
-  staticFileGlobs:
-  - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2,webp,jpeg}
-  - .deploy-git/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2,webp,jpeg}
-  stripPrefix: public
-  verbose: true
-  runtimeCaching:
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdn1.tianli0.top
 # hexo-douban
 douban:
   user: lyxoff2233  # 你的豆瓣ID
