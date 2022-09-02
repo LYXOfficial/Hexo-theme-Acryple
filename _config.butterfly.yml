@@ -887,6 +887,10 @@ inject:
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css">
   - <link rel="stylesheet" href="/css/commentBarrage.css">
   - <link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/npm/node-snackbar@latest/dist/snackbar.min.css" />
+  - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+  - '<script>LA.init({id: "JnlSnWLD7XChjrlx",ck: "JnlSnWLD7XChjrlx"})</script>'
+  - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
+  - <script>new LingQue.Monitor().init({id:"JnnW6bt2WtyehVan"});</script>
   bottom:
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
   # - <script type="text/javascript" src="https://code.jquery.com/jquery-1.4.1.min.js"></script>
