@@ -35,8 +35,8 @@ AH02613: Error loading /www/server/speed/httpd_speed.lua: /www/server/speed/http
 
 找到这个文件并打开编辑
 
-![1658733758693](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/apachecheck/1658733758693.png)
+![1658733758693.png](https://bu.dusays.com/2022/09/03/6313755731b6b.png)
 
 注释掉第七行的gzip，再重启服务器，就能正常使用了！
 
-![1658733803055](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/apachecheck/1658733803055.png)
+![1658733803055.png](https://bu.dusays.com/2022/09/03/63137592831e2.png)

@@ -21,37 +21,37 @@ cover: https://bu.dusays.com/2022/09/01/63103a589651a.webp
 
 # 我做了什么？
 
-![1660699020974](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/rightmenupro/1660699020974.png)
+![1660699020974.webp](https://bu.dusays.com/2022/09/03/631372f79550e.webp)
 
-![1660699034686](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/rightmenupro/1660699034686.png)
+![1660699034686.webp](https://bu.dusays.com/2022/09/03/6313732c20e1b.webp)
 
 原版的菜单只有昼夜切换、阅读模式、主题切换、复制、其它设置和一些基础的浏览器功能，我添加了这些功能：
 
 1. 粘贴功能
-   ![1660699109204](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/rightmenupro/1660699109204.png)
+   ![1660699109204.webp](https://bu.dusays.com/2022/09/03/631373512312a.webp)
 2. 空降评论、随便逛逛、繁简转换、版权声明功能（分享已删）
 
-![1660699153037](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/rightmenupro/1660699153037.png)
+![1660699153037.webp](https://bu.dusays.com/2022/09/03/6313736a539e1.webp)
 
 3. 复制文章地址功能
 
-![1660699573998](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/rightmenupro/1660699573998.png)
+![1660699573998.webp](https://bu.dusays.com/2022/09/03/631373805bdae.webp)
 
 4. 图片方面的一些功能
 
-![1660699615891](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/rightmenupro/1660699615891.png)
+![1660699615891.webp](https://bu.dusays.com/2022/09/03/6313742896544.webp)
 
 5. 对于a标签的打开功能
 
-![1660699665936](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/rightmenupro/1660699665936.png)
+![1660699665936.webp](https://bu.dusays.com/2022/09/03/631373aaaa9a1.webp)
 
 6. 百度搜索文本和转到链接功能
 
-![1660700020712](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/rightmenupro/1660700020712.png)
+![1660700020712.webp](https://bu.dusays.com/2022/09/03/631373c29ca00.webp)
 
 7. 兼容dorakika的评论弹幕功能
 
-![1660700055672](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/rightmenupro/1660700055672.png)
+![1660700055672.webp](https://bu.dusays.com/2022/09/03/631373da2a131.webp)
 
 并且换用了font awesome图标，除了百度和繁简转换的logo需要你下载iconfont图标库，也会放出教程
 
