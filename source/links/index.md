@@ -155,8 +155,8 @@ type: "links"
     descr: 因为不可能，所以才值得相信
     theme_color: "#d3d5e7"
   - name: Terorの客栈
-    link: https://blog.trfox.eu.org/
-    avatar: https://blog.trfox.eu.org/img/avatar.png
+    link: https://fox.js.cool/
+    avatar: https://fox.js.cool/img/avatar.png
     descr: 方寸之间，深不见底
     theme_color: "#e67d41"
   - name: Saiodgm

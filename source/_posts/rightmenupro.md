@@ -61,7 +61,7 @@ cover: https://bu.dusays.com/2022/09/01/63103a589651a.webp
 
 ## PUG部分
 
-新建 `[blogRoot]\themes\butterfly\layout\includes\dorakika\rightmenu.pug`，编写以下内容：
+新建 `[blogRoot]\themes\butterfly\layout\includes\rightmenu.pug`，编写以下内容：
 
 ```js
 #rightMenu

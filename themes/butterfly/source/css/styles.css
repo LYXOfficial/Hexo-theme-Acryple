@@ -2143,7 +2143,7 @@ li.categoryBar-list-item{
     height:115px!important;
     padding-top:10px!important
 }
-.latest{
+.words{
     position: relative!important;
 }
 #site-name{
@@ -2688,9 +2688,6 @@ a:hover{
 }
 .toc-link.active:hover{
     color:white!important
-}
-.fa-fcircle{
-    bacckground-image:url("file:///C:/Users/lyx-blbl/Documents/tencent%20files/2192016328/filerecv/fcircle2.0.svg")
 }
 .flink-list-item{
     transition: background-color .3s!important;
