@@ -2914,3 +2914,10 @@ body{
     color:var(--lyx-theme)!important;
     border-color: var(--lyx-theme)!important;
 }
+.article-sort-item-img img{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
