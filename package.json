@@ -28,7 +28,7 @@
     "hexo-butterfly-wowjs": "^1.0.5",
     "hexo-cli": "^4.3.0",
     "hexo-deployer-git": "^3.0.0",
-    "hexo-douban": "^1.1.3",
+    "hexo-douban-list2": "^1.1.1",
     "hexo-filter-nofollow": "^2.0.2",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
