@@ -12,7 +12,7 @@ menu:
   空间 || fa fa-sitemap:
     说说: /speaks/ || fa fa-comments
     友链: /links/ || fas fa-link
-    朋友圈: /fcircle/ || fa fa-fcircle
+    朋友圈: /fcircle/ || fab fa-galactic-republic
     分站: /othersite/ || fa fa-tasks
     日志: /update/ || fa fa-bell 
     留言板: /messageboard/ || fa fa-blackboard

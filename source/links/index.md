@@ -75,7 +75,7 @@ type: "links"
     link: https://blog.zhheo.com/
     avatar: /img/8DSTSS20990281646044689944.PNG
     descr: 分享设计与科技生活
-    theme_color: "#ff6860"
+    theme_color: "#425aef"
   - name: 贰猹的小窝
     link: https://noionion.top/
     avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
@@ -131,6 +131,11 @@ type: "links"
     avatar: https://blog.dorakika.cn/img/favicon.jpg
     descr: 热爱漫无边际，生活自有分寸
     theme_color: "#aed3fd"
+  - name: Jayhrn
+    link: https://blog.jayhrn.com
+    avatar: https://fastly.jsdelivr.net/gh/Jayhrn/CDN/img/avatar.png
+    descr: 念念不忘，必有回响
+    theme_color: "#f3d665"
 - class_name: 朋友
   class_desc: 那些人，那些事
   link_list:
@@ -189,6 +194,12 @@ type: "links"
     avatar: https://cdn.afdelivr.top/npm/hexo-mrzefr-filebed@1.3.4/image/ICO/Doraemon.ico
     descr: Hello World
     theme_color: "#6ca4c9"
+  - name: Fomalhaut🥝
+    link: https://www.fomal.cc/
+    avatar: https://www.fomal.cc/assets/head.jpg
+    descr: Future is now 🍭🍭🍭
+    siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://fomal.cc/
+    theme_color: "#6fabe7"
 {% endflink %}
 
 
