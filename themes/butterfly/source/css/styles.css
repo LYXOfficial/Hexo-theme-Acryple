@@ -2880,3 +2880,6 @@ body{
 .words{
     position: relative;
 }
+.c-message{
+    display: none!important;
+}
