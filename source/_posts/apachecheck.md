@@ -1,4 +1,4 @@
----
+﻿---
 title: 宝塔面板部署Apache服务器遇到的坑：Internal Server Error
 tags:
   - 服务器
@@ -11,7 +11,9 @@ categories:
 cover: https://bu.dusays.com/2022/09/01/63103bb7690d6.webp
 abbrlink: 61b9829e
 date: 2022-07-25 15:05:21
+updated: 2022-09-01 13:06:47
 ---
+
 # 前言
 
 小水一篇文章，这次错误非常离谱，网上根本就查不到。。。

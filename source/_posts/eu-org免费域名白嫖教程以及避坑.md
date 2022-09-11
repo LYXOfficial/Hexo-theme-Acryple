@@ -1,4 +1,4 @@
----
+﻿---
 title: eu.org免费域名白嫖教程以及避坑
 tags:
   - 网络
@@ -14,7 +14,9 @@ cover: https://bu.dusays.com/2022/09/01/63103a6ec8591.webp
 swiper_index: 1
 abbrlink: aedd05c3
 date: 2022-07-06 11:50:53
+updated: 2022-09-01 13:06:47
 ---
+
 # 前言
 
 做完了博客，发现Github Pages域名不太喜欢，对SEO也不友好，就萌生想要自己搞域名的想法，自己恰好是学生，没有财力承担任何一点的域名费用，就去白嫖域名了。因为Freenom太难注册了，选择了eu.org域名。~~然鹅后面还是架不住Dynadot14块的便宜xyz域名~~

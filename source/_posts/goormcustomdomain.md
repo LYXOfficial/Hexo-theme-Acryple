@@ -1,4 +1,4 @@
----
+﻿---
 title: GoormIDE的VPS白嫖（3）- 自定义域名教程
 abbrlink: ec12b762
 date: 2022-08-03 10:45:47
@@ -13,7 +13,9 @@ tags:
 categories:
   - 白嫖教程
 cover: https://bu.dusays.com/2022/09/01/63103a6a14ff6.webp
+updated: 2022-09-01 13:06:47
 ---
+
 # 前言
 
 因为goorm不能自定义域名，所以后来研究了很多方法，后来发现有个很好用的cloudflared隧道，研究出来了方法，就写了这篇文章，算是[拾贰的教程](https://hehysh.vercel.app/posts/36990.html)的升级版（因为有点麻烦）。

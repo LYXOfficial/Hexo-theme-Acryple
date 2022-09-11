@@ -1,4 +1,4 @@
----
+﻿---
 title: butterfly博客自定义右键菜单升级版
 abbrlink: 11eb4aac
 date: 2022-08-17 09:07:28
@@ -12,7 +12,9 @@ categories:
 swiper_index: 9
 description: 更好的右键菜单mod
 cover: https://bu.dusays.com/2022/09/01/63103a589651a.webp
+updated: 2022-09-02 13:32:35
 ---
+
 很久以前，[Dorakika](https://blog.dorakika.cn)自己做了一个不错的右键菜单，借鉴于Volantis主题，当然我是在[洪哥的博客](https://blog.zhheo.com/p/5e931b65.html)里面看到的。
 
 {% link 自定义右键菜单,Dorakika,https://blog.dorakika.cn/p/20220118.html %}

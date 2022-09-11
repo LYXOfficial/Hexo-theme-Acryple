@@ -1,4 +1,4 @@
----
+﻿---
 title: 让butterfly主题支持文章点赞
 abbrlink: 1b850b16
 date: 2022-08-16 10:51:44
@@ -12,7 +12,9 @@ categories:
 cover: https://bu.dusays.com/2022/08/22/6302df361a344.webp
 swiper_index: 8
 description: 搞一个像钉钉网课一样可以连点器点的文章点赞
+updated: 2022-09-02 13:32:35
 ---
+
 
 # 前言&效果
 
