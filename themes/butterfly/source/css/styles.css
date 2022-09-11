@@ -2921,3 +2921,27 @@ body{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
+/* 返回顶部 */
+
+#gototop #percent {
+    display: none;
+    font-weight: bold;
+    font-size: 15px !important;
+}
+
+#gototop span {
+    font-size: 12px!important;
+    margin-right: -1px;
+}
+
+/* 鼠标滑动到按钮上时显示返回顶部图标 */
+#gototop:hover i {
+    display: block !important;
+}
+
+#gototop:hover #percent {
+    display: none !important;
+}
+#local-search .search-dialog .local-search-box input{
+    
+}
