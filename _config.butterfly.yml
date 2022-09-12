@@ -668,7 +668,7 @@ aside:
       link: https://github.com/lyxofficial
   card_announcement:
     enable: true
-    content: 本网站的Twikoo评论系统使用Cravatar头像系统，请自行绑定邮箱配置<a href="//cravatar.cn">cravatar.cn</a>
+    content: 本网站的Twikoo评论系统使用Cravatar头像系统，请自行绑定邮箱配置<a href="//cravatar.cn">cravatar.cn</a><p>如果主题色被卡成蓝色改不了请尝试重置设置！</p>
   card_calendar:
     enable: true
   card_recent_post:
