@@ -210,9 +210,9 @@ type: "links"
 ```yaml
 - name: LYXの小破站
   link: https://yisous.xyz
-  avatar: https://yisous.xyz/img/avatar.jpg
+  avatar: https://vercel.yisous.xyz/img/avatar.jpg
   descr: 人有悲欢离合 月有阴晴圆缺
-  siteshot: https://yisous.xyz/img/siteshot.png
+  siteshot: https://vercel.yisous.xyz/img/siteshot.png
 ```
 <!-- endtab -->
 
@@ -222,7 +222,7 @@ type: "links"
   title: 'LYXの小破站',
   intro: '人有悲欢离合 月有阴晴圆缺',
   link: 'https://yisous.xyz/',
-  avatar: 'https://yisous.xyz/img/avatar.jpg'
+  avatar: 'https://vercel.yisous.xyz/img/avatar.jpg'
 }
 ```
 <!-- endtab -->
@@ -230,9 +230,9 @@ type: "links"
 <!-- tab volantis -->
 ```yaml
 - title: LYXの小破站
-  avatar: https://yisous.xyz/img/avatar.jpg
+  avatar: https://vercel.yisous.xyz/img/avatar.jpg
   url: https://yisous.xyz/
-  screenshot: https://yisous.xyz/img/siteshot.png
+  screenshot: https://vercel.yisous.xyz/img/siteshot.png
   keywords: 个人博客
   description: 人有悲欢离合 月有阴晴圆缺
 ```
@@ -240,7 +240,7 @@ type: "links"
 
 <!-- tab html -->
 ```html
-<a href="https://yisous.xyz"><img src="https://yisous.xyz/img/avatar.jpg" alt="avatar">LYXの小破站</a>
+<a href="https://yisous.xyz"><img src="https://vercel.yisous.xyz/img/avatar.jpg" alt="avatar">LYXの小破站</a>
 ```
 <!-- endtab -->
 

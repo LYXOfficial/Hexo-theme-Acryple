@@ -1,7 +1,4 @@
-// import { createRequire } from 'module';
-// const require = createRequire(import.meta.url);
-// const AV = require('leancloud-storage');
-const { Query, User } = AV;
+
 AV.init({
     appId: "IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
     appKey: "vG8s9ukVO5bgozEHzR923dew",
@@ -15,7 +12,7 @@ query.find().then((talks) => {
     }
     
 });
-onload=function(){
+window.onload=function(){
 var count=0;
 document.getElementsByClassName("shuoshuo")[0].innerHTML=speaks[count%speaks.length];
     count++;
@@ -26,4 +23,3 @@ setInterval(()=>{
     console.log(count);
 },5000)
 }
-window.addEventListener("load",onload)

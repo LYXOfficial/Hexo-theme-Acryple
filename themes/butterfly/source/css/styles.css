@@ -39,13 +39,17 @@ body {
 	top: 10%;
 	left: 10%;
 	background-color: var(--card-bg);
-	border: 1px solid rgb(210,210,210);;
-	border-radius: 12px;
+	border: 1px solid rgb(210,210,210);
+	border-radius: 8px;
 	z-index: 100;
 	box-shadow: 3px 3px 5px #88888894;
 	background-color: var(--lyx-white-acrylic1);
-    backdrop-filter: blur(30px) saturate(180%);
-    -webkit-backdrop-filter: blur(30px) saturate(180%);
+	backdrop-filter: blur(30px) saturate(180%);
+	-webkit-backdrop-filter: blur(30px) saturate(180%);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
 }
 [data-theme='dark'] #rightMenu{
 	display: none;
@@ -55,13 +59,17 @@ body {
 	top: 10%;
 	left: 10%;
 	background-color: var(--card-bg);
-	border: 1px solid rgb(210,210,210);;
-	border-radius: 12px;
+	border: 1px solid rgb(210,210,210);
+	border-radius: 8px;
 	z-index: 100;
 	box-shadow: 3px 3px 5px #88888894;
 	background-color: var(--lyx-black-acrylic1);
-    backdrop-filter: blur(30px) saturate(180%);
-    -webkit-backdrop-filter: blur(30px) saturate(180%);
+	backdrop-filter: blur(30px) saturate(180%);
+	-webkit-backdrop-filter: blur(30px) saturate(180%);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
 }
 #rightMenu .rightMenu-group{
 	padding: 7px 6px;
@@ -76,9 +84,13 @@ body {
 #rightMenu .rightMenu-group .rightMenu-item{
 	height: 30px;
 	line-height: 30px;
-	border-radius: 12px;
+	border-radius: 8px;
 	transition: 0.3s;
 	color: var(--font-color);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
 }
 #rightMenu .rightMenu-group.rightMenu-line .rightMenu-item{
 	display: flex;
