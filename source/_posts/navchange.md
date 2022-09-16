@@ -249,7 +249,7 @@ nav#nav
   #menus
     !=partial('includes/header/menu_item', {}, {cache: true})
 +    center(id="name-container")
-+      a(id="page-name" href="javascript:rmf.scrollToTop()") PAGE_NAME
++      a(id="page-name" href="javascript:scrollToTop()") PAGE_NAME
   ...
 ```
 
@@ -283,7 +283,12 @@ $(window).scroll(function () {
   position = scroll;
 
 });
-
+function scrollToTop(){
+    document.getElementsByClassName("menus_items")[1].setAttribute("style","");
+    document.getElementById("name-container").setAttribute("style","display:none");
+    btf.scrollToDest(0, 500);
+}
+//修复没有弄右键菜单的童鞋无法回顶部的问题
 document.getElementById("page-name").innerText = document.title.split(" | LYXの小破站")[0];
 /*这里是去掉你的网站全局名称的设置，如果你不需要去掉，你可以写成：
 document.getElementById("page-name").innerText=document.title
