@@ -31,22 +31,12 @@ date: 2022-08-04 11:38:05
 <td>用来联机玩，类似于粉丝服那种，还没弄好</td>
 </tr>
 <tr>
-<td><a href="https://wp.yisous.xyz">wp.yisous.xyz</a></td>
+<td><a href="https://tc.yisous.xyz">tc.yisous.xyz</a></td>
 <td>Typecho测试站</td>
 <td>看看typecho怎么样，搞来玩的，已经由Wordpress迁移至当前的Typecho，未来服务器文档之后可能会换用</td>
 </tr>
 <tr>
-<td><a href="https://tools.yisous.xyz">tools.yisous.xyz</a></td>
-<td>luTools（自己弄的工具站）</td>
-<td>方便日常使用的，还没弄</td>
-</tr>
-<tr>
-<td><a href="https://my.yisous.xyz">my.yisous.xyz</a></td>
-<td>门户站</td>
-<td>综合展示用，没弄完</td>
-</tr>
-<tr>
-<td><a href="https://yisous.tk">yisous.tk</a></td>
+<td><a href="https://yisous.tk">yisous.tk/lyxop.xyz</a></td>
 <td>短链接生成器</td>
 <td>制作短链接，使用本站域名，技术有限，所以很丑</td>
 </tr>
@@ -61,7 +51,7 @@ date: 2022-08-04 11:38:05
 <td>自选节点访问，方便根据网站速度选择，主站目前在用</td>
 </tr>
 <tr>
-<td><a href="https://cloudflare.yisous.xyz">cloudflare.yisous.xyz</a></td>
+<td><a href="https://cf.yisous.xyz">cloudflare.yisous.xyz</a></td>
 <td>Cloudflare节点</td>
 <td>自选节点访问，方便根据网站速度选择</td>
 </tr>
@@ -73,6 +63,16 @@ date: 2022-08-04 11:38:05
 <tr>
 <td><a href="https://github.yisous.xyz">github.yisous.xyz</a></td>
 <td>Github节点</td>
+<td>自选节点访问，方便根据网站速度选择</td>
+</tr>
+<tr>
+<td><a href="https://rw.yisous.xyz">rw.yisous.xyz</a></td>
+<td>Railway节点</td>
+<td>自选节点访问，方便根据网站速度选择</td>
+</tr>
+<tr>
+<td><a href="https://vps.yisous.xyz">vps.yisous.xyz</a></td>
+<td>香港VPS节点</td>
 <td>自选节点访问，方便根据网站速度选择</td>
 </tr>
 </table>
