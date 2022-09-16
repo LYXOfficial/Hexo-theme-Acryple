@@ -141,6 +141,11 @@ type: "links"
     avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
     descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
     theme_color: "#e67d41"
+  - name: 昕某人の博客
+    link: https://xinmouren.cn
+    avatar: https://bu.dusays.com/2022/08/23/6304943590776.webp
+    descr: 嵌入式捡垃圾专员！
+    theme_color: "#9f0300"
 - class_name: 朋友
   class_desc: 那些人，那些事
   link_list:
