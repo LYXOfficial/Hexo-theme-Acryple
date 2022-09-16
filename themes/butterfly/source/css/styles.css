@@ -2954,3 +2954,6 @@ body{
 #local-search .search-dialog .local-search-box input{
     
 }
+.search-dialog .search-nav .search-close-button:hover{
+    color:var(--lyx-theme)!important;
+}
