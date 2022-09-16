@@ -136,6 +136,11 @@ type: "links"
     avatar: https://fastly.jsdelivr.net/gh/Jayhrn/CDN/img/avatar.png
     descr: 念念不忘，必有回响
     theme_color: "#f3d665"
+  - name: Ethan.Tzy
+    link: https://tzy1997.com/
+    avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+    descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+    theme_color: "#e67d41"
 - class_name: 朋友
   class_desc: 那些人，那些事
   link_list:
@@ -200,6 +205,21 @@ type: "links"
     descr: Future is now 🍭🍭🍭
     siteshot: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://fomal.cc/
     theme_color: "#6fabe7"
+  - name: 七鳄の学习格
+    link: https://blog.gmcj0816.top/
+    avatar: https://blog.gmcj0816.top/img/SeriousWission_TouXiangPic.jpg
+    descr: 如果世界多了精彩，每一位都是创造者，大家都是你的观众
+    theme_color: "#ebd99d"
+  - name: 心流
+    link: https://blog.panghai.top
+    avatar: https://blog.panghai.top/img/avatar.png
+    descr: 保持谨慎，保持乐观
+    theme_color: "#035568"
+  - name: Catch Wang
+    descr: 未来路长 · 勿忘初心
+    link: https://www.catchwang.com
+    avatar: https://www.catchwang.com/wp-resources/avatar.png
+    theme_color: "#454f71"
 {% endflink %}
 
 
