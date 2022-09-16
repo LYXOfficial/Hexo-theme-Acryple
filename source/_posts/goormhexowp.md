@@ -1,4 +1,4 @@
----
+﻿---
 title: GoormIDE的VPS白嫖（2）-搭配宝塔面板搭建你的wordpress或Hexo服务器
 abbrlink: bbc95d58
 date: 2022-07-28 14:00:32
@@ -13,7 +13,9 @@ tags:
   - goorm
 categories:
   - 白嫖教程
+updated: 2022-09-01 13:06:47
 ---
+
 # 前言
 
 上期安装了宝塔面板，这次就来弄一下服务器吧。其实宝塔面板安装这些东西都差不多，让我们开始吧。

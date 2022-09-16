@@ -1,4 +1,4 @@
----
+﻿---
 title: PyQt5-论如何让窗口置顶
 tags:
   - Python
@@ -9,7 +9,9 @@ abbrlink: 5e2c4b67
 date: 2022-09-01 17:11:14
 categories: 编程
 cover: https://bu.dusays.com/2022/09/01/6310801a177f7.webp
+updated: 2022-09-01 17:50:13
 ---
+
 
 这其实是一个远古的问题了，突然想起来就顺便分享一下吧
 

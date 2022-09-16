@@ -1,4 +1,4 @@
----
+﻿---
 title: GoormIDE封号原因分析以及解决办法
 abbrlink: 3ee11b0f
 cover: https://bu.dusays.com/2022/09/01/63103a66d8213.webp
@@ -14,7 +14,9 @@ categories:
 swiper_index: 5
 description: 白嫖Goorm的用户速看！紧急！
 date: 2022-08-12 08:30:50
+updated: 2022-09-01 13:06:47
 ---
+
 {% note warning simple %}
 
 在看本文章之前，请尽快登录后台备份你的网站数据库和文件夹并且备份到本地！你的账号随时有ban的可能！后面慢慢看都没关系。

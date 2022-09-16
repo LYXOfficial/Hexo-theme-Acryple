@@ -1,4 +1,4 @@
----
+﻿---
 title: BBTalk魔改：让bbtalk的样式变成瀑布流
 abbrlink: '70734559'
 date: 2022-08-15 14:55:03
@@ -11,7 +11,9 @@ tags:
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a7aee588.webp
+updated: 2022-09-02 13:32:35
 ---
+
 因为bbtalk默认的样式是时间轴（如图），但是我更喜欢瀑布流的样式（比如洪哥的），所以就写了一个简单的css用于修改样式。
 
 ![1660547037484](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/bbtalkedit/1660547037484.png)

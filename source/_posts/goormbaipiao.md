@@ -1,4 +1,4 @@
----
+﻿---
 title: GoormIDE的VPS白嫖（1）-白嫖与安装宝塔面板教程
 tags:
   - 白嫖
@@ -15,7 +15,9 @@ swiper_index: 2
 abbrlink: 14740f7c
 date: 2022-07-25 12:12:10
 cover:
+updated: 2022-08-26 12:05:46
 ---
+
 # 前言
 
 想搞一个VPS作为自己的Minecraft服务器和Wordpress站，但是苦于没有平台，最开始用的是三丰云，但是因为实在配置太差而且还有续期很麻烦，就放弃了。后来看到了[拾贰](https://hehysh.vercel.app)写的Okteco的VPS白嫖，就去试了一下，但是官方实在太坑，条款很严格，而且我SSH连接动不动就断（装apt大包和宝塔面板断，比如装Apache和MariaDB），最离谱的是居然Screen、nohup不管用，看样子是自动休眠了。~~fxxk~~。

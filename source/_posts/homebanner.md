@@ -1,4 +1,4 @@
----
+﻿---
 title: Hexo butterfly首页随便逛逛banner教程
 abbrlink: bd7ef112
 date: 2022-08-25 13:52:35
@@ -10,7 +10,9 @@ tags:
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a65e883d.webp
+updated: 2022-09-02 13:32:35
 ---
+
 
 {% note warning simple %}
 本期教程需要脑子和一定的pug编写能力，小白请谨慎食用！可以在评论区提问，我会想办法帮你解决。

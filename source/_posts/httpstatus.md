@@ -1,4 +1,4 @@
----
+﻿---
 title: 各种HTTP状态码大全（带表情包）
 abbrlink: 53e6b356
 date: 2022-08-28 11:23:00
@@ -6,7 +6,9 @@ tags: 网络
 categories:
   - 网络
 cover: https://bu.dusays.com/2022/09/01/63103a62198f1.webp
+updated: 2022-09-01 13:06:47
 ---
+
 
 HTTP状态码很多，有时候搞得人不明所以，我就介绍一下吧。
 {% note info flat %}

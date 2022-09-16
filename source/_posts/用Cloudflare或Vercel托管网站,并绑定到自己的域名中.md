@@ -1,4 +1,4 @@
----
+﻿---
 title: 用Cloudflare或Vercel、Netlify托管网站
 tags:
   - 网络
@@ -13,7 +13,9 @@ cover: https://bu.dusays.com/2022/09/01/63103a73b198b.webp
 description: Github Pages的加速方式
 abbrlink: e433f3d
 date: 2022-07-08 16:30:51
+updated: 2022-09-01 13:06:47
 ---
+
 # 前言
 
 给博客做托管，因为[Github Pages](https://github.com)太慢了，而且GFW老墙老抽风~~（大天朝啊为什么这些都不让我们好好弄啊）~~，所以研究了其它几个托管商的托管服务，并且给网站做了分支，顺便分享一下托管的注册方法。

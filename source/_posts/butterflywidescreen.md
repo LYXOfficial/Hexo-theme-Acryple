@@ -1,4 +1,4 @@
----
+﻿---
 title: Hexo Butterfly宽屏适配指北
 abbrlink: d1fc759
 date: 2022-08-15 10:24:43
@@ -12,7 +12,9 @@ categories:
 cover: https://bu.dusays.com/2022/09/01/63103a785d717.webp
 swiper_index: 6
 description: 让你的博客看起来更舒服
+updated: 2022-09-02 13:32:35
 ---
+
 {% note info simple %}
 
 本教程仅适用于hexo-theme-butterfly，其余主题请自行探讨

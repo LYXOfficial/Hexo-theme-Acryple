@@ -1,4 +1,4 @@
----
+﻿---
 title: 关于我对现在的何同学的看法
 cover: https://bu.dusays.com/2022/09/01/63103a60d3471.webp
 abbrlink: 45897d5c
@@ -8,7 +8,9 @@ tags:
 categories: 个人
 description: 希望何同学能够不负我们的期望啊
 swiper_index: 4
+updated: 2022-09-01 13:06:47
 ---
+
 {% note warning simple %}
 
 以下皆代表个人观点，键盘侠和喷子们勿喷，引战等影响风气的评论我有权利删除。

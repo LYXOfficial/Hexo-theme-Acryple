@@ -1,4 +1,4 @@
----
+﻿---
 title: 关于Butterfly的导航栏的一些教程
 tags:
   - Hexo魔改
@@ -12,7 +12,9 @@ abbrlink: 895003b5
 date: 2022-09-01 14:33:38
 swiper_index: 11
 description: 更好的导航栏mod
+updated: 2022-09-11 21:04:47
 ---
+
 
 在开始前，先说一些事情吧。最近要开学了，所以博客的更新会放缓，大概能够周更，不过几周鸽几下也是有可能的。
 
@@ -336,34 +338,35 @@ nav#nav
 然后添加`nav.js`，并且按照注释修改配置
 ```javascript
 //js有一个小问题：就是只要鼠标滚动不论哪里都会响应，即便你滚动的是子元素
-document.getElementById("name-container").setAttribute("style","display:none");
 
-var scrollFunc = function (e) {
-    var e = e || window.event;
-    if (e.wheelDelta) {
-      if (e.wheelDelta > 0) {
-        document.getElementsByClassName("menus_items")[1].setAttribute("style","");
-        document.getElementById("name-container").setAttribute("style","display:none");
-      }
-      if (e.wheelDelta < 0) { 
-        document.getElementById("name-container").setAttribute("style","");
-        document.getElementsByClassName("menus_items")[1].setAttribute("style","display:none!important");
-      }
-    } else if (e.detail) {
-      if (e.detail < 0) { 
-        document.getElementsByClassName("menus_items")[1].setAttribute("style","");
-        document.getElementById("name-container").setAttribute("style","display:none");
-      }
-      if (e.detail > 0) { 
-        document.getElementById("name-container").setAttribute("style","");
-        document.getElementsByClassName("menus_items")[1].setAttribute("style","display:none!important");
-      }
-    }
+//2022.9.11 已修复，需要jq，请自行引入
+document.getElementById("name-container").setAttribute("style", "display:none");
+
+var position = $(window).scrollTop();
+
+$(window).scroll(function () {
+
+  var scroll = $(window).scrollTop();
+
+  if (scroll > position) {
+
+
+    document.getElementById("name-container").setAttribute("style", "");
+    document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");
+
+  } else {
+
+
+    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");
+    document.getElementById("name-container").setAttribute("style", "display:none");
+
   }
-  window.addEventListener("DOMMouseScroll", scrollFunc)
-  window.addEventListener("wheel", scrollFunc)  
 
-document.getElementById("page-name").innerText=document.title.split(" | LYXの小破站")[0]; 
+  position = scroll;
+
+});
+
+document.getElementById("page-name").innerText = document.title.split(" | LYXの小破站")[0];
 /*这里是去掉你的网站全局名称的设置，如果你不需要去掉，你可以写成：
 document.getElementById("page-name").innerText=document.title
 

@@ -188,7 +188,7 @@ douban:
   builtin: true
   movie:
     title: '电影列表'
-    quote: '好看的电影！'
+    quote: '好看的电影！(实际上看过很多，不过忘了，就只能扔一些印象深刻一点的电影上去)'
   timeout: 10000 
 # history_calendar:
 #   priority: 4
