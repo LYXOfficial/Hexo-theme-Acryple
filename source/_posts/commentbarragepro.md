@@ -115,9 +115,42 @@ ps：最近高产是因为这些东西都是以前的一下发出来而且受到
 
 # Token获取（仅Twikoo版本）
 
-然后你需要获取一个Token，在开发人员工具-应用程序-本地存储-你的网址-twikoo-access-token里面即可看到，然后复制下面的值，待会用到。
+{% note info %}
+2022.9.16更新：
+发现腾讯云开发部署方式无法使用，于是写了一个腾讯云开发部署获取token的教程
+{% endnote %}
+
+然后你需要获取一个Token。
+
+{% tabs %}
+
+<!-- tab Vercel部署方式获取 -->
+
+在开发人员工具-应用程序-本地存储-你的网址-twikoo-access-token里面即可看到，然后复制下面的值，待会用到。
 
 ![1660720625973](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/commentbarragepro/1660720625973.png)
+
+<!-- endtab -->
+
+<!-- tab 腾讯云开发部署方式获取 -->
+
+在f12网络界面找到几个以`web?env=cloudbase-baas-xxx`开头的请求：
+
+![1663325711847.png](https://bu.dusays.com/2022/09/16/63245611d1e03.png)
+
+然后一个一个看，如果请求方式是options的话，就不管，找到请求方式是post的几个请求中的其中一个：
+
+![1663325806285.png](https://bu.dusays.com/2022/09/16/63245671af244.png)
+
+![1663325804065.png](https://bu.dusays.com/2022/09/16/6324566e36cea.png)
+
+然后在负载里面复制那一行accesstoken的右半边双引号包起来的部分，比如：
+
+`eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoie1wibG9naW5UeXBlXCI6XCJBTk9OWU1PVVNcIixcImVudk5hbWVcIjpcImNsb3VkYmFzZS1iYWFzLTRnZWd4NDAwZjdhZDc0OTFcIixcInV1aWRcIjpcImUyOWVkZDgwYzNhNzQzOTM5OGE1YmQ1NWZmMmJiZDA0XCJ9IiwiaWF0IjoxNjYzMzIzMTAwLCJleHAiOjE2NjMzMjY3MDB9.YR_NwdIzRZv6pNzEqQqK0ngz9dtDCRlSKmrZnNMwkcM;1145141919`
+
+现在你就获取到它了。
+
+<!-- endtab -->
 
 # JS部分
 
