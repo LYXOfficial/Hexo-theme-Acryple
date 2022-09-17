@@ -43,7 +43,7 @@ body {
 	border-radius: 8px;
 	z-index: 100;
 	box-shadow: 3px 3px 5px #88888894;
-	background-color: var(--lyx-white-acrylic1);
+	background-color: #ffffffdd;
 	backdrop-filter: blur(30px) saturate(180%);
 	-webkit-backdrop-filter: blur(30px) saturate(180%);
 	-webkit-border-radius: 8px;
@@ -63,7 +63,7 @@ body {
 	border-radius: 8px;
 	z-index: 100;
 	box-shadow: 3px 3px 5px #88888894;
-	background-color: var(--lyx-black-acrylic1);
+	background-color: #0008;
 	backdrop-filter: blur(30px) saturate(180%);
 	-webkit-backdrop-filter: blur(30px) saturate(180%);
 	-webkit-border-radius: 8px;
@@ -2962,4 +2962,22 @@ color:var(--lyx-theme)!important}
 }
 #article-container .highlight-tools .copy-button:hover{
     color:--lyx-theme!important
+}
+#colors::before {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 38px;
+    top: 44px;
+    content: "自定义颜色";
+}
+#colors {
+    border: none;
+    background: 0 0;
+    width: 166px;
+    height: 110px;
+    margin: 5px 10px;
+    position: relative;
+    cursor: pointer;
+    padding:0;
+    border-radius:12px
 }

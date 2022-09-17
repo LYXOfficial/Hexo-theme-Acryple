@@ -287,7 +287,7 @@ function createWinbox() {
     
     <h3 id="纯色"><a href="#纯色" class="headerlink" title="纯色"></a>纯色</h3>
     <div class="bgbox">
-    <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #7D9D9C" onclick="changeBg('#7D9D9C')"></a> 
+    <input type="color" id="colors"></input>
     </div>
     </br>注意:切换背景功能仅在Acrylic主题中生效，在Simple主题中无效
     <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:var(--lyx-theme);display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
