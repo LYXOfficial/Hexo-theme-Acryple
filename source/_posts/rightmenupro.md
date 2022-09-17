@@ -23,6 +23,16 @@ updated: 2022-09-02 13:32:35
 
 # 我做了什么？
 
+{% note info %}
+2022.9.17更新：
+
+在MrZeFr的建议下，增加了ctrl显示原版功能。
+
+![1663414887119.png](https://bu.dusays.com/2022/09/17/6325b26cc8f65.png)
+
+![1663414895340.png](https://bu.dusays.com/2022/09/17/6325b2716e405.png)
+{% endnote %}
+
 ![1660699020974.webp](https://bu.dusays.com/2022/09/03/631372f79550e.webp)
 
 ![1660699034686.webp](https://bu.dusays.com/2022/09/03/6313732c20e1b.webp)
@@ -54,6 +64,10 @@ updated: 2022-09-02 13:32:35
 7. 兼容dorakika的评论弹幕功能
 
 ![1660700055672.webp](https://bu.dusays.com/2022/09/03/631373da2a131.webp)
+
+8. Ctrl唤出原版右键菜单
+
+![1663414955319.png](https://bu.dusays.com/2022/09/17/6325b2ad033aa.png)
 
 并且换用了font awesome图标，除了百度和繁简转换的logo需要你下载iconfont图标库，也会放出教程
 
@@ -508,6 +522,7 @@ document.onkeydown = function (event) {
 function popupMenu() {
     //window.oncontextmenu=function(){return false;}
     window.oncontextmenu = function (event) {
+        if(event.ctrlKey)return true;
         console.log(event.keyCode)
         $('.rightMenu-group.hide').hide();
         //如果有文字选中，则显示 文字选中相关的菜单项

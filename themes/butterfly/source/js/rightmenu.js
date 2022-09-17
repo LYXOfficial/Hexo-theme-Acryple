@@ -139,6 +139,7 @@ document.body.addEventListener('touchmove', function(e){
 function popupMenu() {
     //window.oncontextmenu=function(){return false;}
     window.oncontextmenu = function (event) {
+        if(event.ctrlKey)return true;
         console.log(event.keyCode)
         $('.rightMenu-group.hide').hide();
         // setMask();
