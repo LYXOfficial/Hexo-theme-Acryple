@@ -302,7 +302,7 @@ span.post-meta-separator |&nbsp
 
 ## JS部分
 
-然后用一小段JS访问API就可以实现点赞了，在`[blogRoot]/themes/butterfly/source/js`里面新建`dianzan.js`文件，粘贴以下代码，把**{YOUR_APPID}**换成开始复制的AppId，**{YOUR_APPKEY}**换成开始复制的AppKey，**{YOUR_URL}**换成开始复制的分配的共享域名或者你自己绑定的域名
+然后用一小段JS访问API就可以实现点赞了，在`[blogRoot]/themes/butterfly/source/js`里面新建`dianzan.js`文件，粘贴以下代码，把 **{YOUR_APPID}** 换成开始复制的AppId，**{YOUR_APPKEY}**换成开始复制的AppKey，**{YOUR_URL}**换成开始复制的分配的共享域名或者你自己绑定的域名
 
 ```javascript
 function GetUrlRelativePath() {

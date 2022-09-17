@@ -2957,3 +2957,5 @@ body{
 .search-dialog .search-nav .search-close-button:hover{
     color:var(--lyx-theme)!important;
 }
+.search-dialog .search-nav{
+color:var(--lyx-theme)!important}
