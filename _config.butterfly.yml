@@ -882,7 +882,6 @@ inject:
   - <style id="settingStyle"></style>
   - <style id="yjjs"></style>
   - <style id="themeColor"></style>
-  - <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/sviptzk/StaticFile_HEXO@latest/butterfly/css/macWhite.css">
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/swiper/swiper-bundle.min.css">
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css">
   - <link rel="stylesheet" href="/css/commentBarrage.css">

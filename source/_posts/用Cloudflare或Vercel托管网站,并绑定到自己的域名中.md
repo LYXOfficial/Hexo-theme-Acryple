@@ -13,7 +13,7 @@ cover: https://bu.dusays.com/2022/09/01/63103a73b198b.webp
 description: Github Pages的加速方式
 abbrlink: e433f3d
 date: 2022-07-08 16:30:51
-updated: 2022-09-01 13:06:47
+updated: 2022-09-11 21:23:03
 ---
 
 # 前言

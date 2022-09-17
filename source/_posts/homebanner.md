@@ -10,9 +10,11 @@ tags:
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a65e883d.webp
-updated: 2022-09-02 13:32:35
+updated: 2022-09-11 21:23:03
 ---
+在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
+{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
 
 {% note warning simple %}
 本期教程需要脑子和一定的pug编写能力，小白请谨慎食用！可以在评论区提问，我会想办法帮你解决。

@@ -12,9 +12,11 @@ categories:
 cover: https://bu.dusays.com/2022/08/22/6302df361a344.webp
 swiper_index: 8
 description: 搞一个像钉钉网课一样可以连点器点的文章点赞
-updated: 2022-09-02 13:32:35
+updated: 2022-09-17 21:29:13
 ---
+在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
+{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
 
 # 前言&效果
 
@@ -302,7 +304,7 @@ span.post-meta-separator |&nbsp
 
 ## JS部分
 
-然后用一小段JS访问API就可以实现点赞了，在`[blogRoot]/themes/butterfly/source/js`里面新建`dianzan.js`文件，粘贴以下代码，把 **{YOUR_APPID}** 换成开始复制的AppId，**{YOUR_APPKEY}**换成开始复制的AppKey，**{YOUR_URL}**换成开始复制的分配的共享域名或者你自己绑定的域名
+然后用一小段JS访问API就可以实现点赞了，在`[blogRoot]/themes/butterfly/source/js`里面新建`dianzan.js`文件，粘贴以下代码，把 __{YOUR_APPID}__ 换成开始复制的AppId， **{YOUR_APPKEY}** 换成开始复制的AppKey， **{YOUR_URL}** 换成开始复制的分配的共享域名或者你自己绑定的域名
 
 ```javascript
 function GetUrlRelativePath() {

@@ -11,8 +11,11 @@ tags:
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a7aee588.webp
-updated: 2022-09-02 13:32:35
+updated: 2022-09-11 21:23:03
 ---
+在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
+
+{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
 
 因为bbtalk默认的样式是时间轴（如图），但是我更喜欢瀑布流的样式（比如洪哥的），所以就写了一个简单的css用于修改样式。
 

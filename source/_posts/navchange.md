@@ -10,11 +10,13 @@ categories:
 cover: 'https://bu.dusays.com/2022/09/01/631068b943a16.jpg'
 abbrlink: 895003b5
 date: 2022-09-01 14:33:38
-swiper_index: 11
+swiper_index: 12
 description: 更好的导航栏mod
-updated: 2022-09-11 21:04:47
+updated: 2022-09-16 18:04:32
 ---
+在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
+{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
 
 在开始前，先说一些事情吧。最近要开学了，所以博客的更新会放缓，大概能够周更，不过几周鸽几下也是有可能的。
 

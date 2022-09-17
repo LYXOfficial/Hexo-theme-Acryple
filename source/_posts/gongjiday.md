@@ -12,8 +12,11 @@ categories:
 swiper_index: 7
 description: 怀念同胞、庆祝节日的弹窗和滤镜功能
 cover: https://bu.dusays.com/2022/09/01/63103a7114c00.webp
-updated: 2022-09-02 13:32:35
+updated: 2022-09-11 21:23:03
 ---
+在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
+
+{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
 
 今天是世界慰安妇纪念日，我都是意外知道的，就顺便编写了一个简单的js来怀念那些同胞们，在一些节日也会弹窗庆祝。
 

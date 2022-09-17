@@ -12,8 +12,11 @@ categories:
 cover: https://bu.dusays.com/2022/09/01/63103a785d717.webp
 swiper_index: 6
 description: 让你的博客看起来更舒服
-updated: 2022-09-02 13:32:35
+updated: 2022-09-11 21:23:03
 ---
+在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
+
+{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
 
 {% note info simple %}
 

@@ -10,8 +10,11 @@ tags:
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/631038497d8d7.jpg
-updated: 2022-09-02 13:32:35
+updated: 2022-09-11 21:23:03
 ---
+在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
+
+{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
 
 之前弄了一些插件，糖果屋的群友们也找我问了问，所以我就顺便写了个文章介绍一下这些插件吧。
 

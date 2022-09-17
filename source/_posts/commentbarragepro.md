@@ -12,8 +12,11 @@ date: 2022-08-17 13:50:44
 swiper_index: 10
 description: 更好的留言弹幕mod
 cover: https://bu.dusays.com/2022/08/22/6302df3623687.webp
-updated: 2022-09-02 13:32:35
+updated: 2022-09-16 19:45:18
 ---
+在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
+
+{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
 
 最早这个留言弹幕是我直接找Dorakika抄的，见：
 

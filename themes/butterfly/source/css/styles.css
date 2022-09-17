@@ -2951,11 +2951,15 @@ body{
 #gototop:hover #percent {
     display: none !important;
 }
-#local-search .search-dialog .local-search-box input{
-    
-}
 .search-dialog .search-nav .search-close-button:hover{
     color:var(--lyx-theme)!important;
 }
 .search-dialog .search-nav{
 color:var(--lyx-theme)!important}
+
+#page-name:hover{
+    color:var(--font-color)!important;
+}
+#article-container .highlight-tools .copy-button:hover{
+    color:--lyx-theme!important
+}
