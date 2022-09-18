@@ -230,6 +230,11 @@ type: "links"
     avatar: https://img2.woyaogexing.com/2022/08/17/21431d45e46393db!400x400.jpg
     descr: 如琉璃般飘落
     theme_color: pink
+  - name: Xlenco's logs
+    link: https://xlenco.eu.org
+    avatar: https://xlenco.eu.org/img/head.webp
+    descr: 最好的地方是没去过的地方，最好的时光，是回不来的时光。
+    theme_color: "#a18488"
 {% endflink %}
 
 
