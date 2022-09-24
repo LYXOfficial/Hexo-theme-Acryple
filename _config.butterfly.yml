@@ -101,7 +101,7 @@ favicon: https://bu.dusays.com/2022/09/01/63103c75da20e.webp
 
 # Avatar (頭像)
 avatar:
-  img: https://bu.dusays.com/2022/09/01/63103c5038313.webp
+  img: /img/a.webp
   effect: false
 
 # Disable all banner image
