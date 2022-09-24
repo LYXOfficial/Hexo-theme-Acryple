@@ -1,17 +1,16 @@
 if(localStorage.getItem("blur")=="false"){
-var blur=0;
-document.getElementById("blur").checked=true;
-}else{
-    var blur=1;
-
-}
-if(localStorage.getItem("yjjs")=="true"){
-    var yjjs=1;
-    document.getElementById("yjjs").checked=true;
-}else{
-    var yjjs=0;
+    var blur=0;
+    }else{
+        var blur=1;
     
-}
+    }
+    if(localStorage.getItem("yjjs")=="true"){
+        var yjjs=1;
+    }else{
+        var yjjs=0;
+        
+    }
+
 if(!blur){
     document.getElementById("settingStyle").innerText=`
     *{
@@ -48,8 +47,8 @@ function setBlur(){
 //         document.getElementById("yjjs").innerText=``
 //     }
 function yjjs1(){
-    // yjjs=!yjjs;
-    // localStorage.setItem("yjjs",yjjs)
+    yjjs=!yjjs;
+    localStorage.setItem("yjjs",yjjs)
     // if(yjjs){
     // document.getElementById("yjjs").innerText=`
     // *:not(#web_bg){
@@ -83,7 +82,7 @@ if(localStorage.getItem("themeColor")==undefined){
 }
 
 setColor(localStorage.getItem("themeColor"));
-$("#"+localStorage.getItem("themeColor")).attr("checked", true);
+
 
 
 if(localStorage.getItem("hideRightside")==undefined){
@@ -158,6 +157,7 @@ var winbox = ''
 
 var isMax=false;
 function createWinbox() {
+    
     div = document.createElement('div')
     document.body.appendChild(div)
     winbox = WinBox({
@@ -200,8 +200,8 @@ function createWinbox() {
     <p></p>
     <h2 class="content-head">主题设置</h2>
     <p></p>
-    <div class="content" style="display:flex"><button class="content-button"
-            onclick="switchTheme()">切换主题</button><br><input type="checkbox" id="hideAside" onclick="toggleRightside()">
+    <div class="content" style="display:flex">
+        <button class="content-button" onclick="switchTheme()">切换主题</button><br><input type="checkbox" id="hideAside" onclick="toggleRightside()">
         <div class="content-text">隐藏侧边栏</div>
     </div>
     <h3 class="content-head">&nbsp;&nbsp;主题色</h3>
@@ -279,7 +279,6 @@ function createWinbox() {
     <h3 id="渐变色"><a href="#渐变色" class="headerlink" title="渐变色"></a>渐变色</h3>
     <div class="bgbox">
     <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #eecda3, #ef629f)" onclick="changeBg('linear-gradient(to right, #eecda3, #ef629f)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(25deg, #31354b, #38536c, #3b738e, #3995b2)" onclick="changeBg('inear-gradient(25deg, #31354b, #38536c, #3b738e, #3995b2)')"></a>
     <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(90deg, #ffd7e4 0%, #c8f1ff 100%)" onclick="changeBg('linear-gradient(90deg, #ffd7e4 0%, #c8f1ff 100%)')"></a>
     <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(45deg, #e5737b, #c6999e, #96b9c2, #00d6e8)" onclick="changeBg('linear-gradient(45deg, #e5737b, #c6999e, #96b9c2, #00d6e8)')"></a>
 
@@ -287,12 +286,19 @@ function createWinbox() {
     
     <h3 id="纯色"><a href="#纯色" class="headerlink" title="纯色"></a>纯色</h3>
     <div class="bgbox">
-    <input type="color" id="colors"></input>
+    <input type="color" id="colors" autocomplete="on" value="#FF0000"></input>
     </div>
     </br>注意:切换背景功能仅在Acrylic主题中生效，在Simple主题中无效
     <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:var(--lyx-theme);display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
 `;
-
+$("#"+localStorage.getItem("themeColor")).attr("checked", true);
+if(localStorage.getItem("blur")=="false"){
+    
+    document.getElementById("blur").checked=true;
+    }
+    if(localStorage.getItem("yjjs")=="true"){
+        document.getElementById("yjjs").checked=true;
+    }
 document.getElementsByClassName("reSettings")[0].onclick=function(){
     localStorage.clear()
     window.location.reload()

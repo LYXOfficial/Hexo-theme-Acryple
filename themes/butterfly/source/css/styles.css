@@ -2,7 +2,7 @@
 @font-face{
     font-family: 'HYTMR';
     font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
-    src: url('/font/HYTangMeiRen55W.woff2') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
+    src: url('/font/HYTangMeiRen55W.ttf') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
 }
 body {
     font-family: 'HYTMR',-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif;
@@ -2980,4 +2980,56 @@ color:var(--lyx-theme)!important}
     cursor: pointer;
     padding:0;
     border-radius:12px
+}
+.wb-e{
+    right:5px!important
+}
+.post-bg{
+    background-color: transparent!important;
+}
+/* 开关 */
+.settings input[type="checkbox"] {
+    width: 38px;
+    height: 20px;
+    position: relative;
+    border: 1px solid #000000;
+    background-color: #fdfdfd;;
+    border-radius: 12px;
+    background-clip: content-box;
+    display: inline-block;
+    -webkit-appearance: none;
+    user-select: none;
+    outline: none;
+transform: translateY(5px);}
+.settings input[type="checkbox"]:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    border-radius: 10px;
+    background-color: #000;}
+.settings input[type="checkbox"]:checked {
+    background-color: var(--lyx-theme);border-color:var(--lyx-theme)}
+.settings input[type="checkbox"]:checked:before {
+    left: 19px;background-color: white!important;}
+.settings input[type="checkbox"] {
+    transition: border background-color box-shadow }
+.settings input[type="checkbox"]:before {
+    transition: left 0.2s;}
+.settings input[type="checkbox"]:checked {
+    background-color: var(--lyx-theme);
+    /* transition: border ease 0.4s, background-color ease 1.2s; */
+}.settings input[type="checkbox"]:checked:before {
+    transition: left 0.2s;}
+.settings input[type="checkbox"]:checked:hover{
+    opacity: 0.8;
+}
+.settings input[type="checkbox"]:active{
+    background-color: #666666!important;
+    border-color:#666666!important;
+}
+.settings input[type="checkbox"]:active::before{
+    background-color:white!important;
 }
