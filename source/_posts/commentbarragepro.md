@@ -58,6 +58,7 @@ ps：最近高产是因为这些东西都是以前的一下发出来而且受到
 8. 亚克力效果
 9. 适配Waline/Valine
 10. 头像cdn自定义
+11. 本地存储保存弹幕开关
 
 下面放出教程
 
@@ -296,6 +297,7 @@ function removeCommentBarrage(barrage){
 	}
 }
 switchCommentBarrage = function () {
+	localStorage.setItem("isBarrageToggle",Number(!Number(localStorage.getItem("isBarrageToggle"))))
 	if(!isInViewPortOfOne(document.getElementById("post-comment"))){
 	commentBarrageConfig.displayBarrage=!(commentBarrageConfig.displayBarrage);
     let commentBarrage = document.querySelector('.comment-barrage');
@@ -318,6 +320,12 @@ $(".comment-barrage").hover(function(){
 		}
 	},commentBarrageConfig.barrageTime)
 })
+if(localStorage.getItem("isBarrageToggle")==undefined){
+	localStorage.setItem("isBarrageToggle","0");
+}else if(localStorage.getItem("isBarrageToggle")=="1"){
+	localStorage.setItem("isBarrageToggle","0");
+	switchCommentBarrage()
+}
 initCommentBarrage()
 ```
 

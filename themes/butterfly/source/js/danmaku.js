@@ -20,7 +20,13 @@ const danmakuTimer = [];
 let danmakuList = [];
 let danmakuIndex = 0;
 
-
+function getStyle(obj,name){
+    if(window.getComputedStyle){
+        return getComputedStyle(obj,null)[name];
+    }else{
+        return obj.currentStyle[name];
+    }
+}
 
 const danmakuDom = document.getElementById('danmaku-container');
 window.addEventListener('load',()=>{
@@ -63,7 +69,9 @@ window.addEventListener('load',()=>{
 
 
 
-
+function toggleDanmaku(){
+	$("#danmaku-container").toggle()
+}
 function linkFilter(data){
 	const newData = data.filter((comment)=>{
 		return !comment.master;
@@ -90,19 +98,9 @@ function popdanmaku(data){
 	danmakuTimer.push(danmaku);
 	danmakuDom.append(danmaku);
 	setTimeout(()=>{
-	danmaku.style.left=-(danmaku.clientWidth*2+500).toString()+"px";
+	danmaku.style.left=-(danmaku.clientWidth*3+500).toString()+"px";
 	setTimeout(()=>{
-		danmaku.style.left=-(danmaku.clientWidth*2+500).toString()+"px";
-		removedanmaku(danmaku);
+		danmaku.style.left=-(danmaku.clientWidth*3+500).toString()+"px";
 	},15000)
-	if(danmakuList.length>maxdanmaku){
-		removedanmaku(danmaku);
-	}
 },50)
-}
-function removedanmaku(danmaku){
-	danmaku.className = 'danmaku out';
-	setTimeout(()=>{
-		danmakuDom.removeChild(danmaku);
-	},1000)
 }
