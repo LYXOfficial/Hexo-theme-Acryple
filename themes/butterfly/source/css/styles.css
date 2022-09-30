@@ -1,15 +1,28 @@
 @font-face{
-    font-family: 'FZ';
+    font-family: 'FZXJLJ';
     font-display: swap;
-    src: url('/font/HYTangMeiRen55W.ttf') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
+    src: url('/font/FZXiJinLJW.woff2') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
 }
 @font-face{
     font-family: 'HYTMR';
     font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
-    src: url('/font/HYTangMeiRen55W.ttf') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
+    src: url('/font/HYTangMeiRen55W.woff2') format("woff2");/*/font/HYTangMeiRen55W.woff2*/
+}
+@font-face{
+    font-family: 'FZXS';
+    font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
+    src: url('/font/FZXiangSu14.woff2') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
+}
+@font-face{
+    font-family: 'FZODZK';
+    font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
+    src: url('/font/FZShouJiOuDieZhengKai.woff2') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
+}
+:root{
+    --global-font:"HYTMR"
 }
 body {
-    font-family: 'Noto Serif SC',-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif;
+    font-family: var(--global-font),-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif;
 }
 /* .layout_post .post-copyright .post-copyright-info a {
     text-decoration: none;
@@ -569,7 +582,7 @@ th{
     background-color: var(--lyx-white-acrylic1)!important;
     border-radius: 12px;
     margin-right: 10px !important;
-    font-family: PingFang,微软雅黑,HYTMR,SimSun;
+    font-family: PingFang,微软雅黑,var(--global-font),SimSun;
     background-size:cover;
     color:var(--lyx-white);
     font-size:44px;
@@ -583,7 +596,7 @@ th{
     background-color: var(--lyx-black-acrylic1)!important;
     border-radius: 12px;
     margin-right: 10px !important;
-    font-family: PingFang,微软雅黑,HYTMR,SimSun;
+    font-family: PingFang,微软雅黑,var(--global-font),SimSun;
     background-size:cover;
     color:var(--lyx-white);
     font-size: 44px;
@@ -1340,7 +1353,7 @@ h6:before{
 }   
 .wv-lt-location>a[data-v-4b9dcab4],.wv-lt-location>span[data-v-4b9dcab4],.wv-n-h-now-tmp>span[data-v-5f4c0628],.wv-n-h-now-txt>span[data-v-5f4c0628],.wv-n-h-now-rain>a[data-v-5f4c0628], .wv-n-h-now-rain>span[data-v-5f4c0628],.wv-f-forecast-date>a[data-v-66693262],.wv-f-a{
     color:var(--font-color)!important;
-    font-family: 'HYTMR','Microsoft Yahei','PingFang SC','SimSun'!important;
+    font-family: var(--global-font),'Microsoft Yahei','PingFang SC','SimSun'!important;
     font-size:14px
 }
 .category-list-bar{
@@ -1443,7 +1456,7 @@ code:not(.highlight code):not(.twikoo code){
     border-radius: 4px!important;
     color:white!important;
     background-color: black!important;
-    font-family: HYTMR,"PingFang SC","Microsoft YaHei","Simsun";
+    font-family: var(--global-font),"PingFang SC","Microsoft YaHei","Simsun";
 }
 pre{
     border-radius: 12px;
@@ -2506,7 +2519,7 @@ a:hover{
     background-color: transparent!important;
 }
 .snackbar-container{
-    font-family: 'HYTMR','PingFang SC','Ubuntu Mono','Noto Sans','Microsoft Yahei','SimSun'!important;
+    font-family: var(--global-font),'PingFang SC','Ubuntu Mono','Noto Sans','Microsoft Yahei','SimSun'!important;
     backdrop-filter: blur(10px)!important;
     -webkit-backdrop-filter: blur(10px)!important;
 }
@@ -2664,7 +2677,7 @@ a:hover{
 }
 .wb-title{
     color:black;
-    font-family: 'HYTMR','PingFang SC','Ubuntu Mono','Noto Sans','Microsoft Yahei','SimSun'!important;
+    font-family: var(--global-font),'PingFang SC','Ubuntu Mono','Noto Sans','Microsoft Yahei','SimSun'!important;
 }
 [data-theme="dark"] .wb-title{
     color:white;

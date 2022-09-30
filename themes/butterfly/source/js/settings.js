@@ -108,8 +108,10 @@ function toggleRightside(){
 
 
 
-
-
+if(localStorage.getItem("font")==undefined){
+    localStorage.setItem("font","HYTMR")
+}
+setFont(localStorage.getItem("font"))
 // 存数据
 // name：命名 data：数据
 function saveData(name, data) {
@@ -148,7 +150,16 @@ function changeBg(s, flag) {
     } else bg.style.backgroundImage = s
     if (!flag) { saveData('blogbg', s) }
 }
-
+function setFont(n){
+    localStorage.setItem("font",n)
+    if(n=="main"){
+        document.body.style.fontFamily="-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif"
+    }
+    else{
+        document.body.style.fontFamily="var(--global-font),-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif"
+        document.documentElement.style.setProperty('--global-font', n)
+    }
+}
 // 以下为2.0新增内容
 
 // 创建窗口
@@ -220,6 +231,14 @@ function createWinbox() {
     <p></p>
     <p></p>
     <p></p>
+    <h2 class="content-head">字体设置</h2>
+    <p>
+    <a href="javascript:;" rel="noopener external nofollow" style="font-family:'HYTMR'!important;color:black" onclick="setFont('HYTMR')">汉仪唐美人</a><br>
+    <a href="javascript:;" rel="noopener external nofollow" style="font-family:'FZXJLJ'!important;color:black" onclick="setFont('FZXJLJ')">方正金陵体</a> <br>
+    <a href="javascript:;" rel="noopener external nofollow" style="font-family:'FZXS'!important;color:black" onclick="setFont('FZXS')">方正像素体</a> <br>
+    <a href="javascript:;" rel="noopener external nofollow" style="font-family:'FZODZK'!important;color:black" onclick="setFont('FZODZK')">方正欧蝶正楷</a> <br>
+    <a href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('main')">系统默认</a> <br>
+    </p>
 </div>
     <h2 style="margin-left:10px">背景设置</h2>
     <div id="article-container" style="padding:20px;">
@@ -232,7 +251,6 @@ function createWinbox() {
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://bu.dusays.com/2022/08/30/630d6d50b439b.webp)" class="pimgbox" onclick="changeBg('url(https://bu.dusays.com/2022/08/30/630d6d50b439b.webp)')"></a>   
 
     </div>
-    
     <h3 id="图片（电脑）"><a href="#图片（电脑）" class="headerlink" title="图片（电脑）"></a>图片（电脑）</h3>
     <div class="bgbox">
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://bu.dusays.com/2022/08/30/630d6d5574d0e.webp)" class="imgbox" onclick="changeBg('url(https://bu.dusays.com/2022/08/30/630d6d5574d0e.webp)')"></a>
@@ -325,7 +343,4 @@ if(sessionStorage.getItem("settingWindow")=="open"){
     createWinbox();
     
 }
-
-
-
 
