@@ -155,8 +155,8 @@ type: "links"
     descr: 我的最最好的朋友
     theme_color: "#af89ef"
   - name: 十贰的小窝
-    link: https://hehysh.eu.org/
-    avatar: https://s3.bmp.ovh/imgs/2022/07/18/92ff096fd0a0f727.jpeg
+    link: https://www.hehysh.eu.org/
+    avatar: https://www.hehysh.eu.org/img/author.jpg
     descr: 十贰的博客：技术，人生，思考
     theme_color: "#ec9b5e"
   - name: 咕咕云梦泽
@@ -223,7 +223,7 @@ type: "links"
   - name: Catch Wang
     descr: 未来路长 · 勿忘初心
     link: https://www.catchwang.com
-    avatar: https://www.catchwang.com/wp-resources/avatar.png
+    avatar: https://blog.catchwang.com/wp-resources/avatar.png
     theme_color: "#454f71"
   - name: roydon
     link: https://roydon.xyz

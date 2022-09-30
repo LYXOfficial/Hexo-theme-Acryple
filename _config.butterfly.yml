@@ -920,6 +920,7 @@ inject:
   - <script src="https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/js/lunar.js"></script>
   - <script src="/js/day.js"></script>
   - <script src="/js/nav.js"></script>
+  - <script src="/js/cursor.js"></script>
   - <script type="text/javascript" src="/js/dianzan.js"></script>
   - <script type="text/javascript" src="/js/commentsCount.js"></script>
   - <script type="text/javascript" src="/js/latest.js"></script>
