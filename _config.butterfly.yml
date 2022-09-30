@@ -885,6 +885,7 @@ inject:
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/swiper/swiper-bundle.min.css">
   - <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css">
   - <link rel="stylesheet" href="/css/commentBarrage.css">
+  - <link rel="stylesheet" href="https://fonts.proxy.ustclug.org/css?family=Noto+Serif+SC">
   - <link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/npm/node-snackbar@latest/dist/snackbar.min.css" />
   - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
   - '<script>LA.init({id: "JnlSnWLD7XChjrlx",ck: "JnlSnWLD7XChjrlx"})</script>'

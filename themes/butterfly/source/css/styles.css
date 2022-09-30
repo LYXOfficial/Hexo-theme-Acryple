@@ -9,7 +9,7 @@
     src: url('/font/HYTangMeiRen55W.ttf') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
 }
 body {
-    font-family: 'HYTMR',-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif;
+    font-family: 'Noto Serif SC',-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif;
 }
 /* .layout_post .post-copyright .post-copyright-info a {
     text-decoration: none;
