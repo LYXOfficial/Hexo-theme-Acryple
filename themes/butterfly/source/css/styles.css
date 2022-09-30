@@ -1,4 +1,8 @@
-
+@font-face{
+    font-family: 'FZ';
+    font-display: swap;
+    src: url('/font/HYTangMeiRen55W.ttf') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
+}
 @font-face{
     font-family: 'HYTMR';
     font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/

@@ -91,7 +91,6 @@ if(localStorage.getItem("hideRightside")==undefined){
 
 if(localStorage.getItem("hideRightside")=="1"){
     $("#rightside").toggle()
-    document.getElementById("hideAside").checked=true;
 }
 function toggleRightside(){
     $("#rightside").toggle();
@@ -293,12 +292,14 @@ function createWinbox() {
 `;
 $("#"+localStorage.getItem("themeColor")).attr("checked", true);
 if(localStorage.getItem("blur")=="false"){
-    
     document.getElementById("blur").checked=true;
-    }
-    if(localStorage.getItem("yjjs")=="true"){
-        document.getElementById("yjjs").checked=true;
-    }
+}
+if(localStorage.getItem("yjjs")=="true"){
+    document.getElementById("yjjs").checked=true;
+}
+if(localStorage.getItem("hideRightside")=="1"){
+    document.getElementById("hideAside").checked=true;
+}
 document.getElementsByClassName("reSettings")[0].onclick=function(){
     localStorage.clear()
     window.location.reload()
