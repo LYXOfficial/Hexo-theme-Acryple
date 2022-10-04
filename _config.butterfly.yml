@@ -660,7 +660,7 @@ aside:
   archives: true
   card_author:
     enable: true
-    description: #就一读初一的学生，特别喜欢Python开发(尤其是GUI)，而且是个起床垃圾死了的老MC+新二刺螈，入了超炮的坑出不来了。
+    description: 
     button:
       enable: false
       icon: fab fa-github
