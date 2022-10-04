@@ -12,7 +12,7 @@ abbrlink: 895003b5
 date: 2022-09-01 14:33:38
 swiper_index: 12
 description: 更好的导航栏mod
-updated: 2022-09-17 22:28:10
+updated: 2022-10-04 08:50:19
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
