@@ -239,12 +239,12 @@ type: "links"
     link: https://blog.vvxing.cn/
     avatar: https://assets.yuxinghe.top/images/picgo/2022/09/202209300927526.jpg
     descr: 欲买桂花同载酒，终不似，少年游
-    siteshot: https://assets.vvxing.cn/images/202210032114458.png
+    
   - name: 十七
     link: http://www.shiqi217.com
     avatar: https://cdn.staticaly.com/gh/rg617yyds/lcl-img@master/urllcl/myVia.jpg
     descr: 愿时光能缓，愿你笑靥如花
-    siteshot: https://cdn.staticaly.com/gh/rg617yyds/lcl-img@master/urllcl/网站.jpg
+    theme_color: "#eba38c"
 {% endflink %}
 
 

@@ -12,7 +12,7 @@ abbrlink: 895003b5
 date: 2022-09-01 14:33:38
 swiper_index: 12
 description: 更好的导航栏mod
-updated: 2022-09-16 18:04:32
+updated: 2022-09-17 22:28:10
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
@@ -301,6 +301,10 @@ document.getElementById("page-name").innerText=document.title
 
 最后添加如下css，按照注释修改参数：
 ```css
+/*
+2022.10.4更新：
+根据我发现的没有自适应，间距不合理问题进行调整，如果用了这个的朋友们建议改一改
+*/
 #page-name::before{
     font-size:18px;
     position: absolute;
@@ -324,6 +328,12 @@ document.getElementById("page-name").innerText=document.title
 #page-name:hover:before{
     opacity: 1;
 }
+@media screen and (max-width:900px){
+    #page-name,#menus{
+      display:none!important;
+    }
+}
+
 #name-container{
     transition: all .3s;
     -webkit-transition: all .3s;
@@ -338,6 +348,10 @@ document.getElementById("page-name").innerText=document.title
     position: relative;
     padding:10px 30px/*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
 }
+#nav{
+    padding: 0 20px;
+}
+
 ```
 
 恭喜你获得了一个更好的导航栏！
