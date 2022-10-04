@@ -152,7 +152,7 @@ type: "links"
   - name: KBY
     link: https://kby2235.github.io/
     avatar: https://img2.baidu.com/it/u=122514889,4042362132&fm=253&fmt=auto&app=138&f=JPEG?w=256&h=256
-    descr: 我的最最好的朋友
+    descr: 海上生明月，天涯共此时
     theme_color: "#af89ef"
   - name: 十贰的小窝
     link: https://www.hehysh.eu.org/
