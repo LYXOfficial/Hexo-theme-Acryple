@@ -2659,12 +2659,12 @@ a:hover{
     color:#f47466!important
 }
 .reSettings{
-    color:var(--font-color)!important
+    color:var(--lyx-white)!important
 }
 .reSettings::before{
     content:"\f021";
     font-family:var(--fa-style-family,"Font Awesome 6 Free");font-weight:var(--fa-style,900);
-    color:var(--lyx-blue)!important
+    color:var(--lyx-white)!important
 }
 .reSettings:hover{
     cursor: pointer;
@@ -3070,9 +3070,32 @@ transform: translateY(5px);}
 #cursor.hover {
     opacity: 0.1;
     transform: scale(2.5);
+    -webkit-transform: scale(2.5);
+    -moz-transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    -o-transform: scale(2.5);
 }
 
 #cursor.active {
     opacity: 0.5;
     transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+}
+.swf{
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid var(--lyx-border);
+    border-radius: 10px;
+    margin: 10px;
+}
+#swfs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-button:hover{
+    opacity: .7;
 }
