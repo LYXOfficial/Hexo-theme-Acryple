@@ -41,7 +41,14 @@ updated: 2022-10-04 08:50:19
     include random.pug
 ```
 然后把`random.pug`放在同级位置（一般是`layout/include`），编写:
-
+```python
+div(id="random")
+    iframe(id="random-banner" src="/people.html" frameborder="no")  #可以换成自己的图片
+    a(id="random-hover" style="width:100%;height:auto;" href="javascript:toRandomPost()")         #默认用洪哥的无缝随机js，也可以换成random.html
+        span &nbsp
+        i.fa.fa-paper-plane
+        div &nbsp随便逛逛→
+```
 {% note info simple %}
 我自己写的banner效果没有洪哥的好，如果想要那种效果可以自己尝试微调
 {% endnote %}
