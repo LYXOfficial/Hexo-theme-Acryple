@@ -44,7 +44,7 @@ updated: 2022-10-04 08:50:19
 ```python
 div(id="random")
     iframe(id="random-banner" src="/people.html" frameborder="no")  #可以换成自己的图片
-    a(id="random-hover" style="width:100%;height:auto;" href="javascript:toRandomPost()")         #默认用洪哥的无缝随机js，也可以换成random.html
+    a(id="random-hover" style="width:100%;height:auto;" href="javascript:toRandomPost()")         #默认用random.js，也可以换成random.html
         span &nbsp
         i.fa.fa-paper-plane
         div &nbsp随便逛逛→
@@ -69,7 +69,7 @@ div(id="random")
 </head>
 
 <body><canvas id="canvas"></canvas>
-    <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="/js/people.js"></script>
 </body>
 
