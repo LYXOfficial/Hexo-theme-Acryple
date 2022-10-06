@@ -1452,7 +1452,7 @@ del:not(.noheimu):hover{
 ::-webkit-scrollbar-thumb{
     border-radius: 2em;
 }
-code:not(.highlight code):not(.twikoo code){
+#article-container code:not(.highlight code):not(.twikoo code){
     border-radius: 4px!important;
     color:white!important;
     background-color: black!important;
