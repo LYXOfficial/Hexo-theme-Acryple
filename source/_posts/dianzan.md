@@ -6,13 +6,12 @@ tags:
   - Hexo魔改
   - 干货教程
   - 推荐文章
-  - 建站
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/08/22/6302df361a344.webp
 swiper_index: 8
 description: 搞一个像钉钉网课一样可以连点器点的文章点赞
-updated: 2022-09-17 21:29:13
+updated: 2022-09-17 22:28:10
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 

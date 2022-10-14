@@ -4,7 +4,6 @@ tags:
   - Hexo魔改
   - 干货教程
   - 推荐文章
-  - 建站
 categories:
   - Hexo魔改
 cover: 'https://bu.dusays.com/2022/09/01/631068b943a16.jpg'
@@ -12,7 +11,7 @@ abbrlink: 895003b5
 date: 2022-09-01 14:33:38
 swiper_index: 12
 description: 更好的导航栏mod
-updated: 2022-09-16 18:04:32
+updated: 2022-10-14 19:49:29
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 

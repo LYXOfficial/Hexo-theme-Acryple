@@ -5,7 +5,6 @@ date: 2022-07-28 14:00:32
 cover: https://bu.dusays.com/2022/09/01/63103a6c77dde.webp
 tags:
   - 白嫖
-  - 建站
   - 服务器
   - 干货教程
   - 热门文章
@@ -13,7 +12,7 @@ tags:
   - goorm
 categories:
   - 白嫖教程
-updated: 2022-09-11 21:23:03
+updated: 2022-09-17 22:28:10
 ---
 
 # 前言

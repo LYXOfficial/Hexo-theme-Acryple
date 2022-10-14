@@ -2,7 +2,6 @@
 title: GoormIDE的VPS白嫖（1）-白嫖与安装宝塔面板教程
 tags:
   - 白嫖
-  - 建站
   - 服务器
   - 干货教程
   - 热门文章
@@ -15,7 +14,7 @@ swiper_index: 2
 abbrlink: 14740f7c
 date: 2022-07-25 12:12:10
 cover:
-updated: 2022-09-11 21:23:03
+updated: 2022-09-17 22:28:10
 ---
 
 # 前言

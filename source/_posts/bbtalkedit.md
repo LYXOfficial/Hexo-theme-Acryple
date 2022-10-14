@@ -6,12 +6,11 @@ tags:
   - Hexo魔改
   - 干货教程
   - 推荐文章
-  - 建站
   - bbtalk
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a7aee588.webp
-updated: 2022-09-11 21:23:03
+updated: 2022-09-17 22:28:10
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 

@@ -2,7 +2,6 @@
 title: Goorm的VPS白嫖（4）-搭建MCSManger面板服
 tags:
   - 白嫖
-  - 建站
   - 服务器
   - 干货教程
   - 热门文章
@@ -13,7 +12,7 @@ categories:
 abbrlink: 8245da27
 date: 2022-08-08 07:36:49
 cover: https://bu.dusays.com/2022/09/01/63103a69227fd.webp
-updated: 2022-09-11 21:23:03
+updated: 2022-09-17 22:28:10
 ---
 
 咕咕咕。。。

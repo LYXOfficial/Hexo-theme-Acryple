@@ -4,7 +4,6 @@ abbrlink: 3ee11b0f
 cover: https://bu.dusays.com/2022/09/01/63103a66d8213.webp
 tags:
   - 白嫖
-  - 建站
   - 服务器
   - 干货教程
   - 推荐文章
@@ -14,7 +13,7 @@ categories:
 swiper_index: 5
 description: 白嫖Goorm的用户速看！紧急！
 date: 2022-08-12 08:30:50
-updated: 2022-09-11 21:23:03
+updated: 2022-09-17 22:28:10
 ---
 
 {% note warning simple %}
