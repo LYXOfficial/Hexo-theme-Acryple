@@ -255,6 +255,11 @@ type: "links"
     avatar: https://image.cpen.top/image/avatar.jpg
     descr: 这是一个有趣的博客
     theme_color: "#b19a7b"
+  - name: ichika
+    link: https://ichika.cc
+    avatar: https://cos.ichika.cc/page%2FHeadIcon.jpg
+    descr: Hello,gamer!
+    theme_color: "#49A6E9"
 {% endflink %}
 
 
