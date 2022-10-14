@@ -1,5 +1,6 @@
 ---
 title: 博客魔改日记（1）
+abbrlink: ac792cf4
 date: 2022-10-05 17:35:57
 tags:
 categories:
