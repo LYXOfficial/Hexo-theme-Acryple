@@ -235,6 +235,16 @@ type: "links"
     avatar: https://xlenco.eu.org/img/head.webp
     descr: 最好的地方是没去过的地方，最好的时光，是回不来的时光。
     theme_color: "#a18488"
+  - name: 探人间
+    link: https://www.hydsb0.com
+    avatar: https://s1.ax1x.com/2022/08/14/vaPI3R.jpg
+    descr: 努力吃上更贵的雪糕！
+    theme_color: "#ffebf0"
+  - name: Mycpen
+    link: https://cpen.top/
+    avatar: https://image.cpen.top/image/avatar.jpg
+    descr: 这是一个有趣的博客
+    theme_color: "#b19a7b"
 {% endflink %}
 
 
