@@ -152,7 +152,7 @@ type: "links"
   - name: KBY
     link: https://kby2235.github.io/
     avatar: https://img2.baidu.com/it/u=122514889,4042362132&fm=253&fmt=auto&app=138&f=JPEG?w=256&h=256
-    descr: 我的最最好的朋友
+    descr: 海上生明月，天涯共此时
     theme_color: "#af89ef"
   - name: 十贰的小窝
     link: https://www.hehysh.eu.org/
@@ -235,6 +235,16 @@ type: "links"
     avatar: https://xlenco.eu.org/img/head.webp
     descr: 最好的地方是没去过的地方，最好的时光，是回不来的时光。
     theme_color: "#a18488"
+  - name: 星
+    link: https://blog.vvxing.cn/
+    avatar: https://assets.yuxinghe.top/images/picgo/2022/09/202209300927526.jpg
+    descr: 欲买桂花同载酒，终不似，少年游
+    theme_color: "#bcba9c"
+  - name: 十七
+    link: http://www.shiqi217.com
+    avatar: https://cdn.staticaly.com/gh/rg617yyds/lcl-img@master/urllcl/myVia.jpg
+    descr: 愿时光能缓，愿你笑靥如花
+    theme_color: "#776a5a"
   - name: 探人间
     link: https://www.hydsb0.com
     avatar: https://s1.ax1x.com/2022/08/14/vaPI3R.jpg

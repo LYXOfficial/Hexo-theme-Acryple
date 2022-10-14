@@ -11,7 +11,7 @@ categories:
   - Hexo魔改
 swiper_index: 11
 description: 新手必看
-cover: https://bu.dusays.com/2022/09/17/6325d81db01d3.png
+cover: https://bu.dusays.com/2022/10/06/633ecb6d3bd20.webp
 updated: 2022-09-17 21:29:13
 ---
 

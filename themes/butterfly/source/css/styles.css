@@ -1203,7 +1203,8 @@ hr{
     box-shadow:0 0 5px var(--lyx-theme);
 }
 .menus_item_child:not(.sidebar-menus>.menus_items>.menus_item>.menus_item_child){
-    left:calc(-150%)!important;
+    left:50%;
+    translate:-50%;
 }
 .blog-slider__wrp.swiper-wrapper{
     overflow: hidden;
@@ -1452,7 +1453,7 @@ del:not(.noheimu):hover{
 ::-webkit-scrollbar-thumb{
     border-radius: 2em;
 }
-code:not(.highlight code):not(.twikoo code){
+#article-container code:not(.highlight code):not(.twikoo code){
     border-radius: 4px!important;
     color:white!important;
     background-color: black!important;
