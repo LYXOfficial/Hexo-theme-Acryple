@@ -249,7 +249,7 @@ type: "links"
     link: https://www.hydsb0.com
     avatar: https://s1.ax1x.com/2022/08/14/vaPI3R.jpg
     descr: 努力吃上更贵的雪糕！
-    theme_color: "#ffebf0"
+    theme_color: "#ffdbe4"
   - name: Mycpen
     link: https://cpen.top/
     avatar: https://image.cpen.top/image/avatar.jpg

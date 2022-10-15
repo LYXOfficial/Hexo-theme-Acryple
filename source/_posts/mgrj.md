@@ -8,7 +8,7 @@ tags:
   - 推荐文章
 categories:
   - Hexo魔改
-cover: "https://bu.dusays.com/2022/10/14/63496951993e8.png"
+cover: "https://bu.dusays.com/2022/10/15/6349fcbca8713.png"
 updated: 2022-10-14 20:56:55
 ---
 
@@ -952,3 +952,76 @@ input[name="colors"]{
 }
 
 ```
+
+# 彩虹猫加载页
+
+大家会发现我的博客加载界面是Nyancat的动画，其实是基于bf的原版加载动画改的。
+
+首先你得在主题配置文件启动加载动画，默认是一个方盒子。
+
+我的加载动画基于gif构建，并且把结束动画改成渐变而不是拉开，gif实际上是可以自定义的。
+
+## 修改文件
+
+修改`[blogRoot]\themes\butterfly\source\css\_layout\loading.styl`:
+```diff
+if hexo-config('preloader')
+  ...
+  #loading-box
+    .loading-left-bg
+      @extend .loading-bg
+
+    ...
+      .configure-core
+        width: 100%
+        height: 100%
+        background-color: var(--preloader-bg)
+
+    &.loaded
+      .loading-left-bg
+        transition: all .7s
++        opacity 0
+-        transform: translate(-100%, 0)
+
+      .loading-right-bg
+        transition: all .7s
++        opacity 0
+-        transform: translate(100%, 0)
+
+      .spinner-box
+        display: none
+        ...
+```
+
+重写`[blogRoot]\themes\butterfly\layout\includes\loading\loading-js.pug`:
+
+```js
+
+script.
+  var preloader = {
+    endLoading: () => {
+      document.body.style.overflow = 'auto';
+      document.getElementById('loading-box').classList.add("loaded")
+      setTimeout(function(){document.getElementById('loading-box').classList.add("loadend")},700)
+    },
+    initLoading: () => {
+      document.body.style.overflow = '';
+      document.getElementById('loading-box').classList.remove("loaded")
+
+    }
+  }
+  window.addEventListener('load',preloader.endLoading())
+```
+
+然后重写`[blogRoot]\themes\butterfly\layout\includes\loading\loading.pug`:
+
+```python
+#loading-box
+  .loading-left-bg
+  .loading-right-bg
+  img(src="/img/nyancat.gif" id="loadcat") //- 可以修改gif达到想要的效果，最好用外链加快速度
+```
+
+# 后记
+
+这次大抵即是这些罢了，其实看起来这么多日子了也就改了这些而已，顶多就还小改小修bug和css了，以后或许会很少更新了。
