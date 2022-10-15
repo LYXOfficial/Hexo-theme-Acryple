@@ -23,7 +23,11 @@
     font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
     src: url('/font/ZhuZiAWan.woff2') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
 }
-
+@font-face{
+    font-family: 'Monaco';
+    font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
+    src: url('/font/MONACO.TTF') format("truetype");/*/font/HYTangMeiRen55W.ttf*/
+}
 :root{
     --global-font:"HYTMR"
 }
@@ -3156,4 +3160,7 @@ transform: translateY(5px);}
 }
 .card-info *{
     color: #1f2d3d!important;
+}
+.highlight table *,code{
+    font-family: "Monaco",var(--global-font),-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif!important;
 }
