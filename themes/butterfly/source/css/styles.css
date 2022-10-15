@@ -47,7 +47,7 @@ body {
   }
 [data-theme="light"] #web_bg {
     /* 背景图像的地址（url括号里）  */
-    background: url('https://bu.dusays.com/2022/08/30/630d72f2032c8.jpg'); /*（就是/img/bl.webp）*/
+    background: url('https://bu.dusays.com/2022/09/17/6324aea549be6.webp'); /*（就是/img/bl.webp）*/
     /* 背景图像不重复 */
     background-repeat: no-repeat;
     /* 背景图像大小 */
@@ -3134,4 +3134,26 @@ transform: translateY(5px);}
 }
 #nav{
     z-index: 114!important;
+}
+.swal2-title{
+    font-size: 20px;
+}
+.swal2-styled.swal2-confirm{
+    background-color: var(--lyx-theme)!important;
+    border-color: var(--lyx-theme)!important;
+}
+[data-theme="light"] .swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{
+    background-color: #ffffffaa;
+    backdrop-filter: blur(10px);
+}
+[data-theme="dark"] .swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{
+    background-color: #000000aa!important;
+    backdrop-filter: blur(10px);
+    
+}
+[data-theme="dark"].swal2-title{
+    color:white!important;
+}
+.card-info *{
+    color: #1f2d3d!important;
 }

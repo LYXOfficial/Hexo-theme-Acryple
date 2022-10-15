@@ -27,14 +27,3 @@ if (sessionStorage.getItem("popCookieWindow") != "0") {
     }, 3000)
 }
 sessionStorage.setItem("popCookieWindow", "0");
-const { Query, User } = AV;
-AV.init({
-    appId:"IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
-    appKey:"vG8s9ukVO5bgozEHzR923dew",
-    serverURL:"https://ivw3t1nj.lc-cn-n1-shared.com"
-})
-// const query3 = new AV.Query('referers');
-// query3.equalTo('url',document.referrer.split("/")[2]);
-// query3.find().then((counts) => {
-//   console.log(counts[0]["count"]);
-// });
