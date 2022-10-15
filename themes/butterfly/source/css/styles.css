@@ -18,6 +18,12 @@
     font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
     src: url('/font/FZShouJiOuDieZhengKai.woff2') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
 }
+@font-face{
+    font-family: 'ZhuZiAWan';
+    font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
+    src: url('/font/ZhuZiAWan.woff2') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
+}
+
 :root{
     --global-font:"HYTMR"
 }
@@ -3127,5 +3133,5 @@ transform: translateY(5px);}
     z-index:100
 }
 #nav{
-    z-index: 114;
+    z-index: 114!important;
 }
