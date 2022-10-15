@@ -270,7 +270,7 @@ type: "links"
 ```yaml
 - name: LYXの小破站
   link: https://yisous.xyz
-  avatar: https://bu.dusays.com/2022/09/24/632f277df0246.jpg
+  avatar: https://bu.dusays.com/2022/10/15/634a35ef83cd1.jpg
   descr: 人有悲欢离合 月有阴晴圆缺
   siteshot: https://vercel.yisous.xyz/img/siteshot.png
 ```
@@ -282,7 +282,7 @@ type: "links"
   title: 'LYXの小破站',
   intro: '人有悲欢离合 月有阴晴圆缺',
   link: 'https://yisous.xyz/',
-  avatar: 'https://bu.dusays.com/2022/09/24/632f277df0246.jpg'
+  avatar: 'https://bu.dusays.com/2022/10/15/634a35ef83cd1.jpg'
 }
 ```
 <!-- endtab -->
@@ -290,7 +290,7 @@ type: "links"
 <!-- tab volantis -->
 ```yaml
 - title: LYXの小破站
-  avatar: https://bu.dusays.com/2022/09/24/632f277df0246.jpg
+  avatar: https://bu.dusays.com/2022/10/15/634a35ef83cd1.jpg
   url: https://yisous.xyz/
   screenshot: https://vercel.yisous.xyz/img/siteshot.png
   keywords: 个人博客
@@ -300,7 +300,7 @@ type: "links"
 
 <!-- tab html -->
 ```html
-<a href="https://yisous.xyz"><img src="https://bu.dusays.com/2022/09/24/632f277df0246.jpg" alt="avatar">LYXの小破站</a>
+<a href="https://yisous.xyz"><img src="https://bu.dusays.com/2022/10/15/634a35ef83cd1.jpg" alt="avatar">LYXの小破站</a>
 ```
 <!-- endtab -->
 
