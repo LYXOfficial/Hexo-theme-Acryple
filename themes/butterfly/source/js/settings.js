@@ -238,6 +238,8 @@ function createWinbox() {
     <a class="swf" href="javascript:;" rel="noopener external nofollow" style="font-family:'FZXS'!important;color:black" onclick="setFont('FZXS')">方正像素体</a> <br>
     <a class="swf" href="javascript:;" rel="noopener external nofollow" style="font-family:'ZhuZiAWan'!important;color:black" onclick="setFont('ZhuZiAWan')">筑紫A丸ゴシック</a> <br>
     <a class="swf" href="javascript:;" rel="noopener external nofollow" style="font-family:'FZODZK'!important;color:black" onclick="setFont('FZODZK')">方正欧蝶正楷</a> <br>
+    <a class="swf" href="javascript:;" rel="noopener external nofollow" style="font-family:'Source Serif'!important;color:black" onclick="setFont('Source Serif')">思源宋体</a> <br>
+    <a class="swf" href="javascript:;" rel="noopener external nofollow" style="font-family:'Source Sans'!important;color:black" onclick="setFont('Source Sans')">思源黑体</a> <br>
     <a class="swf" href="javascript:;" rel="noopener external nofollow" style="font-family:-apple-system, IBM Plex Mono ,monosapce,'微软雅黑', sans-serif;!important;color:black" onclick="setFont('main')">系统默认</a> <br>
     </p>
 </div>

@@ -24,6 +24,16 @@
     src: url('/font/ZhuZiAWan.woff2') format("woff2");/*/font/HYTangMeiRen55W.ttf*/
 }
 @font-face{
+    font-family: 'Source Serif';
+    font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
+    src: url('/font/SourceHanSerifSC-Medium.otf') format("opentype");/*/font/HYTangMeiRen55W.ttf*/
+}
+@font-face{
+    font-family: 'Source Sans';
+    font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
+    src: url('/font/SourceHanSansCN-Medium.otf') format("opentype");/*/font/HYTangMeiRen55W.ttf*/
+}
+@font-face{
     font-family: 'Monaco';
     font-display: swap; /*https://ghproxy.com/https://raw.githubusercontent.com/LYXOfficial/LYXOfficial.github.io/master/font/HYTangMeiRen55W.woff2*/
     src: url('/font/MONACO.TTF') format("truetype");/*/font/HYTangMeiRen55W.ttf*/
