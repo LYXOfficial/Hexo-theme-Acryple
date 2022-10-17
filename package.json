@@ -35,7 +35,7 @@
     "hexo-generator-calendar": "github:howiefh/hexo-generator-calendar",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^3.0.0",
-    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-index": "^3.0.0",
     "hexo-generator-json-content": "^4.2.3",
     "hexo-generator-random": "^1.0.2",
     "hexo-generator-search": "^2.4.3",
