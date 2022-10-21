@@ -268,9 +268,9 @@ type: "links"
 {% tabs  %}
 <!-- tab Butterfly & MengD -->
 ```yaml
-- name: LYXの小破站
+- name: Ariasakaの小窝
   link: https://yisous.xyz
-  avatar: https://bu.dusays.com/2022/10/15/634a35ef83cd1.jpg
+  avatar: https://bu.dusays.com/2022/10/22/6352dfd1f3fa3.png
   descr: 人有悲欢离合 月有阴晴圆缺
   siteshot: https://vercel.yisous.xyz/img/siteshot.png
 ```
@@ -279,18 +279,18 @@ type: "links"
 <!-- tab fluid -->
 ```json
 - {
-  title: 'LYXの小破站',
+  title: 'Ariasakaの小窝',
   intro: '人有悲欢离合 月有阴晴圆缺',
   link: 'https://yisous.xyz/',
-  avatar: 'https://bu.dusays.com/2022/10/15/634a35ef83cd1.jpg'
+  avatar: 'https://bu.dusays.com/2022/10/22/6352dfd1f3fa3.png'
 }
 ```
 <!-- endtab -->
 
 <!-- tab volantis -->
 ```yaml
-- title: LYXの小破站
-  avatar: https://bu.dusays.com/2022/10/15/634a35ef83cd1.jpg
+- title: Ariasakaの小窝
+  avatar: https://bu.dusays.com/2022/10/22/6352dfd1f3fa3.png
   url: https://yisous.xyz/
   screenshot: https://vercel.yisous.xyz/img/siteshot.png
   keywords: 个人博客
@@ -300,7 +300,7 @@ type: "links"
 
 <!-- tab html -->
 ```html
-<a href="https://yisous.xyz"><img src="https://bu.dusays.com/2022/10/15/634a35ef83cd1.jpg" alt="avatar">LYXの小破站</a>
+<a href="https://yisous.xyz"><img src="https://bu.dusays.com/2022/10/22/6352dfd1f3fa3.png" alt="avatar">Ariasakaの小窝</a>
 ```
 <!-- endtab -->
 

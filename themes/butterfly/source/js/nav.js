@@ -24,4 +24,4 @@ $(window).scroll(function () {
 
 });
 
-document.getElementById("page-name").innerText = document.title.split(" | LYXの小破站")[0];
+document.getElementById("page-name").innerText = document.title.split(" | Ariasakaの小窝")[0];

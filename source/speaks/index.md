@@ -1,3 +1,6 @@
+---
+title: 说说
+---
 <!-- <script src="//cdn1.tianli0.top/npm/leancloud-storage@4.13.2/dist/av-min.js"></script>
 <div id="lyxTalk"></div>
 
@@ -5,7 +8,7 @@
 <link rel="stylesheet" src="/css/lyxTalk.css">
 <script>
   const { Query, User } = AV;
-document.title = '说说 | LYXの小破站'; 
+document.title = '说说 | Ariasakaの小窝'; 
 lyxTalk.init("IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
   "vG8s9ukVO5bgozEHzR923dew",
   'https://ivw3t1nj.lc-cn-n1-shared.com',
@@ -16,7 +19,7 @@ lyxTalk.init("IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
 <!-- 引用 bbtalk -->
 <script src="/js/bbtalk.js"></script>
 <script>
-  document.title = '说说 | LYXの小破站'; 
+  document.title = '说说 | Ariasakaの小窝'; 
 bbtalk.init({
   appId: "IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
   appKey: "vG8s9ukVO5bgozEHzR923dew",

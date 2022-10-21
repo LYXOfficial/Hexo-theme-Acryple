@@ -15,7 +15,7 @@ updated: 2022-10-14 19:49:29
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
-{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
+{% link Hexo Butterfly博客魔改的一点点基础,Ariasakaの小窝,https://yisous.xyz/posts/583ff077/ %}
 
 在开始前，先说一些事情吧。最近要开学了，所以博客的更新会放缓，大概能够周更，不过几周鸽几下也是有可能的。
 
@@ -300,7 +300,7 @@ function scrollToTop(){
     btf.scrollToDest(0, 500);
 }
 //修复没有弄右键菜单的童鞋无法回顶部的问题
-document.getElementById("page-name").innerText = document.title.split(" | LYXの小破站")[0];
+document.getElementById("page-name").innerText = document.title.split(" | Ariasakaの小窝")[0];
 /*这里是去掉你的网站全局名称的设置，如果你不需要去掉，你可以写成：
 document.getElementById("page-name").innerText=document.title
 

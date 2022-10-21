@@ -15,7 +15,7 @@ updated: 2022-09-17 22:28:10
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
-{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
+{% link Hexo Butterfly博客魔改的一点点基础,Ariasakaの小窝,https://yisous.xyz/posts/583ff077/ %}
 
 很久以前，[Dorakika](https://blog.dorakika.cn)自己做了一个不错的右键菜单，借鉴于Volantis主题，当然我是在[洪哥的博客](https://blog.zhheo.com/p/5e931b65.html)里面看到的。
 

@@ -109,7 +109,7 @@ nav#nav
 
 出自————
 
-{% link 关于Butterfly的导航栏的一些教程,LYXの小破站,https://yisous.xyz/posts/895003b5/ %}
+{% link 关于Butterfly的导航栏的一些教程,Ariasakaの小窝,https://yisous.xyz/posts/895003b5/ %}
 
 这里的“-”号表示删除源文件的内容，"+"号表示在这里增加，“...”表示省略内容，在根据其修改完文件后，要去掉前面的加号和减号，不要加或者减少一个空格，所以如果原来的文件是：
 

@@ -15,7 +15,7 @@ updated: 2022-09-17 22:28:10
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
-{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
+{% link Hexo Butterfly博客魔改的一点点基础,Ariasakaの小窝,https://yisous.xyz/posts/583ff077/ %}
 
 # 前言&效果
 
