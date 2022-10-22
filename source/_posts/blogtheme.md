@@ -1,5 +1,6 @@
 ---
 title: 博客正式独立主题啦！
+abbrlink: a1078b2d
 date: 2022-10-22 13:10:25
 tags:
 categories:

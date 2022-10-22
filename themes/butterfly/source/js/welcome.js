@@ -27,3 +27,5 @@ if (sessionStorage.getItem("popCookieWindow") != "0") {
     }, 3000)
 }
 sessionStorage.setItem("popCookieWindow", "0");
+
+

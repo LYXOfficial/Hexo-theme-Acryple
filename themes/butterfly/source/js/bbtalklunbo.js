@@ -16,10 +16,8 @@ window.onload=function(){
 var count=0;
 document.getElementsByClassName("shuoshuo")[0].innerHTML=speaks[count%speaks.length];
     count++;
-    console.log(count);
 setInterval(()=>{
     document.getElementsByClassName("shuoshuo")[0].innerHTML=speaks[count%speaks.length];
     count++;
-    console.log(count);
 },5000)
 }
