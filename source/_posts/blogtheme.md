@@ -2,8 +2,9 @@
 title: 博客正式独立主题啦！
 abbrlink: a1078b2d
 date: 2022-10-22 13:10:25
-tags:
-categories:
+tags: 个人
+categories: 个人
+cover: https://bu.dusays.com/2022/10/23/63542683a5590.png
 ---
 
 经过了深思熟虑，觉得博客应该独立一个主题出来了（毕竟大家都这么干），那么这个主题就不是butterfly了，她有了新的名字————
