@@ -260,6 +260,11 @@ type: "links"
     avatar: https://cos.ichika.cc/page%2FHeadIcon.jpg
     descr: Hello,gamer!
     theme_color: "#49A6E9"
+  - name: 包子哟
+    link: https://blog.bugjava.cn
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2377743797&spec=100
+    descr: 一个练习Bug时长两年半的程序员建立的小站
+    theme_color: "#e6f7f5"
 {% endflink %}
 
 
