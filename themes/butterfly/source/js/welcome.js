@@ -6,11 +6,16 @@ if (localStorage.getItem("popWelcomeWindow") != "0") {
             text: `欢迎访问本站！`
         })
     }else{
+    try{
     Snackbar.show({
         pos: "top-right",
         showAction: false,
-        text: `欢迎来自${document.referer.split("/")[2]}的童鞋访问本站！`
-    })
+        text: `欢迎来自${document.referer.split("://")[1]}的童鞋访问本站！`
+    })}catch(err){Snackbar.show({
+        pos: "top-right",
+        showAction: false,
+        text: `欢迎访问本站！`
+    })}
     localStorage.setItem("popWelcomeWindow", "0");
 }
 }

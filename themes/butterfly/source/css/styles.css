@@ -3174,3 +3174,21 @@ transform: translateY(5px);}
 .highlight table *,code{
     font-family: "Monaco",var(--global-font),-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif!important;
 }
+#fps{
+    position: fixed;
+    left:10px;
+    bottom:10px;
+    z-index: 1919810;
+}
+[data-theme="light"] #fps{
+    background-color: var(--lyx-white-acrylic1);
+    padding: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}
+[data-theme="dark"] #fps{
+    background-color: var(--lyx-black-acrylic1);
+    padding: 4px;
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+}

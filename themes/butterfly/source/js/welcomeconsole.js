@@ -1,5 +1,5 @@
 setTimeout(function(){
-    console.clear()
+    // console.clear()
     console.log(`Hexo-theme-Acryple based on Butterfly 4.2.2
 
 欢迎访问本站！等了这么久总算等到你啦！
