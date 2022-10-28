@@ -265,6 +265,11 @@ type: "links"
     avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2377743797&spec=100
     descr: 一个练习Bug时长两年半的程序员建立的小站
     theme_color: "#e6f7f5"
+  - name: MqyGalaxy|Blog
+    link: https://blog.moeqy.com
+    avatar: https://cdn.jsdelivr.net/gh/MqyGalaxy/MyBlog@latest/images/avatarLOGO.jpg
+    descr: 爱好ACG的温馨小窝
+    theme_color: #FFB6C1
 {% endflink %}
 
 
