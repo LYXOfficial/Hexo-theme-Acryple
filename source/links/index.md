@@ -269,7 +269,7 @@ type: "links"
     link: https://blog.moeqy.com
     avatar: https://cdn.jsdelivr.net/gh/MqyGalaxy/MyBlog@latest/images/avatarLOGO.jpg
     descr: 爱好ACG的温馨小窝
-    theme_color: #FFB6C1
+    theme_color: "#FFB6C1"
 {% endflink %}
 
 
