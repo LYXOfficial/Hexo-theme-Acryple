@@ -10,7 +10,9 @@ if(localStorage.getItem("blur")=="false"){
         var yjjs=0;
         
     }
-
+    if(localStorage.getItem("fpson")==undefined){
+        localStorage.setItem("fpson","1");
+    }
 if(!blur){
     document.getElementById("settingStyle").innerText=`
     *{
@@ -160,6 +162,13 @@ function setFont(n){
         document.documentElement.style.setProperty('--global-font', n)
     }
 }
+function fpssw(){
+    if(localStorage.getItem("fpson")=="1"){
+        localStorage.setItem("fpson","0");
+    }else{
+        localStorage.setItem("fpson","1");
+    }
+}
 // 以下为2.0新增内容
 
 // 创建窗口
@@ -203,9 +212,11 @@ function createWinbox() {
     <div class="content" style="display:flex"><input type="checkbox" id="blur" onclick="setBlur()">
         <div class="content-text">禁用模糊效果</div>
     </div>
-    <div class="content" style="display:flex"><input type="checkbox" id="yjjs" onclick="yjjs1()"
-            value="onrightMenurightMenu">
+    <div class="content" style="display:flex"><input type="checkbox" id="yjjs" onclick="yjjs1()">
         <div class="content-text">硬件加速</div>
+    </div>
+    <div class="content" style="display:flex"><input type="checkbox" id="fpson" onclick="fpssw()">
+        <div class="content-text">开启帧率检测（<a href="javascript:window.location.reload()">刷新</a>后生效）</div>
     </div>
     <p></p>
     <h2 class="content-head">主题设置</h2>
@@ -320,6 +331,9 @@ if(localStorage.getItem("blur")=="false"){
 }
 if(localStorage.getItem("yjjs")=="true"){
     document.getElementById("yjjs").checked=true;
+}
+if(localStorage.getItem("fpson")=="1"){
+    document.getElementById("fpson").checked=true;
 }
 if(localStorage.getItem("hideRightside")=="1"){
     document.getElementById("hideAside").checked=true;

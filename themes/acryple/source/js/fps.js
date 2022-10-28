@@ -1,3 +1,4 @@
+if(window.localStorage.getItem("fpson")=="1"){
 var rAF = function () {
     return (
         window.requestAnimationFrame ||
@@ -50,3 +51,5 @@ var loop = function () {
 }
 
 loop();
+}
+else{document.getElementById("fpson").style="display:none!important"}

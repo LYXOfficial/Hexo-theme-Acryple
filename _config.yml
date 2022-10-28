@@ -114,7 +114,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: acryple
 search:
   path: search.xml
   field: post # post:文章范围、page:页面范围、all:覆盖所有
