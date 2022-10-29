@@ -6,17 +6,20 @@ tags:
   - Hexo魔改
   - 干货教程
   - 推荐文章
-  - 建站
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a785d717.webp
 swiper_index: 6
 description: 让你的博客看起来更舒服
+<<<<<<< HEAD
 updated: 2022-10-04 08:50:19
+=======
+updated: 2022-09-17 22:28:10
+>>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
-{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
+{% link Hexo Butterfly博客魔改的一点点基础,Ariasakaの小窝,https://yisous.xyz/posts/583ff077/ %}
 
 {% note info simple %}
 

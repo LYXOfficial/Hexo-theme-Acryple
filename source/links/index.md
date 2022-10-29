@@ -239,12 +239,45 @@ type: "links"
     link: https://blog.vvxing.cn/
     avatar: https://assets.yuxinghe.top/images/picgo/2022/09/202209300927526.jpg
     descr: 欲买桂花同载酒，终不似，少年游
+<<<<<<< HEAD
     theme_color: "#4c5b24"
+=======
+    theme_color: "#bcba9c"
+>>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
   - name: 十七
     link: http://www.shiqi217.com
     avatar: https://cdn.staticaly.com/gh/rg617yyds/lcl-img@master/urllcl/myVia.jpg
     descr: 愿时光能缓，愿你笑靥如花
+<<<<<<< HEAD
     theme_color: "#eba38c"
+=======
+    theme_color: "#776a5a"
+  - name: 探人间
+    link: https://www.hydsb0.com
+    avatar: https://s1.ax1x.com/2022/08/14/vaPI3R.jpg
+    descr: 努力吃上更贵的雪糕！
+    theme_color: "#ffdbe4"
+  - name: Mycpen
+    link: https://cpen.top/
+    avatar: https://image.cpen.top/image/avatar.jpg
+    descr: 这是一个有趣的博客
+    theme_color: "#b19a7b"
+  - name: ichika
+    link: https://ichika.cc
+    avatar: https://cos.ichika.cc/page%2FHeadIcon.jpg
+    descr: Hello,gamer!
+    theme_color: "#49A6E9"
+  - name: 包子哟
+    link: https://blog.bugjava.cn
+    avatar: https://q2.qlogo.cn/headimg_dl?dst_uin=2377743797&spec=100
+    descr: 一个练习Bug时长两年半的程序员建立的小站
+    theme_color: "#e6f7f5"
+  - name: MqyGalaxy|Blog
+    link: https://blog.moeqy.com
+    avatar: https://cdn.jsdelivr.net/gh/MqyGalaxy/MyBlog@latest/images/avatarLOGO.jpg
+    descr: 爱好ACG的温馨小窝
+    theme_color: "#FFB6C1"
+>>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
 {% endflink %}
 
 
@@ -253,9 +286,9 @@ type: "links"
 {% tabs  %}
 <!-- tab Butterfly & MengD -->
 ```yaml
-- name: LYXの小破站
+- name: Ariasakaの小窝
   link: https://yisous.xyz
-  avatar: https://bu.dusays.com/2022/09/24/632f277df0246.jpg
+  avatar: https://bu.dusays.com/2022/10/22/6352dfd1f3fa3.png
   descr: 人有悲欢离合 月有阴晴圆缺
   siteshot: https://vercel.yisous.xyz/img/siteshot.png
 ```
@@ -264,18 +297,18 @@ type: "links"
 <!-- tab fluid -->
 ```json
 - {
-  title: 'LYXの小破站',
+  title: 'Ariasakaの小窝',
   intro: '人有悲欢离合 月有阴晴圆缺',
   link: 'https://yisous.xyz/',
-  avatar: 'https://bu.dusays.com/2022/09/24/632f277df0246.jpg'
+  avatar: 'https://bu.dusays.com/2022/10/22/6352dfd1f3fa3.png'
 }
 ```
 <!-- endtab -->
 
 <!-- tab volantis -->
 ```yaml
-- title: LYXの小破站
-  avatar: https://bu.dusays.com/2022/09/24/632f277df0246.jpg
+- title: Ariasakaの小窝
+  avatar: https://bu.dusays.com/2022/10/22/6352dfd1f3fa3.png
   url: https://yisous.xyz/
   screenshot: https://vercel.yisous.xyz/img/siteshot.png
   keywords: 个人博客
@@ -285,7 +318,7 @@ type: "links"
 
 <!-- tab html -->
 ```html
-<a href="https://yisous.xyz"><img src="https://bu.dusays.com/2022/09/24/632f277df0246.jpg" alt="avatar">LYXの小破站</a>
+<a href="https://yisous.xyz"><img src="https://bu.dusays.com/2022/10/22/6352dfd1f3fa3.png" alt="avatar">Ariasakaの小窝</a>
 ```
 <!-- endtab -->
 

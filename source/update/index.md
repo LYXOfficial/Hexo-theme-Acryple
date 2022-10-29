@@ -2,6 +2,26 @@
 title: 网站更新日志
 date: 2022-7-2 19:56:00
 ---
+![1666459263178.png](https://bu.dusays.com/2022/10/23/63542683a5590.png)
+
+Acryple v1.0.0 2022-10-23
+
+经过了深思熟虑，博客主题独立啦！
+
+现在的主题叫做Acryple，具体见：
+{% link 博客正式独立主题啦！,Ariasakaの小窝,yisous.xyz/posts/a1078b2d %}
+
+目前博客有：
+
+1. 更好的右键菜单
+2. 留言弹幕
+3. 博客设置（功能贼多大家自己看）
+4. 不错的UI，至今为止主css(`style.css`)有3k行
+5. 一些小功能比如公祭日弹窗自动欢迎等
+
+大概就是这些了。
+
+{% hideToggle 以前的更新日志 %}
 哔哩哔哩 (゜-゜)つロ 干杯！
 
 {% timeline 2022 %}
@@ -93,3 +113,4 @@ Gitalk不知道为什么不显示出来...
 8. 总算部署好朋友圈了！leancloud国内版垃圾！
 <!-- endtimeline -->
 {% endtimeline %}
+{% endhideToggle %}

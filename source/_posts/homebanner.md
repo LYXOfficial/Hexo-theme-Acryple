@@ -6,15 +6,18 @@ tags:
   - Hexo魔改
   - 干货教程
   - 推荐文章
-  - 建站
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/09/01/63103a65e883d.webp
+<<<<<<< HEAD
 updated: 2022-10-04 08:50:19
+=======
+updated: 2022-10-14 19:28:14
+>>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 
-{% link Hexo Butterfly博客魔改的一点点基础,LYXの小破站,https://yisous.xyz/posts/583ff077/ %}
+{% link Hexo Butterfly博客魔改的一点点基础,Ariasakaの小窝,https://yisous.xyz/posts/583ff077/ %}
 
 {% note warning simple %}
 本期教程需要脑子和一定的pug编写能力，小白请谨慎食用！可以在评论区提问，我会想办法帮你解决。
@@ -44,7 +47,11 @@ updated: 2022-10-04 08:50:19
 ```python
 div(id="random")
     iframe(id="random-banner" src="/people.html" frameborder="no")  #可以换成自己的图片
+<<<<<<< HEAD
     a(id="random-hover" style="width:100%;height:auto;" href="javascript:toRandomPost()")         #默认用random.js，也可以换成random.html
+=======
+    a(id="random-hover" style="width:100%;height:auto;" href="javascript:toRandomPost()")         #默认用洪哥的无缝随机js，也可以换成random.html
+>>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
         span &nbsp
         i.fa.fa-paper-plane
         div &nbsp随便逛逛→

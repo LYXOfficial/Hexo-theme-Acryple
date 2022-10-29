@@ -6,13 +6,16 @@ tags:
   - Hexo魔改
   - 干货教程
   - 推荐文章
-  - 建站
 categories:
   - Hexo魔改
 swiper_index: 11
 description: 新手必看
 cover: https://bu.dusays.com/2022/10/06/633ecb6d3bd20.webp
+<<<<<<< HEAD
 updated: 2022-10-04 08:50:19
+=======
+updated: 2022-10-14 19:28:14
+>>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
 ---
 
 
@@ -110,7 +113,7 @@ nav#nav
 
 出自————
 
-{% link 关于Butterfly的导航栏的一些教程,LYXの小破站,https://yisous.xyz/posts/895003b5/ %}
+{% link 关于Butterfly的导航栏的一些教程,Ariasakaの小窝,https://yisous.xyz/posts/895003b5/ %}
 
 这里的“-”号表示删除源文件的内容，"+"号表示在这里增加，“...”表示省略内容，在根据其修改完文件后，要去掉前面的加号和减号，不要加或者减少一个空格，所以如果原来的文件是：
 

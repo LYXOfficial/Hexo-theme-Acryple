@@ -1,0 +1,45 @@
+#rightside {
+  position: fixed;
+  right: 48px;
+  bottom: $rightside-bottom;
+  z-index: 100;
+  opacity: 0;
+  transition: all 0.5s;
+maxWidth900()
+}
+#rightside #rightside-config-hide {
+  height: 0;
+  opacity: 0;
+  transition: transform 0.4s;
+  transform: translate(45px, 0);
+}
+#rightside #rightside-config-hide.show {
+  height: auto;
+  opacity: 1;
+  transform: translate(0, 0);
+}
+#rightside #rightside-config-hide.status {
+  height: auto;
+  opacity: 1;
+}
+#rightside > div > button,
+#rightside > div > a {
+  display: block;
+  margin-bottom: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  text-align: center;
+  font-size: 16px;
+  line-height: 35px;
+}
+#rightside > div > button:hover,
+#rightside > div > a:hover {
+  background-color: var(--btn-hover-color);
+}
+#rightside #mobile-toc-button {
+  display: none;
+maxWidth900()
+}
