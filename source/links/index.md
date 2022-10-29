@@ -239,18 +239,11 @@ type: "links"
     link: https://blog.vvxing.cn/
     avatar: https://assets.yuxinghe.top/images/picgo/2022/09/202209300927526.jpg
     descr: 欲买桂花同载酒，终不似，少年游
-<<<<<<< HEAD
-    theme_color: "#4c5b24"
-=======
     theme_color: "#bcba9c"
->>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
   - name: 十七
     link: http://www.shiqi217.com
     avatar: https://cdn.staticaly.com/gh/rg617yyds/lcl-img@master/urllcl/myVia.jpg
     descr: 愿时光能缓，愿你笑靥如花
-<<<<<<< HEAD
-    theme_color: "#eba38c"
-=======
     theme_color: "#776a5a"
   - name: 探人间
     link: https://www.hydsb0.com
@@ -277,7 +270,11 @@ type: "links"
     avatar: https://cdn.jsdelivr.net/gh/MqyGalaxy/MyBlog@latest/images/avatarLOGO.jpg
     descr: 爱好ACG的温馨小窝
     theme_color: "#FFB6C1"
->>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
+  - name: wsbの博客
+    link: https://wsbblog.github.io
+    avatar: https://www.imagehub.cc/image/wsb1.GCDGuD
+    descr: 己所不欲，勿施于人
+    theme_color: "#f7f7f7"
 {% endflink %}
 
 
