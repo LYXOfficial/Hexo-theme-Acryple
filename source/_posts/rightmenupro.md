@@ -11,11 +11,7 @@ categories:
 swiper_index: 9
 description: 更好的右键菜单mod
 cover: https://bu.dusays.com/2022/09/01/63103a589651a.webp
-<<<<<<< HEAD
 updated: 2022-10-04 08:50:19
-=======
-updated: 2022-09-17 22:28:10
->>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
 ---
 在开始前，请先确保你已看此Hexo魔改系列前置教程，或者你是老司机：
 

@@ -11,11 +11,7 @@ categories:
 swiper_index: 11
 description: 新手必看
 cover: https://bu.dusays.com/2022/10/06/633ecb6d3bd20.webp
-<<<<<<< HEAD
 updated: 2022-10-04 08:50:19
-=======
-updated: 2022-10-14 19:28:14
->>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
 ---
 
 

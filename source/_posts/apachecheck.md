@@ -11,11 +11,7 @@ categories:
 cover: https://bu.dusays.com/2022/09/01/63103bb7690d6.webp
 abbrlink: 61b9829e
 date: 2022-07-25 15:05:21
-<<<<<<< HEAD
 updated: 2022-10-04 08:50:19
-=======
-updated: 2022-09-17 22:28:10
->>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
 ---
 
 # 前言

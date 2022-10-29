@@ -12,11 +12,7 @@ categories:
 abbrlink: 8245da27
 date: 2022-08-08 07:36:49
 cover: https://bu.dusays.com/2022/09/01/63103a69227fd.webp
-<<<<<<< HEAD
 updated: 2022-10-04 08:50:19
-=======
-updated: 2022-09-17 22:28:10
->>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
 ---
 
 咕咕咕。。。

@@ -14,11 +14,7 @@ swiper_index: 2
 abbrlink: 14740f7c
 date: 2022-07-25 12:12:10
 cover:
-<<<<<<< HEAD
 updated: 2022-10-04 08:50:19
-=======
-updated: 2022-09-17 22:28:10
->>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4
 ---
 
 # 前言

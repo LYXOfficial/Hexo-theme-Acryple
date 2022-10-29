@@ -3105,10 +3105,6 @@ transform: translateY(5px);}
     -ms-transform: scale(0.5);
     -o-transform: scale(0.5);
 }
-<<<<<<< HEAD:themes/butterfly/source/css/styles.css
-=======
-
->>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4:themes/acryple/source/css/styles.css
 .swf{
     padding: 10px;
     font-size: 20px;
@@ -3123,8 +3119,6 @@ transform: translateY(5px);}
 }
 .content-button:hover{
     opacity: .7;
-<<<<<<< HEAD:themes/butterfly/source/css/styles.css
-=======
 }
 .card-widget.card-info{
     background-color: transparent!important;
@@ -3204,5 +3198,4 @@ transform: translateY(5px);}
     padding: 4px;
     border-radius: 4px;
     backdrop-filter: blur(10px);
->>>>>>> 28d80e74829246a765b22a69cd63cfc6b4529eb4:themes/acryple/source/css/styles.css
 }
