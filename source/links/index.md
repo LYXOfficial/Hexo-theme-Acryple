@@ -170,8 +170,8 @@ type: "links"
     descr: 因为不可能，所以才值得相信
     theme_color: "#d3d5e7"
   - name: Terorの客栈
-    link: https://fox.js.cool/
-    avatar: https://fox.js.cool/img/avatar.png
+    link: https://blog.trfox.ml
+    avatar: https://blog.trfox.ml/img/avatar.png
     descr: 方寸之间，深不见底
     theme_color: "#e67d41"
   - name: Saiodgm
@@ -275,6 +275,17 @@ type: "links"
     avatar: https://www.imagehub.cc/image/wsb1.GCDGuD
     descr: 己所不欲，勿施于人
     theme_color: "#f7f7f7"
+  - name: Echo’s blog  
+    link: https://www.liveout.cn/
+    avatar: https://www.liveout.cn/wp-content/uploads/2022/10/headphoto-e1664894607966.png
+    descr: 韶华不为少年留  恨悠悠  几时休
+    theme_color: "#999"
+  - name: 生活倒影
+    link: https://poetize.cn
+    avatar: https://file.poetize.cn/webAvatar/Sara116383637867956
+    descr: 这是一个 Vue2 Vue3 与 SpringBoot 结合的产物～
+    theme_color: "#9f9794"
+   
 {% endflink %}
 
 
