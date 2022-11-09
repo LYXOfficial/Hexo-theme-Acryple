@@ -16,11 +16,6 @@ menu:
     分站: /othersite/ || fa fa-tasks
     日志: /update/ || fa fa-bell 
     留言板: /messageboard/ || fa fa-blackboard
-  项目 || fas fa-book:
-    uClock: https://github.com/lyxofficial/uclock
-    PythonDevelopManger: https://github.com/lyxofficial/PythondevolopManger    
-    Dxdownload(弃坑): https://github.com/lyxofficial/dxdownload
-    # 推广页: /projects.html 
   我的 || fa-fw fas fa-address-card:
     宝藏工具类网站: /tools/ || fa-fw fas fa-tools
     电影: /movies/ || fa fa-photo-video

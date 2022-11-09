@@ -89,7 +89,7 @@ function addflink() {
   link: #友链地址（建议博客，而不是主页，否则友链朋友圈无法爬取）
   avatar: #友链头像
   descr: #介绍
-  theme_color: #友链背景色
+  theme_color: #友链背景色，因为#号在yaml中识别为注释请加引号
 \`\`\``, e.dispatchEvent(t);
 }
 
