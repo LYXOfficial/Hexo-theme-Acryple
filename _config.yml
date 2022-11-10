@@ -39,7 +39,7 @@ skip_render:
   - googlee2a292c45f2bba42.html
   - linksmessage.html
   - people.html
-
+  - noie.html
 # hexo-admin authentification
 admin:
   username: lyx2010official@outlook.com

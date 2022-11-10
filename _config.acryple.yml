@@ -890,7 +890,7 @@ inject:
   - <script src="/swReg.js"></script>
   - <span id="fps"></span>
   bottom:
-  - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/sweetalert2@8.19.0/dist/sweetalert2.all.js"></script>
+  - <script type="text/javascript" src="/js/noie.js"></script>
   - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
   - <script src="https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script>
   - <script type="text/javascript" src="/js/rightmenu.js"></script>

@@ -21,6 +21,12 @@ Acryple v1.0.0 2022-10-23
 
 大概就是这些了。
 
+
+Acryple v1.0.14
+
+1. 修复部分~~bug~~（不，特性
+2. 优化性能问题（但是好像还是没毛提升
+3. 增加浏览器过期提醒以及banIE，参考[chuckle](https://chuckle.top/article/e61f6567.html)以及b站
 {% hideToggle 以前的更新日志 %}
 哔哩哔哩 (゜-゜)つロ 干杯！
 
