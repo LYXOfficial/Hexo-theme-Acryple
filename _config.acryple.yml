@@ -607,7 +607,7 @@ beautify:
 font:
   global-font-size: 15px
   code-font-size: 
-  font-family: HYTMR ,-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif
+  font-family: -apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif
   code-font-family: JetBrains Mono , monospace
 
 # Font settings for the site title and site subtitle

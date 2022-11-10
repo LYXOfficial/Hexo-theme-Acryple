@@ -39,7 +39,7 @@
     src: url('/font/MONACO.TTF') format("truetype");/*/font/HYTangMeiRen55W.ttf*/
 }
 :root{
-    --global-font:"HYTMR"
+    --global-font:""
 }
 body {
     font-family: var(--global-font),-apple-system, IBM Plex Mono ,monosapce,"微软雅黑", sans-serif;
