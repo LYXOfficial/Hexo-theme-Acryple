@@ -27,6 +27,20 @@ Acryple v1.0.14
 1. 修复部分~~bug~~（不，特性
 2. 优化性能问题（但是好像还是没毛提升
 3. 增加浏览器过期提醒以及banIE，参考[chuckle](https://chuckle.top/article/e61f6567.html)以及b站
+4. 增加fps显示
+5. 评论表情添加颜文字
+
+![1668068215334.png](https://bu.dusays.com/2022/11/10/636cb378cb6f8.png)
+
+![1668068189449.png](https://bu.dusays.com/2022/11/10/636cb35f2f686.png)
+
+![1668068277934.png](https://bu.dusays.com/2022/11/10/636cb3ba2c1af.png)
+
+![1668069244663.png](https://bu.dusays.com/2022/11/10/636cb77e05a3f.png)
+
+![1668068328066.png](https://bu.dusays.com/2022/11/10/636cb3ea2923d.png)
+
+PS：作为一个萌新OIer依然没有考虑发oi文 ╮(╯▽╰)╭ 
 {% hideToggle 以前的更新日志 %}
 哔哩哔哩 (゜-゜)つロ 干杯！
 
@@ -116,7 +130,7 @@ Gitalk不知道为什么不显示出来...
 6. 修复留言弹幕、右键菜单的bug并且把新版的代码更新到文章中
 7. 优化细节样式
 8. 新增最新文章标记
-8. 总算部署好朋友圈了！leancloud国内版垃圾！
+9. 总算部署好朋友圈了！leancloud国内版垃圾！
 <!-- endtimeline -->
 {% endtimeline %}
 {% endhideToggle %}
