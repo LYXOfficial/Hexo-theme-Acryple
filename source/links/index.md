@@ -280,7 +280,11 @@ type: "links"
     avatar: https://www.liveout.cn/wp-content/uploads/2022/10/headphoto-e1664894607966.png
     descr: "韶华不为少年留  恨悠悠  几时休"
     theme_color: "#999"
-
+  - name: 生活倒影
+    link: https://poetize.cn
+    avatar: https://file.poetize.cn/webAvatar/Sara116383637867956
+    descr: "这是一个Vue2 Vue3与SpringBoot结合的产物~"
+    theme_color: "#9f9794"
    
 {% endflink %}
 
