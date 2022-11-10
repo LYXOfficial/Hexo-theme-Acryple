@@ -29,6 +29,7 @@ Acryple v1.0.14
 3. 增加浏览器过期提醒以及banIE，参考[chuckle](https://chuckle.top/article/e61f6567.html)以及b站
 4. 增加fps显示
 5. 评论表情添加颜文字
+6. 修复手机端侧边栏bug
 
 ![1668068215334.png](https://bu.dusays.com/2022/11/10/636cb378cb6f8.png)
 
