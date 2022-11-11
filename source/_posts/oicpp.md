@@ -2,8 +2,10 @@
 title: OI-C++中常用的一些STL函数和模板
 abbrlink: 4ebac27c
 date: 2022-11-11 08:26:10
-tags:
+tags: 
+- OI
 categories:
+- OI
 cover: https://bu.dusays.com/2022/11/11/636db721a99c1.webp
 ---
 
