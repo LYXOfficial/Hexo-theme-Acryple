@@ -4,6 +4,7 @@ abbrlink: 4ebac27c
 date: 2022-11-11 08:26:10
 tags:
 categories:
+cover: https://bu.dusays.com/2022/11/11/636db721a99c1.webp
 ---
 
 （仅作个人备忘）
@@ -235,4 +236,55 @@ for(int i=2;i<=n;i++){
 }
 ```
 
-# 
+# 搜索
+
+搜索虽然我背得模板但是用的不太熟悉qwq，依然是穷举贪心tle，然后助我退役
+
+![1668133472932.png](https://bu.dusays.com/2022/11/11/636db262b913f.png)
+
+![1668133599340.png](https://bu.dusays.com/2022/11/11/636db2e05ff71.png)
+
+![1668133671028.png](https://bu.dusays.com/2022/11/11/636db3281f436.png)
+
+![1668133741932.png](https://bu.dusays.com/2022/11/11/636db36edf885.png)
+
+笑死。
+
+## DFS
+
+DFS比BFS貌似好理解点，因为是递归，一个费stack一个费queue
+```cpp
+int dfs(int t)
+{
+    if(满足返回条件)
+    {
+        return 解;
+    }
+    else
+    {
+        for(int i=1;i<=尝试方法数;i++)
+            if(满足进一步搜索条件)
+            {
+                为进一步搜索所需要的状态打上标记;
+                dfs(t+1);
+                回溯一步;
+            }
+    }
+}
+```
+
+## BFS
+
+这个真不会算了...
+
+# DP
+
+no，我不会ヾ(´･ ･｀｡)ノ"
+
+# 数据结构
+
+## 链表
+
+明天再写未完待续...
+
+*(PS：这篇文章充分体现了我OI的垃圾)*
