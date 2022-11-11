@@ -1,0 +1,238 @@
+---
+title: OI-C++中常用的一些STL函数和模板
+abbrlink: 4ebac27c
+date: 2022-11-11 08:26:10
+tags:
+categories:
+---
+
+（仅作个人备忘）
+
+其实很早就想着更了，但是因为前段时间封校导致没法更新，现在趁着上网课就更新吧。
+
+{% note info simple %}
+PS:LATEX还没弄好，暂时这样
+{% endnote %}
+
+# 基本结构
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    //代码
+    return 0;
+}
+```
+
+# 排序
+
+## STLsort
+
+最香的当然是STL sort，采用快排堆排插排混合，时间复杂度O(nlogn)到O(n^2)：
+```cpp
+sort(arr,arr+n,cmp);
+//其中cmp可以不加，默认从小到大
+```
+
+至于cmp的写法,只需要写两项的比较规则，比如从小到大写成:
+```cpp
+int cmp(int a,int b){
+    return a<b;
+}
+```
+
+从大到小：
+```cpp
+int cmp(int a,int b){
+    return a>b;
+}
+```
+
+利用cmp就能实现sort的结构体排序和题目的特殊要求，举个例子：
+{% hideToggle 例子 %}
+### FZQOJ#84. 近似排序
+
+读入正整数x和y，将这两个数之间（包括这两个数本身）的所有数按下述特别规则排序后输出。
+
+该特别规则是：按两数倒过来的值进行比较决定其大小，如30倒过来为3,29倒过来为92，则29大于30
+
+**【输入】**
+一行两个整数x和y，用一个空格隔开，1<=x<=y<=1000000000,y-x<=100
+
+**【输出】**
+包括y-x+1行，每行一个正整数，按两数倒过来的值进行比较决定其大小，然后由小到大输出
+
+**【样例】**
+样例输入1
+```
+22 39
+```
+样例输出1
+```
+30
+31
+22
+32
+23
+33
+24
+34
+25
+35
+26
+36
+27
+37
+28
+38
+29
+39
+```
+使用sort：
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int cmp(int a,int b){
+	int a2=0;
+	while(a!=0)
+	{ 
+	    a2*=10;
+	    a2+=a%10;
+	    a/=10;
+	}
+	int b2=0;
+	while(b!=0)
+	{ 
+	    b2*=10;
+	    b2+=b%10;
+	    b/=10;
+	}
+	return a2<b2;
+}
+int main(){
+	int x,y,l[114];
+	cin>>x>>y;
+	int n=y-x+1;
+	for(int i=1;i<=n;i++){
+		l[i]=i+x-1;
+	}
+	sort(l+1,l+n+1,cmp);
+	for(int i=1;i<=n;i++){
+		cout<<l[i]<<endl;
+	}
+	return 0;
+}
+```
+冒泡：
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int cmp(int a,int b){
+	int a2=0;
+	while(a!=0)
+	{ 
+	    a2*=10;
+	    a2+=a%10;
+	    a/=10;
+	}
+	int b2=0;
+	while(b!=0)
+	{ 
+	    b2*=10;
+	    b2+=b%10;
+	    b/=10;
+	}
+	return a2<b2;
+}
+int main(){
+	int x,y,l[114];
+	cin>>x>>y;
+	int n=y-x+1;
+	for(int i=1;i<=n;i++){
+		l[i]=i+x-1;
+	}
+	for(int i=2;i<=n;i++){
+		for(int j=2;j<=n;j++){
+			if(cmp(l[j],l[j-1])){
+				int tmp=l[j];
+				l[j]=l[j-1];
+				l[j-1]=tmp;
+			}
+		}
+	}
+	for(int i=1;i<=n;i++){
+		cout<<l[i]<<endl;
+	}
+	return 0;
+}
+```
+
+都是AC代码，但是显然前者速度更快且更简单，可以节省你在比赛时的时间以及突然忘记模板的风险。
+{% endhideToggle %}
+
+
+## 选择排序
+
+时间复杂度：固定时间复杂度O(n^2)，不稳定
+
+我使用的是打擂台一个一个找放到第二个数组中，这样子可以简单一点，当然空间复杂度双倍快乐
+从大到小：
+```cpp
+int arr1[114514],arr2[191981],n,max,maxi,k=1;
+//假设arr1已经有了数据，n为数组长度
+for(int i=1;i<=n;i++){
+    max=-0x7FFFFFFF;
+    for(int j=1;j<=n;j++){
+        if(arr1[j]>max){
+            max=arr1[j];
+            maxi=j;
+        }
+    }
+    arr1[maxi]=-0x7FFFFFFF;
+    arr2[k]=max;
+    k++;
+}
+// for(int i=1;i<=n;i++){
+//     cout<<arr2[i];
+// } //输出
+```
+从小到大：
+```cpp
+int arr1[114514],arr2[191981],n,min,mini,k=1;
+//假设arr1已经有了数据，n为数组长度
+for(int i=1;i<=n;i++){
+    min=0x7FFFFFFF;
+    for(int j=1;j<=n;j++){
+        if(arr1[j]>min){
+            min=arr1[j];
+            mini=j;
+        }
+    }
+    arr1[mini]=0x7FFFFFFF;
+    arr2[k]=min;
+    k++;
+}
+// for(int i=1;i<=n;i++){
+//     cout<<arr2[i];
+// } //输出
+```
+
+## 冒泡排序
+
+时间复杂度：固定O(n^2)，具有稳定性。
+
+模板：
+```cpp
+for(int i=2;i<=n;i++){
+    for(int j=2;j<=n;j++){
+        if(arr[j]>arr[j-1]){ //从大到小，从小到大则把符号改为<
+            int tmp=arr[j];
+            arr[j]=arr[j-1];
+            arr[j-1]=tmp;
+        }
+    }
+}
+```
+
+# 

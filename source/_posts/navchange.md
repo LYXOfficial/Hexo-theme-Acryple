@@ -364,3 +364,6 @@ document.getElementById("page-name").innerText=document.title
 ```
 
 恭喜你获得了一个更好的导航栏！
+
+
+
