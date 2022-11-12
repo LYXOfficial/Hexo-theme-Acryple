@@ -251,7 +251,7 @@ for(int i=1;i<=n;i++){
 	bucket[i]=0;
 }
 for(int i=1;i<=n;i++){
-	bucket[arr[n-i+1]]++;
+	bucket[arr[i]]++;
 }
 for(int i=1;i<=n;i++){ //从大到小改为for(int i=n;i>0;i--)
 	for(int j=1;j<=bucket[i];j++){
