@@ -229,7 +229,7 @@ for(int i=1;i<=n;i++){
 ```cpp
 for(int i=2;i<=n;i++){
     for(int j=2;j<=n;j++){
-        if(arr[j]>arr[j-1]){ //从大到小，从小到大则把符号改为<
+        if(arr[j]>arr[j-1]){ //从小到大则把符号改为<
             int tmp=arr[j];
             arr[j]=arr[j-1];
             arr[j-1]=tmp;
@@ -241,8 +241,30 @@ for(int i=2;i<=n;i++){
 ## 桶排序
 
 较为简单，不稳定，时间复杂度O(n)，空间复杂度较高，不适用于结构体和小数。
+{% note info flat %}
+PS：这个桶排序指标记桶，并不是说分治的那个桶排序
+{% endnote %}
+```cpp
+int arr[114514],bucket[114514],n,k=1;
+//arr指待排序数组，n为长度，假设已经存在。
+for(int i=1;i<=n;i++){
+	bucket[i]=0;
+}
+for(int i=1;i<=n;i++){
+	bucket[arr[n-i+1]]++;
+}
+for(int i=1;i<=n;i++){ //从大到小改为for(int i=n;i>0;i--)
+	for(int j=1;j<=bucket[i];j++){
+		arr2[k]=i; //也可以直接输出，写成：cout<<i<<" ";
+		k++;
+	}
+}
+// for(int i=1;i<=n;i++){
+// 	cout<<arr2[i]<<" ";
+// } //输出
+```
 
-咕咕咕明天发
+就是在有序数组中做标记，和稳定完全搭不上边耶欸欸欸。
 
 # 搜索
 
@@ -296,6 +318,11 @@ no，我不会ヾ(´･ ･｀｡)ノ"
 明天再写未完待续...
 
 *(PS：这篇文章充分体现了我OI的垃圾)*
+、
+、
+、
+、
+、
 、
 、
 、
