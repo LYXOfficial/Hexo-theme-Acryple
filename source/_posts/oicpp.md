@@ -245,7 +245,7 @@ for(int i=2;i<=n;i++){
 PS：这个桶排序指标记桶，并不是说分治的那个桶排序
 {% endnote %}
 ```cpp
-int arr[114514],bucket[114514],n,k=1;
+int arr[114514],bucket[114514],arr2[114514],n,k=1;
 //arr指待排序数组，n为长度，假设已经存在。
 for(int i=1;i<=n;i++){
 	bucket[i]=0;
