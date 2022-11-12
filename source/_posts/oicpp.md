@@ -247,13 +247,13 @@ PS：这个桶排序指标记桶，并不是说分治的那个桶排序
 ```cpp
 int arr[114514],bucket[114514],arr2[114514],n,k=1;
 //arr指待排序数组，n为长度，假设已经存在。
-for(int i=1;i<=n;i++){
+for(int i=0;i<=n;i++){
 	bucket[i]=0;
 }
 for(int i=1;i<=n;i++){
 	bucket[arr[i]]++;
 }
-for(int i=1;i<=n;i++){ //从大到小改为for(int i=n;i>0;i--)
+for(int i=0;i<=n;i++){ //从大到小改为for(int i=n;i>=0;i--)
 	for(int j=1;j<=bucket[i];j++){
 		arr2[k]=i; //也可以直接输出，写成：cout<<i<<" ";
 		k++;
