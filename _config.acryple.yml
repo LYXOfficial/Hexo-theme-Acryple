@@ -23,6 +23,15 @@ menu:
     # 音乐: /musics/ || fa fa-music
     关于我: /about/ || fa fa-info-circle
     声明: /license/ || fas fa-balance-scale
+  线路 || fas fa-link:
+    Vercel: https://yisous.xyz
+    Vercel2: htps://vercel.yisous.xyz
+    Netlify: https://netlify.yisous.xyz
+    Cloudflare: https://cf.yisous.xyz
+    Cloudflare2: https://cloudflare.yisous.xyz
+    Github: https://github.yisous.xyz
+    Railway: https://railway.yisous.xyz
+    Railway2: https://rw.yisous.xyz
 # Code Blocks (代碼相關)
 # --------------------------------------
 
