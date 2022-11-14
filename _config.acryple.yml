@@ -84,7 +84,7 @@ mathjax:
 
 # KaTeX
 katex:
-  enable: true
+  enable: false
   per_page: false
   hide_scrollbar: true
 
@@ -890,6 +890,8 @@ inject:
   - <script src="/swReg.js"></script>
   - <span id="fps"></span>
   bottom:
+  - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/katex@0.10.1/dist/katex.min.css">
+  - <script defer src="https://cdn1.tianli0.top/npm/katex@0.10.1/dist/katex.min.js"></script>
   - <script type="text/javascript" src="/js/noie.js"></script>
   - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
   - <script src="https://cdn1.tianli0.top/gh/nextapps-de/winbox/dist/winbox.bundle.min.js"></script>

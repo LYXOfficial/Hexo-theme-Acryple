@@ -240,8 +240,13 @@ wow_js: https://cdn1.tianli0.top/npm/hexo-butterfly-wowjs/lib/wow.min.js
 wow_init_js: https://cdn1.tianli0.top/npm/hexo-butterfly-wowjs/lib/wow_init.js
 random: true
 markdown:
- plugins:
-   - plugin:
-     name: '@neilsustc/markdown-it-katex'
-     options:
-       strict: false
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+  plugins:
+  anchors:
+    level: 1
+    collisionSuffix: ''
