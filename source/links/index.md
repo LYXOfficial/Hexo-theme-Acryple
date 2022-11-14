@@ -285,7 +285,11 @@ type: "links"
     avatar: https://file.poetize.cn/webAvatar/Sara116383637867956
     descr: "这是一个Vue2 Vue3与SpringBoot结合的产物~"
     theme_color: "#9f9794"
-   
+  - name: 张时贰
+    link: https://zhangshier.vip
+    avatar: https://zhangshier.vip/Hexo_img/avatar.jpg
+    descr: 环转码，爱敲代码的小张！
+    theme_color: "#a2b097"
 {% endflink %}
 
 
