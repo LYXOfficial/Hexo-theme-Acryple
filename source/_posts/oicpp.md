@@ -268,7 +268,7 @@ for(int i=0;i<=n;i++){ //从大到小改为for(int i=n;i>=0;i--)
 
 # 快读快写
 
-这些在一堆数据动不动就TLE的题中很好用
+这些在一堆数据动不动就TLE的题中很好用，比scanf,printf，cin,cout快
 
 快读板子：
 ```cpp
@@ -299,9 +299,15 @@ inline void print(int n){
 }
 ```
 
-原理就是getchar，然后转int和char互转
+原理就是getchar，然后int和char互转
 
 当然如果要用lld或者int128的话改一下也行的啦
+
+# 求最大公约数
+
+## 穷举
+
+穷举么？雀食可以，不过
 
 # 搜索
 
