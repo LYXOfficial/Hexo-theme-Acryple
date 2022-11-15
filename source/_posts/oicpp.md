@@ -225,7 +225,7 @@ for(int i=1;i<=n;i++){
 
 时间复杂度：固定$O(n^2)$，具有稳定性。
 
-模板：
+一个板子：
 ```cpp
 for(int i=2;i<=n;i++){
     for(int j=2;j<=n;j++){
@@ -265,6 +265,43 @@ for(int i=0;i<=n;i++){ //从大到小改为for(int i=n;i>=0;i--)
 ```
 
 就是在有序数组中做标记，和稳定完全搭不上边耶欸欸欸。
+
+# 快读快写
+
+这些在一堆数据动不动就TLE的题中很好用
+
+快读板子：
+```cpp
+inline void read(int &n){
+    int x=0,f=1;
+    char ch=getchar();
+    while(ch<'0'||ch>'9'){
+        if(ch=='-') f=-1;
+        ch=getchar();
+    }
+    while(ch>='0'&&ch<='9'){
+        x=(x<<1)+(x<<3)+(ch^48);
+        ch=getchar();
+    }
+    n=x*f;
+}
+```
+
+快写板子：
+```cpp
+inline void print(int n){
+    if(n<0){
+        putchar('-');
+        n*=-1;
+    }
+    if(n>9) print(n/10);
+    putchar(n % 10 + '0');
+}
+```
+
+原理就是getchar，然后转int和char互转
+
+当然如果要用lld或者int128的话改一下也行的啦
 
 # 搜索
 
