@@ -290,6 +290,12 @@ type: "links"
     avatar: https://zhangshier.vip/Hexo_img/avatar.jpg
     descr: 环转码，爱敲代码的小张！
     theme_color: "#a2b097"
+  -name: 小吉崽汁の窝
+    link: https://wuxingzzz.top
+    avatar: https://wuxingzzz.oss-cn-hangzhou.aliyuncs.com/hexo/IMG_3969.JPG
+    siteshot: https://wuxingzzz.oss-cn-hangzhou.aliyuncs.com/article/1592180893591904258.jpg
+    descr: A programmer of vegetable chicken
+    theme_color: "#925268"
 {% endflink %}
 
 
