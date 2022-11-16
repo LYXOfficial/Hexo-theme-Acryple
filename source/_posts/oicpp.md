@@ -258,7 +258,7 @@ scanf("%d",&n);
 for(int i=1;i<=n;i++){
 	scanf("%d",&arr[i]);
 }
-//arr指待排序数组，n为长度，假设已经存在。
+//arr指待排序数组，n为长度
 for(int i=0;i<114514;i++){
 	bucket[i]=0;
 }
