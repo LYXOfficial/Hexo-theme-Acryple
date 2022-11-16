@@ -243,17 +243,29 @@ for(int i=2;i<=n;i++){
 较为简单，不稳定，时间复杂度$O(n)$，空间复杂度较高，不适用于结构体和小数。
 {% note info flat %}
 PS：这个桶排序指标记桶，并不是说分治的那个桶排序
+
+2022.11.16更新
+
+发现标记范围bug，已修正，然而本地能过（试过n=10000的数据规模也没有tle）但是过不了板子题qwq
+
+![1668570918842.png](https://bu.dusays.com/2022/11/16/63745f28348d0.png)
 {% endnote %}
 ```cpp
 int arr[114514],bucket[114514],arr2[114514],n,k=1;
+//freopen("random.in","r",stdin);
+//freopen("random.out","w",stdout); 
+scanf("%d",&n);
+for(int i=1;i<=n;i++){
+	scanf("%d",&arr[i]);
+}
 //arr指待排序数组，n为长度，假设已经存在。
-for(int i=0;i<=n;i++){
+for(int i=0;i<114514;i++){
 	bucket[i]=0;
 }
 for(int i=1;i<=n;i++){
 	bucket[arr[i]]++;
 }
-for(int i=0;i<=n;i++){ //从大到小改为for(int i=n;i>=0;i--)
+for(int i=0;i<114514;i++){ //从大到小改为for(int i=114513;i>=0;i--)
 	for(int j=1;j<=bucket[i];j++){
 		arr2[k]=i; //也可以直接输出，写成：cout<<i<<" ";
 		k++;
