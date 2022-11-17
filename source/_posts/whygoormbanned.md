@@ -10,7 +10,6 @@ tags:
   - goorm
 categories:
   - 白嫖教程
-swiper_index: 5
 description: 白嫖Goorm的用户速看！紧急！
 date: 2022-08-12 08:30:50
 updated: 2022-10-04 08:50:19

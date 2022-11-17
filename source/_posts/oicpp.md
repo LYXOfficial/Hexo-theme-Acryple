@@ -1,5 +1,5 @@
 ---
-title: OI-C++中常用的一些STL函数和模板
+title: OI-C++中常用的一些STL函数和板子（持续更新）
 abbrlink: 4ebac27c
 date: 2022-11-11 08:26:10
 tags: 
@@ -7,6 +7,8 @@ tags:
 categories:
 - OI
 cover: https://bu.dusays.com/2022/11/11/636db721a99c1.webp
+description: 备忘
+swiper_index: 12
 ---
 
 （仅作个人备忘）
@@ -180,45 +182,60 @@ int main(){
 时间复杂度：固定时间复杂度$O(n^2)$，不稳定
 
 我使用的是打擂台一个一个找放到第二个数组中，这样子可以简单一点，当然空间复杂度双倍快乐
+
+实测选排比冒泡快，因为冒泡要交换
+
 从大到小：
 ```cpp
-int arr1[114514],arr2[191981],n,max,maxi,k=1;
-//假设arr1已经有了数据，n为数组长度
+int arr[114514],arr2[191981],n,max,maxi,k=1;
+//freopen("random.in","r",stdin);
+//freopen("random.out","w",stdout); 
+scanf("%d",&n);
 for(int i=1;i<=n;i++){
-    max=-0x7FFFFFFF;
+	scanf("%d",&arr[i]);
+}
+//n为数组长度
+for(int i=1;i<=n;i++){
+    max=0x7FFFFFFF;
     for(int j=1;j<=n;j++){
-        if(arr1[j]>max){
-            max=arr1[j];
+        if(arr[j]>max){
+            max=arr[j];
             maxi=j;
         }
     }
-    arr1[maxi]=-0x7FFFFFFF;
+    arr[maxi]=0x7FFFFFFF;
     arr2[k]=max;
     k++;
 }
-// for(int i=1;i<=n;i++){
-//     cout<<arr2[i];
-// } //输出
+for(int i=1;i<=n;i++){
+	printf("%d ",arr2[i]);
+} //输出
 ```
 从小到大：
 ```cpp
-int arr1[114514],arr2[191981],n,min,mini,k=1;
-//假设arr1已经有了数据，n为数组长度
+int arr[114514],arr2[191981],n,min,mini,k=1;
+//freopen("random.in","r",stdin);
+//freopen("random.out","w",stdout); 
+scanf("%d",&n);
+for(int i=1;i<=n;i++){
+	scanf("%d",&arr[i]);
+}
+//n为数组长度
 for(int i=1;i<=n;i++){
     min=0x7FFFFFFF;
     for(int j=1;j<=n;j++){
-        if(arr1[j]>min){
-            min=arr1[j];
+        if(arr[j]<min){
+            min=arr[j];
             mini=j;
         }
     }
-    arr1[mini]=0x7FFFFFFF;
+    arr[mini]=0x7FFFFFFF;
     arr2[k]=min;
     k++;
 }
-// for(int i=1;i<=n;i++){
-//     cout<<arr2[i];
-// } //输出
+for(int i=1;i<=n;i++){
+	printf("%d ",arr2[i]);
+} //输出
 ```
 
 ## 冒泡排序
@@ -227,6 +244,13 @@ for(int i=1;i<=n;i++){
 
 一个板子：
 ```cpp
+int arr[114514],n;
+//freopen("random.in","r",stdin);
+//freopen("random.out","w",stdout); 
+scanf("%d",&n);
+for(int i=1;i<=n;i++){
+	scanf("%d",&arr[i]);
+}
 for(int i=2;i<=n;i++){
     for(int j=2;j<=n;j++){
         if(arr[j]>arr[j-1]){ //从小到大则把符号改为<
@@ -236,6 +260,9 @@ for(int i=2;i<=n;i++){
         }
     }
 }
+for(int i=1;i<=n;i++){
+	printf("%d ",arr[i]);
+} //输出
 ```
 
 ## 桶排序
@@ -271,12 +298,73 @@ for(int i=0;i<114514;i++){ //从大到小改为for(int i=114513;i>=0;i--)
 		k++;
 	}
 }
-// for(int i=1;i<=n;i++){
-// 	cout<<arr2[i]<<" ";
-// } //输出
+for(int i=1;i<=n;i++){
+	cout<<arr2[i]<<" ";
+} //输出
 ```
 
 就是在有序数组中做标记，和稳定完全搭不上边耶欸欸欸。
+
+# 简单数论
+
+## 斐波那契数列
+
+求第$n$项
+
+### 数组
+```cpp
+int n,l[114]={0,1};
+cin>>n;
+for(int i=2;i<=n;i++){
+	l[i]=l[i-1]+l[i-2];
+}
+cout<<l[n];
+```
+
+### 递归
+
+PS：时间复杂度$O(n^2)$，不建议使用
+
+```cpp
+int fibnacci(int n) {
+    if(n < 1) {
+        return 0;
+    }else if(n == 1 || n == 2) {
+        return 1;
+    }
+ 
+    return f1(n-1) + f1(n-2);
+}
+```
+
+### 递推（空间复杂度$O(1)$）
+
+```cpp
+int k,n=1,a=1,b=1;
+cin>>k;
+for(int i=3;i<=k;i++){
+	n=a+b;
+	a=b;
+	b=n;
+}
+cout<<n;
+```
+
+## 质数
+
+咕咕咕。。。
+
+## 拆数
+
+```cpp
+int a=n,l=1,arr[114];
+while(a!=0){
+	arr[l]=a%10;
+	a/=10;
+	l++;
+}
+l--;
+```
 
 # 快读快写
 

@@ -2,7 +2,6 @@
 title: 有关搭建博客的想法
 tags: 个人
 categories: 个人
-swiper_index: 3
 cover: https://bu.dusays.com/2022/09/01/63103a565d6b3.webp
 description: 本来是第一篇文章的
 abbrlink: 6d1af91

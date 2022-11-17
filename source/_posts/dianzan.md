@@ -9,7 +9,6 @@ tags:
 categories:
   - Hexo魔改
 cover: https://bu.dusays.com/2022/08/22/6302df361a344.webp
-swiper_index: 8
 description: 搞一个像钉钉网课一样可以连点器点的文章点赞
 updated: 2022-10-04 08:50:19
 ---
