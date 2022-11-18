@@ -16,7 +16,7 @@ swiper_index: 12
 其实很早就想着更了，但是因为前段时间封校导致没法更新，现在趁着上网课就更新吧。
 
 {% note info simple %}
-PS:LATEX终于弄好了！！！
+PS:\textbf{ \KaTeX}终于弄好了！！！
 {% endnote %}
 
 # 基本结构

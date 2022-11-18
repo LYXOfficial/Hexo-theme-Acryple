@@ -21,6 +21,13 @@ Acryple v1.0.0 2022-10-23
 
 大概就是这些了。
 
+Acryple v1.0.51
+
+1. 修复部分~~bug~~（不，特性
+2. 优化性能问题（但是好像还是没毛提升
+3. 换用Twikoo-magic表情包
+4. 为了OI添加$\textbf{ \KaTeX}$
+5. 修复跳转链接因原有bug被迫使原页面刷新的bug
 
 Acryple v1.0.14
 
@@ -42,6 +49,7 @@ Acryple v1.0.14
 ![1668068328066.png](https://bu.dusays.com/2022/11/10/636cb3ea2923d.png)
 
 PS：作为一个萌新OIer依然没有考虑发oi文 ╮(╯▽╰)╭ 
+
 {% hideToggle 以前的更新日志 %}
 哔哩哔哩 (゜-゜)つロ 干杯！
 
