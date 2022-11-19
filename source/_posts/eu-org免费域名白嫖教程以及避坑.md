@@ -23,7 +23,7 @@ updated: 2022-10-04 08:50:19
 
 # 介绍
 
-eu.org这个域名注册服务在1996年就有了，是为无力承担资金的组织提供的免费域名注册服务，所以官网有~~*亿*~~一点点low，得忍一忍。
+eu.org这个域名注册服务在1996年就有了，是为无力承担资金的组织提供的免费域名注册服务，所以官网有~~亿~~一点点low，得忍一忍。
 
 ### 是不是顶级域名？
 
@@ -49,7 +49,7 @@ eu.org这个域名注册服务在1996年就有了，是为无力承担资金的�
 
 点击“New Domain”添加域名。
 
-进入这个界面，看起来很多~~*（天啊，不会这玩意都要备案吧）（bushi）*~~。不管那么多，我们只需要填写第一行的Complete domain name和nameservers就行了。![1657082001448](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/eu-org免费域名白嫖教程以及避坑/1657082001448.png)![1657082112958](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/eu-org免费域名白嫖教程以及避坑/1657082112958.png)![1657083508604](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/eu-org免费域名白嫖教程以及避坑/1657083508604.png)
+进入这个界面，看起来很多~~（天啊，不会这玩意都要备案吧）（bushi）~~。不管那么多，我们只需要填写第一行的Complete domain name和nameservers就行了。![1657082001448](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/eu-org免费域名白嫖教程以及避坑/1657082001448.png)![1657082112958](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/eu-org免费域名白嫖教程以及避坑/1657082112958.png)![1657083508604](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/eu-org免费域名白嫖教程以及避坑/1657083508604.png)
 
 domain name填写域名全名，比如我的lyxoff2233.eu.org，nameservers就是dns服务器了。因为eu.org官方并没有提供dns服务器，我们需要自己填写。
 

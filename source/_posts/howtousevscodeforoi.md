@@ -37,7 +37,7 @@ cover: https://bu.dusays.com/2022/11/19/6378dc8f20485.jpg
 
 ![](https://bu.dusays.com/2022/11/19/6378c64d365ac.png)
 
-## 配置Mingw
+## 配置代码环境
 
 实际上devcpp里面是可以扒到一个gcc的，但是毕竟是很老的版本，所以建议换成新版。
 
@@ -90,5 +90,7 @@ PS：用dev内置Mingw的路径是`{dev安装路径}\MinGW32(也可能是MinGW64
 然后单击右上角运行按钮快乐运行吧！
 
 ![](https://bu.dusays.com/2022/11/19/6378dc2a45a59.png)
+
+# 一些美化&骚操作
 
 未完待续咕咕咕。。。

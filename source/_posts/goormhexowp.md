@@ -271,7 +271,7 @@ Hexo是静态网页，部署十分简单。
 
 ![1658995491200](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/goormhexowp/1658995491200.png)
 
-~~*虽然Ping比较高，甚至超时，但是速度真心可以，比Vercel快得多，以后就用这个算了。*~~
+~~虽然Ping比较高，甚至超时，但是速度真心可以，比Vercel快得多，以后就用这个算了。~~
 
 # 部署WordPress
 

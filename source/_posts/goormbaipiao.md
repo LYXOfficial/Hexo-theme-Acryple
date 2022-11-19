@@ -79,7 +79,7 @@ SSH的连接方式可以通过点击项目右上角三个点-Go to settings-Port
 
 {% endnote %}
 
-~~*（为什么没有密码？算了不要SSH了）*~~
+~~（为什么没有密码？算了不要SSH了）~~
 
 ![1658900185108](https://cdn1.tianli0.top/gh/LYXOfficial/LYXOfficial.github.io/image/goormbaipiao/1658900185108.png)
 
