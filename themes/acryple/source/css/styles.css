@@ -3202,8 +3202,9 @@ transform: translateY(5px);}
 .toc-content{
     width:100%
 }
-@media screen and (min-width: 650px){
-    .categoryBar-list{
-        overflow: hidden!important;
-    }
+.categoryBar-list{
+    overflow: hidden;
+}
+#categoryBar{
+    overflow: hidden;
 }

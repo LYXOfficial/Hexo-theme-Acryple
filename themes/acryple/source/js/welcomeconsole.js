@@ -6,3 +6,6 @@ console.log(`Hexo-theme-Acryple based on Butterfly 4.2.2
 速度有点慢请见谅`)
 
 console.log=function(){}
+console.error=function(){}
+window.onerror=function(){}
+console.warn=function(){}
