@@ -2999,7 +2999,7 @@ color:var(--lyx-theme)!important}
     color:var(--font-color)!important;
 }
 #article-container .highlight-tools .copy-button:hover{
-    color:--lyx-theme!important
+    color:var(--lyx-theme)!important
 }
 #colors::before {
     position: absolute;
