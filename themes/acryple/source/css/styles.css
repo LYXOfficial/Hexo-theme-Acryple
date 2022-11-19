@@ -1444,7 +1444,7 @@ span:first-child {
     color:white!important;
     background-color:var(--lyx-theme)!important;
 }
-del:not(.noheimu){
+del:not(.noheimu),s{
     color:black!important;
     background-color: black!important;
     text-decoration: none;
@@ -1453,7 +1453,7 @@ del:not(.noheimu){
     transition-property: background-color,color,padding,font-size,border;
     transition-duration: 200ms;
 }
-del:not(.noheimu):hover{
+del:not(.noheimu):hover,s:hover{
     color:white!important;
 }
 .toc-link{
