@@ -43,7 +43,7 @@
     "hexo-generator-tag": "^1.0.0",
     "hexo-helper-live2d": "^3.1.1",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-markdown-it-plus": "^1.0.6",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-submit-urls-to-search-engine": "^2.1.0",

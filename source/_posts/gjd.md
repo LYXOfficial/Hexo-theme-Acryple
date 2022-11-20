@@ -199,7 +199,7 @@ struct longint{
 
 ## TODO
 
-没错，我要让她变得跟int\long long\double这些类型一样方便！
+没错，我要让她变得跟`int`/`long long`/`double`这些类型一样方便！
 
 {% checkbox checked, 快读快写 %}
 {% checkbox checked, 重载常见运算符 %}
@@ -210,7 +210,7 @@ struct longint{
 {% checkbox 高精除法（高精/高精） %}
 {% checkbox 兼容cin/cout、scanf/printf %}
 {% checkbox 布尔运算 %}
-{% checkbox 高速 %}
+{% checkbox 高速（快于）$O(n\ log(n) )$%}
 {% checkbox 类型转换/兼容 %}
 {% checkbox 简易赋值 %}
 {% checkbox 支持小数 %}
