@@ -189,7 +189,7 @@ wordcount:
 # false: do not show the article introduction
 index_post_content:
   method: 3
-  length: 500 # if you set method to 2 or 3, the length need to config
+  length: 100 # if you set method to 2 or 3, the length need to config
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
