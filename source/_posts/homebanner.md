@@ -74,6 +74,13 @@ div(id="random")
 
 </html>
 ```
+
+2022.11.20更新：
+
+把banner加入Hexo配置文件`_config.yml`的skip——renderer中(否则会被渲染成完整页面)
+
+[](https://bu.dusays.com/2022/11/20/637a3a08c3796.png)
+
 你还需要加入几个css和js，务必不要直接使用~~白嫖~~洪哥的cdn~~（tianli的不香吗）~~造成损失。
 
 `[blogRoot]/themes/butterfly/source/css/people.css`

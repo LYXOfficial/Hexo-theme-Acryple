@@ -201,10 +201,10 @@ struct longint{
 
 没错，我要让她变得跟int\long long\double这些类型一样方便！
 
-{% checkbox checked 快读快写 %}
-{% checkbox checked 重载常见运算符 %}
-{% checkbox checked 高精加法 %}
-{% checkbox checked 高精减法 %}
+{% checkbox checked, 快读快写 %}
+{% checkbox checked, 重载常见运算符 %}
+{% checkbox checked, 高精加法 %}
+{% checkbox checked, 高精减法 %}
 {% checkbox 高精乘法 %}
 {% checkbox 高精除法（高精/低精） %}
 {% checkbox 高精除法（高精/高精） %}
