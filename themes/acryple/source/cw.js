@@ -1,1 +1,0 @@
-// importScripts("https://cdn1.tianli0.top/npm/clientworker@2.8.1")

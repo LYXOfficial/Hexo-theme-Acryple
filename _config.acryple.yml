@@ -878,11 +878,8 @@ css_prefix: true
 # # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-  - <meta name="shenma-site-verification" content="df2d187adea46639af5b16a59246a655_1658299306">
-  - <meta name="bytedance-verification-code" content="Sgu9oIPNU2jM5Z2P4Dv7" />
   - <link rel="stylesheet" href="/css/ariasakablog.css">
   - <link id="css" rel="stylesheet" href="/css/stylessimple.css">
-  # - <link rel="stylesheet" href="https://blog.zhheo.com/zhheo/zhheoblog.css">
   - <link rel="stylesheet" href="/css/iconfont.css">
   - "<style>#article-container h1:before, h2:before, h3:before, h4:before, h5:before, h6:before { -webkit-animation: avatar_turn_around 3s linear infinite; -moz-animation: avatar_turn_around 3s linear infinite; -o-animation: avatar_turn_around 3s linear infinite; -ms-animation: avatar_turn_around 3s linear infinite; animation: avatar_turn_around 3s linear infinite; }</style>"
   - <style id="barragesColor"></style>
@@ -907,8 +904,6 @@ inject:
   - <script type="text/javascript" src="/js/fixbugpjax.js"></script>
   - <script src="/js/sakura.js"></script>
   - <div class="aplayer no-destroy" data-id="7803928554" data-server="netease" data-type="playlist" data-listFolded="false" data-preload="metadata" data-theme="var(--lyx-theme)" data-fixed="true" data-autoplay="false" data-volume=0.1 style="z-index:514"> </div>
-  # - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/katex@0.10.1/dist/katex.min.css">
-  # - <script defer src="https://cdn1.tianli0.top/npm/katex@0.10.1/dist/katex.min.js"></script>
   - <script type="text/javascript" src="/js/aplayersave.js"></script>
   - <script type="text/javascript" src="/js/noie.js"></script>
   - <script src="https://cdn1.tianli0.top/npm/leancloud-storage@4.13.1/dist/av-min.js"></script>
@@ -919,7 +914,6 @@ inject:
   - <script type="text/javascript" src="/js/welcome.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
   - <script type="text/javascript" src="/js/resizeTop.js"></script>
-  # - <script data-pjax="" type="text/javascript" src="/js/calendar.js"></script>
   - <script type="text/javascript" src="/js/languages.js"></script>
   - <script type="text/javascript" src="/js/browser.js"></script>
   - <script type="text/javascript" src="/js/smooth-scrolling.js"></script>
@@ -948,9 +942,6 @@ inject:
   - <script type="text/javascript" src="/js/latest.js"></script>
   - <script data-pjax="" defer src="/js/fixed_card_widget.js"></script>
   - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/node-snackbar@latest/src/js/snackbar.min.js"></script>
-  # - <script type="text/javascript" src="/js/commentBarrage.js"></script>
-  # - <script src="https://cdn1.tianli0.top/npm/js-heo@1.0.11/hidescrollbar/hidescrollbar.js"></script>
-  # - <script src="//code.tidio.co/aecbdb267oiplwsetmonv47lkdxwzzoh.js" async></script>
 # Don't modify the following settings unless you know how they work
 # 非必要請不要修改
 # 
