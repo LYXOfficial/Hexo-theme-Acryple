@@ -1,0 +1,108 @@
+#vcomment {
+  font-size: 1.1em;
+}
+#vcomment .vbtn {
+  border: none;
+  background: var(--btn-bg);
+  color: var(--btn-color);
+}
+#vcomment .vbtn:hover {
+  background: var(--btn-hover-color);
+}
+#vcomment .vimg {
+  transition: all 0.3s;
+}
+#vcomment .vimg:hover {
+  transform: rotate(360deg);
+}
+#vcomment .vcards .vcard .vcontent.expand:before,
+#vcomment .vcards .vcard .vcontent.expand:after {
+  z-index: 22;
+}
+#waline-wrap {
+  --waline-font-size: 1.1em;
+  --waline-theme-color: $button-bg;
+  --waline-active-color: $button-hover-color;
+}
+#waline-wrap .vuser {
+  transition: all 0.5s;
+}
+#waline-wrap .vuser:hover {
+  transform: rotate(360deg);
+}
+#vcomment textarea {
+  background: url(hexo-config('valine.bg')) 100% 100% no-repeat;
+}
+#vcomment textarea:focus {
+  background-image: none;
+}
+#waline-wrap textarea {
+  background: url(hexo-config('waline.bg')) 100% 100% no-repeat;
+}
+#waline-wrap textarea:focus {
+  background-image: none;
+}
+.fireworks {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $fireworks-zIndex;
+  pointer-events: none;
+}
+.medium-zoom-image--opened {
+  z-index: 99999 !important;
+  margin: 0 !important;
+}
+.medium-zoom-overlay {
+  z-index: 99999 !important;
+}
+.mermaid-wrap {
+  margin: 0 0 20px;
+  text-align: center;
+}
+.mermaid-wrap > svg {
+  height: 100%;
+}
+.utterances,
+.fb-comments iframe {
+  width: 100% !important;
+}
+#gitalk-container .gt-meta {
+  margin: 0 0 0.8em;
+  padding: 6px 0 16px;
+}
+.katex-wrap {
+  overflow: auto;
+}
+.katex-wrap::-webkit-scrollbar {
+  display: none;
+}
+mjx-container[display],
+.has-jax {
+  overflow-x: auto;
+  overflow-y: hidden;
+  line-height: normal !important;
+}
+.aplayer {
+  color: $font-black;
+}
+#article-container .aplayer {
+  margin: 0 0 20px;
+}
+#article-container .aplayer ol,
+#article-container .aplayer ul {
+  margin: 0;
+  padding: 0;
+}
+#article-container .aplayer ol li,
+#article-container .aplayer ul li {
+  margin: 0;
+  padding: 0 15px;
+}
+#article-container .aplayer ol li:before,
+#article-container .aplayer ul li:before {
+  content: none;
+}
+.snackbar-css {
+  border-radius: 5px !important;
+}

@@ -1,0 +1,36 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Photoshop
+      color: "#4082c3"
+      icon: https://image.anzhiy.cn/adminuploads/1/2022/09/25/63300647e1f10.png
+    - name: Node
+      color: "#333"
+      icon: https://npm.elemecdn.com/anzhiyu-blog@2.1.1/img/svg/node-logo.svg
+    - name: Python
+      color: "#fff"
+      icon: https://image.anzhiy.cn/adminuploads/1/2022/09/25/63300647dea51.png
+    - name: Java
+      color: "#fff"
+      icon: https://image.anzhiy.cn/adminuploads/1/2022/09/25/633005bf0fd1e.jpg
+    - name: CSS3
+      color: "#2c51db"
+      icon: https://image.anzhiy.cn/adminuploads/1/2022/09/25/633006cc55e07.png
+    - name: JS
+      color: "#f7cb4f"
+      icon: https://image.anzhiy.cn/adminuploads/1/2022/09/25/633006eee047b.png
+    - name: HTML
+      color: "#e9572b"
+      icon: https://image.anzhiy.cn/adminuploads/1/2022/09/25/633006f9ab27d.png
+    - name: Git
+      color: "#df5b40"
+      icon: https://image.anzhiy.cn/adminuploads/1/2022/09/25/633006e37c7fd.webp
+    - name: C++
+      color: "#1a4574"
+      icon: https://bu.dusays.com/2022/11/24/637f61abe3ebe.png
+    - name: Windows
+      color: "#01b8f2"
+      icon: https://bu.dusays.com/2022/11/24/637f64efa671c.png
+    - name: Qt
+      color: "#41cd52"
+      icon: https://bu.dusays.com/2022/11/24/637f65247a048.png
+    

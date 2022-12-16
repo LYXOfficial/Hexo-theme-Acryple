@@ -1,0 +1,27 @@
+if theme.aside.card_author.enable
+  .card-widget.card-info
+    .fgx
+      .avatar_img
+        img(style="border-radius:10px" src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt="avatar")
+      .author-info__description!= theme.aside.card_author.description || config.description
+      .rights
+        .author-info__name= config.author
+        .card-info-data.site-data.is-center
+          a(href=url_for(config.archive_dir) + '/' class="adiv")
+            .headline= _p('aside.articles')
+            .length-num= site.posts.length
+          a(href=url_for(config.tag_dir) + '/' class="adiv")
+            .headline= _p('aside.tags')
+            .length-num= site.tags.length
+          a(href=url_for(config.category_dir) + '/' class="adiv")
+            .headline= _p('aside.categories') 
+            .length-num= site.categories.length
+
+    if theme.aside.card_author.button.enable
+      a#card-info-btn(href=theme.aside.card_author.button.link)
+        i(class=theme.aside.card_author.button.icon)
+        span=theme.aside.card_author.button.text
+  
+    if(theme.social)
+        .card-info-social-icons
+          !=fragment_cache('social', function(){return partial('includes/header/social')}) 

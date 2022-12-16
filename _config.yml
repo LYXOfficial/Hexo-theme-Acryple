@@ -1,0 +1,249 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Ariasakaの小窝
+subtitle: ''
+description: 
+keywords: Python,C++,Windows,Linux,PyQt,html,css
+author: Ariasaka
+language: zh-CN
+timezone: ''
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+# 改动的地方
+url: https://yisous.xyz
+root: /
+#permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: hex    # 进制：dec(default) and hex
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render: 
+  - 404.html
+  - projects.html
+  - googlee2a292c45f2bba42.html
+  - linksmessage.html
+  - people.html
+  - noie.html
+  - config.yaml
+# hexo-admin authentification
+admin:
+  username: lyx2010official@outlook.com
+  password_hash: $2a$10$p56ewYLefBOSngc29q47auoW9.v76ds3LZFON80z5C9CvZYX9vfO.
+  secret: f_G01145141919810ldDrS250=_=(~_~):(
+  deployCommand: '/admin_script.bat'
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: '    '
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 20
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## https://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore: 
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: acryple
+search:
+  path: search.xml
+  field: post # post:文章范围、page:页面范围、all:覆盖所有
+  content: true # 内容是否包含每一篇文章的全部内容
+  template:  # ./search.xml 指定定制的XML模板
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  - type: git
+    repo: https://github.com/lyxofficial/pjaxtest.git
+    branch: main
+live2d:
+  enable: false
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-koharu
+  display:
+    position: left
+    width: 150
+    height: 300
+  mobile:
+    show: false
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+# # hexo-filter-gitcalendar
+# # see https://akilar.top/posts/1f9c68c9/
+# calendar:
+#   single: true
+#   root: calendar/
+
+# # hexo-butterfly-swiper
+# # see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: true # 开关
+  priority: 5 # 过滤器优先权
+  enable_page: all # 应用页面
+  timemode: date # date/updated
+  layout: # 挂载容器类型
+    type: class
+    name: swiper-div
+    index: 0
+  default_descr: 
+  swiper_css: https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css
+  swiper_js: https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper-lyx/lib/swiperstyle.css
+  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper-lyx/lib/swiper_init.js
+butterfly_article_double_row:
+  enable: false
+nofollow:
+  enable: true
+  field: site
+# hexo-douban
+douban:
+  user: lyxoff2233  # 你的豆瓣ID
+  builtin: true
+  movie:
+    title: '电影列表'
+    quote: '好看的电影！(实际上看过很多，不过忘了，就只能扔一些印象深刻一点的电影上去)'
+  timeout: 10000 
+# history_calendar:
+#   priority: 4
+#   enable: true
+#   enable_page: all
+#   layout:
+#     type: class
+#     name: sticky_layout
+#     index: 0
+#   temple_html: '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>'
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+bangumi:
+  enable: true 
+  vmid: 369280472
+  title: '追番列表'
+  quote: '君指先跃动の光は，私の一生不变の信仰に，唯私の超电磁砲永世生き！'
+  show: 1
+  loading: '/assets/douban-loading.gif'
+
+hexo_submit_urls_to_search_engine:
+  submit_condition: count
+  count: 10
+  period: 900
+  google: 0
+  bing: 1 
+  baidu: 0
+  txt_path: submit_urls.txt
+  bing_host: https://yisous.xyz
+  bing_token: 5387b0d0a57442f8814d5650744280b1
+  replace: 0
+# wowjs:
+#   enable: true #控制动画开关。true是打开，false是关闭
+#   priority: 10 #过滤器优先级
+#   mobile: false #移动端是否启用，默认移动端禁用
+#   animateitem:
+#     - class: words #必填项，需要添加动画的元素的class
+#       style: animate__zoomIn #必填项，需要添加的动画
+#       duration: 1s #选填项，动画持续时间，单位可以是ms也可以是s。例如3s，700ms。
+#       delay: 0.5s #选填项，动画开始的延迟时间，单位可以是ms也可以是s。例如3s，700ms。
+#       offset: 100 #选填项，开始动画的距离（相对浏览器底部）
+#       iteration: 1 #选填项，动画重复的次数
+#     - class: card-widget
+#       style: animate__zoomIn
+animate_css: https://cdn1.tianli0.top/npm/hexo-butterfly-wowjs/lib/animate.min.css
+wow_js: https://cdn1.tianli0.top/npm/hexo-butterfly-wowjs/lib/wow.min.js
+wow_init_js: https://cdn1.tianli0.top/npm/hexo-butterfly-wowjs/lib/wow_init.js
+random: true
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+  plugins:
+  anchors:
+    level: 1
+    collisionSuffix: ''
+
+aplayer:
+  meting: true
+  asset_inject: false

@@ -1,0 +1,33 @@
+extends includes/layout.pug
+
+block content
+  if theme.tag_ui == 'index'
+    include ./includes/mixins/post-ui.pug
+    #recent-posts.recent-posts
+      +postUI
+      include includes/pagination.pug
+  else
+    include ./includes/mixins/article-sort.pug
+    #tag
+      .tag-list-bar
+        a.iconfont.icon-biaoqian(href="/tags/")
+        .lists
+          ul!=cloudTags({source: site.tags, minfontsize: 1, maxfontsize: 1, limit: 0, unit: 'rem'})
+        script.
+          document.querySelectorAll('#tag .lists a').forEach(item=>{
+          if(decodeURI(window.location.href.split('/')[4])===item.innerHTML){
+          item.className += 'checked';
+          }
+          })
+          document.querySelector('.lists a.checked').scrollIntoView();document.querySelector('#tag').scrollIntoView();
+          window.addEventListener('load',function(){document.querySelector('.lists a.checked').scrollIntoView();document.querySelector('#tag').scrollIntoView();});
+          window.addEventListener('pjax:complete',function(){document.querySelector('.lists a.checked').scrollIntoView();document.querySelector('#tag').scrollIntoView();});
+          document.querySelectorAll('#tag .lists')[0].onmousewheel = function(e){
+          if(e.deltaY>0){
+          this.scrollLeft+=20;
+          }else{
+          this.scrollLeft-=20;
+          }return false;}
+      .article-sort-title= _p('page.tag') + ' - ' + page.tag
+      +articleSort(page.posts)
+      include includes/pagination.pug

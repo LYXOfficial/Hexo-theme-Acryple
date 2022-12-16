@@ -1,0 +1,40 @@
+#web_bg{
+    background: none!important;
+    background-color: #f7f9fe!important;
+}
+[data-theme="dark"] #web_bg{
+    background: none!important;
+    background-color: #18181e!important;
+}
+#nav{
+    box-shadow: none!important;
+    border-bottom: 1px solid var(--lyx-border);
+}
+.card-widget,#post,#page,.recent-post-item,#archive,#tag,#category,.swiper-div,#random,.category-list-bar,.gc{
+    box-shadow: none!important;
+    backdrop-filter: none!important;
+}
+
+.page-number{
+    box-shadow:none;
+}
+.page #page:not(.home #page){
+    background: transparent!important;
+    border: none!important;
+    box-shadow: none!important;
+    padding-top: 0;
+}
+.tk-main>.tk-content{
+    background-color: var(--lyx-whitegray);
+    padding:5px 20px;
+    border-radius: 12px;
+}
+[data-theme="dark"] .tk-main>.tk-content{
+    background-color: var(--lyx-blackgray)!important;
+}
+:root{
+    --lyx-white-acrylic1:#fefeff!important;
+    --lyx-white-acrylic2:#fcfdff!important;
+    --lyx-black-acrylic2:#08080a!important;
+    --lyx-black-acrylic1:#0b0b0e!important;
+}

@@ -1,0 +1,111 @@
+/* .comment-barrage {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: flex-end;
+} */
+.barrageswiper{
+	position: fixed;
+	margin: 0 0 30px 10px;
+	z-index: 100;
+	bottom: 10px;
+	right: 55px;
+}
+@media screen and (max-width: 768px) {
+	.comment-barrage {
+		display: none;
+	}
+}
+.comment-barrage .swiper-slide{
+	position: relative;
+	width: 250px;
+}
+.comment-barrage-item {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+	min-height: 80px;
+	max-height: 140px;
+	height: min-content;
+	margin: 4px 0;
+	padding: 8px;
+	background: rgba(0, 0, 0, 0.9);
+	backdrop-filter: blur(20px) saturate(180%);
+	border-radius: 8px;
+	color: #fff;
+	transition: 1s;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-shadow: var(--heo-shadow-border);
+}
+
+
+.comment-barrage-item.out {
+	opacity: 0;
+}
+
+/* @keyframes barrageIn {
+	0% {
+		transform: translateY(20%);
+		-webkit-transform: translateY(20%);
+		-moz-transform: translateY(20%);
+		-ms-transform: translateY(20%);
+		-o-transform: translateY(20%);
+		opacity: 0;
+}
+	100% {
+		transform: translateY(0%);
+		-webkit-transform: translateY(0%);
+		-moz-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		-o-transform: translateY(0%);
+		opacity: 1;
+	}
+} */
+
+
+
+.comment-barrage-item .barrageHead {
+	height: 30px;
+	padding: 0;
+	line-height: 30px;
+	font-size: 12px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.comment-barrage-item .barrageAvatar {
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	border-radius: 50%;
+}
+
+.comment-barrage-item .barrageContent {
+	font-size: 14px;
+	height: calc(100% - 30px);
+	overflow: scroll;
+}
+
+.comment-barrage-item .barrageContent::-webkit-scrollbar {
+	height: 0;
+	width: 4px;
+}
+
+.comment-barrage-item .barrageContent::-webkit-scrollbar-button {
+	display: none;
+}
+.barrageContent:not(.barrageContent:hover),.barrageNick:not(.barrageNick:hover){
+	color:var(--global-font-color)!important;
+}
+.barrageswiper{
+	height: 150px;
+}
+.comment-barrage-item p{
+	line-height: 1.2;
+	
+}

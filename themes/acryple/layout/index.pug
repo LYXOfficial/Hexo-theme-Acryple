@@ -1,0 +1,25 @@
+extends includes/layout.pug
+block content
+  include ./includes/mixins/post-ui.pug
+  #recent-posts.recent-posts
+    //- .tag-cloud-list.is-center#tagCloud
+    //-   !=cloudTags({source: site.tags, minfontsize: 1.2, maxfontsize: 2.1, limit: 0, unit: 'em'})
+    .category-list-bar
+      a.iconfont.icon-fenlei(href="/categories/")
+      .lists!=list_categories()
+      script.
+        document.querySelectorAll('.category-list .category-list-item').forEach(item=>{
+        if(decodeURI(window.location.href.split('/')[4])===item.querySelector('a').innerHTML){
+        item.className += ' checked'
+        }
+        })
+        window.addEventListener('load',function(){document.querySelector('.category-list .category-list-item.checked').scrollIntoView();document.querySelector('#category').scrollIntoView();});
+        window.addEventListener('pjax:complete',function(){document.querySelector('.category-list .category-list-item.checked').scrollIntoView();document.querySelector('#category').scrollIntoView();});
+        document.querySelectorAll('#category .lists')[0].onmousewheel = function(e){
+        if(e.deltaY>0){
+        this.scrollLeft+=20;
+        }else{
+        this.scrollLeft-=20;
+        }return false;}
+    +postUI
+    include includes/pagination.pug

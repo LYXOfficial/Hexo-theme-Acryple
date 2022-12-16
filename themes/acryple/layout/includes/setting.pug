@@ -1,0 +1,255 @@
+html
+body
+    #settingWindow.js-pjax
+        span.setting-title 
+            span#stt 控制面板
+            a(id="close-console" onclick="toggleWinbox();") ×
+        button#backer(onclick='$(\'.asetting\').hide();$(\'.settingx\').show();$(\'#backer\').hide()')
+            i.fa.fa-chevron-left
+            span 返回
+        .settings
+            #setting-buttons
+                button.settingx(onclick='$(\'#theme-settings\').show();$(\'.settingx\').hide();$(\'#backer\').show();')
+                    i.fas.fa-layer-group
+                    span 外观
+                button.settingx(onclick='$(\'#font-settings\').show();$(\'.settingx\').hide();$(\'#backer\').show();')
+                    i.fa.fa-font
+                    span 字体
+                button.settingx(onclick='$(\'#background-settings\').show();$(\'.settingx\').hide();$(\'#backer\').show();')
+                    i.far.fa-image
+                    span 背景
+                button.settingx(onclick='$(\'#con-echarts\').show();$(\'.settingx\').hide();$(\'#backer\').show();var evt = document.createEvent("HTMLEvents");evt.initEvent("resize", false, false);window.dispatchEvent(evt);')
+                    i.fas.fa-chart-pie
+                    span 统计
+                button.settingx(onclick='$(\'#con-abouts\').show();$(\'.settingx\').hide();$(\'#backer\').show();')
+                    i.fa.fa-cloud-download
+                    span 关于
+            #setting-hides
+                #theme-settings.asetting
+                    h2.content-head 性能设置
+                    p
+                        .content(style='display:flex')
+                            input#blur(type='checkbox', onclick='setBlur()')
+                            .content-text 禁用模糊效果
+                        //- .content(style='display:flex')
+                        //-     input#yjjs(type='checkbox', onclick='yjjs1()')
+                        //-     .content-text 硬件加速
+                        .content(style='display:flex')
+                            input#fpson(type='checkbox', onclick='fpssw()' style="flex-shrink: 0")
+                            .content-text
+                                span 开启帧率检测（
+                                a(href='javascript:window.location.reload()') 刷新
+                                span 后生效）
+                    p
+                        h2.content-head 主题设置
+                        //- .content(style='display:flex')
+                        //-     input#hideAside(type='checkbox', onclick='toggleRightside()')
+                        //-     .content-text 隐藏侧边栏
+                        .content(style='display:flex')
+                            input#hideAplayer(type='checkbox', onclick='toggleAplayer()')
+                            .content-text 显示aplayer
+                        .content(style='display:flex')
+                            input#hideSakura(type='checkbox', onclick='toggleSakuras()')
+                            .content-text 落樱特效
+                        .content(style='display:flex')
+                            input#autoTheme(type='checkbox', onclick='toggleAutoTheme()')
+                            .content-text 明暗模式自动切换
+                        .content(style='display:flex')
+                            input#autoColor(type='checkbox', onclick='autoColor()')
+                            .content-text 自动主题色（跟随文章封面）
+                        | 未完工
+                        .content(style='display:flex')
+                            input#hideAplayer(type='checkbox', onclick='toggleNav()')
+                            .content-text 固定导航栏
+                        | ###
+                        .content(style='display:flex')
+                            button.content-button(onclick='switchTheme()') 切换主题
+                          
+                    p
+                        h3.content-head 主题色
+                        #themeColorSettings.content(style='display:flex')
+                            input#red(type='radio', name='colors', onclick='setColor(\'red\')')
+                            input#orange(type='radio', name='colors', onclick='setColor(\'orange\')')
+                            input#yellow(type='radio', name='colors', onclick='setColor(\'yellow\')')
+                            input#green(type='radio', name='colors', onclick='setColor(\'green\')')
+                            input#blue(type='radio', name='colors', onclick='setColor(\'blue\')')
+                            input#heoblue(type='radio', name='colors', onclick='setColor(\'heoblue\')')
+                            input#darkblue(type='radio', name='colors', onclick='setColor(\'darkblue\')')
+                            input#purple(type='radio', name='colors', onclick='setColor(\'purple\')')
+                            input#pink(type='radio', name='colors', onclick='setColor(\'pink\')', checked)
+                            input#black(type='radio', name='colors', onclick='setColor(\'black\')')
+                            input#blackgray(type='radio', name='colors', onclick='setColor(\'blackgray\')')
+                #font-settings.asetting
+                    h2.content-head 字体设置
+                    p#swfs
+                        a.swf(href='javascript:;', rel='noopener external nofollow', style='font-family:\'HYTMR\'!important;color:black', onclick='setFont(\'HYTMR\')') 汉仪唐美人
+                        br
+                        a.swf(href='javascript:;', rel='noopener external nofollow', style='font-family:\'HYPailou\'!important;color:black', onclick='setFont(\'HYPailou\')') 汉仪新蒂牌楼
+                        br
+                        a.swf(href='javascript:;', rel='noopener external nofollow', style='font-family:\'FZXJLJ\'!important;color:black', onclick='setFont(\'FZXJLJ\')') 方正金陵体
+                        br
+                        a.swf(href='javascript:;', rel='noopener external nofollow', style='font-family:\'FZXS\'!important;color:black', onclick='setFont(\'FZXS\')') 方正像素体
+                        br
+                        a.swf(href='javascript:;', rel='noopener external nofollow', style='font-family:\'ZhuZiAWan\'!important;color:black', onclick='setFont(\'ZhuZiAWan\')') 筑紫A丸ゴシック
+                        br
+                        a.swf(href='javascript:;', rel='noopener external nofollow', style='font-family:\'FZODZK\'!important;color:black', onclick='setFont(\'FZODZK\')') 方正欧蝶正楷
+                        br
+                        a.swf(href='javascript:;', rel='noopener external nofollow', style='font-family:\'Source Serif\'!important;color:black', onclick='setFont(\'Source Serif\')') 思源宋体
+                        br
+                        a.swf(href='javascript:;', rel='noopener external nofollow', style='font-family:\'Source Sans\'!important;color:black', onclick='setFont(\'Source Sans\')') 思源黑体
+                        br
+                        a.swf(href='javascript:;', rel='noopener external nofollow', style='font-family:-apple-system, IBM Plex Mono ,monosapce,\'微软雅黑\', sans-serif;', onclick='setFont(\'main\')') 系统默认
+                        br
+                #background-settings.asetting
+                    h2(style='margin-left:10px') 背景设置
+                    div
+                    span 注意:切换背景功能仅在Acrylic主题中生效，在Simple主题中无效
+                    button.content-button(onclick='localStorage.removeItem(\'blogbg\');location.reload();')
+                        i.fa-solid.fa-arrows-rotate
+                        span  点我恢复默认背景
+                    button.content-button(onclick='switchTheme()') 切换主题
+                    h3 图片（手机）
+                    .bgbox
+                        a.pimgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d6d4d539a5.webp)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d6d4d539a5.webp)\')')
+                        a.pimgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d6d4e15c9d.webp)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d6d4e15c9d.webp)\')')
+                        a.pimgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d6f22c03c6.webp)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d6f22c03c6.webp)\')')
+                        a.pimgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d6d56c83eb.webp)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d6d56c83eb.webp)\')')
+                        a.pimgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d6d50b439b.webp)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d6d50b439b.webp)\')')
+                    h3 图片（电脑）
+                    .bgbox
+                        a.imgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d6d5574d0e.webp)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d6d5574d0e.webp)\')')
+                        a.imgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d6d529adf9.webp)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d6d529adf9.webp)\')')
+                        a.imgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d6d5159b31.webp)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d6d5159b31.webp)\')')
+                        a.imgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d718bbeef6.webp)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d718bbeef6.webp)\')')
+                        a.imgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d72f237d19.jpg)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d72f237d19.jpg)\')')
+                        a.imgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d72f2032c8.jpg)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d72f2032c8.jpg)\')')
+                        a.imgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2021/12/01/7792ff0082ec4.jpg)', onclick='changeBg(\'url(https://bu.dusays.com/2021/12/01/7792ff0082ec4.jpg)\')')
+                        a.imgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d72ee6d4f3.png)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d72ee6d4f3.png)\')')
+                        a.imgbox(href='javascript:;', rel='noopener external nofollow', style='background-image:url(https://bu.dusays.com/2022/08/30/630d72ed76532.jpg)', onclick='changeBg(\'url(https://bu.dusays.com/2022/08/30/630d72ed76532.jpg)\')')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://bu.dusays.com/2022/09/17/6324aea549be6.webp)\')')
+                            img(src='https://bu.dusays.com/2022/09/17/6324aea549be6.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://bu.dusays.com/2022/09/17/6324aec701a68.webp)\')')
+                            img(src='https://bu.dusays.com/2022/09/17/6324aec701a68.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://bu.dusays.com/2022/09/17/6324aef4a5543.webp)\')')
+                            img(src='https://bu.dusays.com/2022/09/17/6324aef4a5543.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://bu.dusays.com/2022/09/17/6324af3622884.webp)\')')
+                            img(src='https://bu.dusays.com/2022/09/17/6324af3622884.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/5.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/5.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/6.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/6.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/7.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/7.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://bu.dusays.com/2022/12/08/6391b77ed767c.png)\')')
+                            img(src='https://bu.dusays.com/2022/12/08/6391b77ed767c.png')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/9.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/9.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/10.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/10.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/11.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/11.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/12.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/12.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/13.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/13.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/14.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/14.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/15.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/15.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/16.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/16.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/17.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/17.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/18.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/18.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/19.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/19.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/20.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/20.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/21.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/21.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/22.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/22.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/23.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/23.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/24.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/24.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/25.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/25.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/26.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/26.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/27.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/27.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/28.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/28.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/29.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/29.webp')
+                        a.imgbox(href='javascript:;', onclick='changeBg(\'url(https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/30.webp)\')')
+                            img(src='https://cdn.afdelivr.top/npm/saiodgm-api@1.0.1/randomimg-my/30.webp')
+                    h3 渐变色
+                    .bgbox
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: linear-gradient(to right, #eecda3, #ef629f)', onclick='changeBg(\'linear-gradient(to right, #eecda3, #ef629f)\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: linear-gradient(to right, #B7D31E, #42CE1E)', onclick='changeBg(\'linear-gradient(to right, #B7D31E, #42CE1E)\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: linear-gradient(to right, #06DE86, #06A5DE)', onclick='changeBg(\'linear-gradient(to right, #06DE86, #06A5DE)\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: linear-gradient(to right, #189BC4, #183DC4)', onclick='changeBg(\'linear-gradient(to right, #189BC4, #183DC4)\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: linear-gradient(to right, #C018C4, #C41818)', onclick='changeBg(\'linear-gradient(to right, #C018C4, #C41818)\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: linear-gradient(to right, #8B00BB, #030094)', onclick='changeBg(\'linear-gradient(to right, #8B00BB, #030094)\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: linear-gradient(to right, #eecda3, #ef629f)', onclick='changeBg(\'linear-gradient(to right, #eecda3, #ef629f)\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: linear-gradient(90deg, #ffd7e4 0%, #c8f1ff 100%)', onclick='changeBg(\'linear-gradient(90deg, #ffd7e4 0%, #c8f1ff 100%)\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: linear-gradient(45deg, #e5737b, #c6999e, #96b9c2, #00d6e8)', onclick='changeBg(\'linear-gradient(45deg, #e5737b, #c6999e, #96b9c2, #00d6e8)\')')
+                    h3 纯色
+                    .bgbox
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: #7D9D9C', onclick='changeBg(\'#7D9D9C\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: #fff', onclick='changeBg(\'#fff\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: #49A6E9', onclick='changeBg(\'#49A6E9\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: #F7CEFF', onclick='changeBg(\'#F7CEFF\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: #FFFFCE', onclick='changeBg(\'#FFFFCE\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: #CFFFCE', onclick='changeBg(\'#CFFFCE\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: #17EFE9', onclick='changeBg(\'#17EFE9\')')
+                        a.box(href='javascript:;', rel='noopener external nofollow', style='background: #9F17EF', onclick='changeBg(\'#9F17EF\')')
+                #con-echarts.asetting
+                    h1 文章统计
+                    h2 监控
+                    iframe(src="https://status.yisous.xyz" width="100%" height="500px" frameborder="no")
+                    if !is_page()
+                        h2 文章统计
+                        script(src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js")
+                        div(id="posts-chart" data-start="2021-01" style="border-radius: 8px; height: 300px; padding: 10px;")
+                        div(id="tags-chart" data-length="10" style="border-radius: 8px; height: 300px; padding: 10px;")
+                        div(id="categories-chart" data-parent="true" style="border-radius: 8px; height: 300px; padding: 10px;")
+                    h2 访问统计
+                        | 显示不出来请刷新页面
+                        <script data-pjax id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JnlSnWLD7XChjrlx/quote.js?theme=0&col=true&f=12&badge=icon_0&icon=center"></script>
+                
+                #con-abouts.asetting
+                    h1 关于
+                    | Hexo-theme-Acryple v1.0.100
+                    br
+                    | Ariasaka Console v0.01
+                    br
+                    | 欢迎
+                    a(href="/messageboard")
+                        | 反馈！
+        #setting-sidesl
+            button(title="恢复默认设置" class="reSettings con-rightside")
+                i.fa.fa-repeat
+            #setting-sides
+                button(title="繁简转换" class="con-rightside" id="con-translate"  onclick="javascript:rmf.translate();")
+                    i.iconfont.icon-fanti
+                button(title="昼夜切换" class="con-rightside" id="con-mode" onclick="rmf.switchDarkMode();")
+                    i.fa.fa-adjust
+                if is_post()||is_page()
+                    button(title="阅读模式" class="con-rightside" id="con-reading" onclick="rmf.switchReadMode();")
+                        i.fa.fa-book-open
+                if !is_page()
+                    button(title="单双栏切换" class="con-rightside" id="con-toggleaside" onclick="toggleAside();")
+                        i.fas.fa-arrows-alt-h
+                if !is_page()
+                    button(title="左右栏切换" class="con-rightside" id="con-toggleleftaside" onclick="switchAside();")
+                        i.fas.fa-binoculars
+                if is_post()||is_page()
+                    button(title="开关弹幕" class="con-rightside" id="con-barrage" onclick="switchCommentBarrage();")
+                        i.iconfont.icon-danmu
+                button(title="全屏" class="con-rightside" id="con-fullscreen" onclick="fullScreen();")
+                    i.fas.fa-expand
+            
