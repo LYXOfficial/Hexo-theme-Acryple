@@ -23,9 +23,9 @@ lyxTalk.init("IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
   function doSpeaks() {
   document.title = '说说 | Ariasakaの小窝'; 
 bbtalk.init({
-  appId: "IvW3T1NjMoh7OmKEdAz1tM0o-gzGzoHsz",
-  appKey: "vG8s9ukVO5bgozEHzR923dew",
-  serverURLs: 'https://ivw3t1nj.lc-cn-n1-shared.com',
+  appId: "",
+  appKey: "",
+  serverURLs: '',
   pageSize:1919810
 })
 }

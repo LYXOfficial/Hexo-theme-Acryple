@@ -1,5 +1,5 @@
 var fdata = {
-    apiurl: "https://fcircle.yisous.xyz/",
+    apiurl: "",
     defaultFish: 500,
     hungryFish: 500,
 }

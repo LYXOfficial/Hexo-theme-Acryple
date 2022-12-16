@@ -18,7 +18,7 @@ date: 2022-01-29 15:23:17
 <!-- 将apiurl改成你后端生成的api地址 -->
 <script type="text/javascript">
   var fdataUser = {
-    apiurl: 'https://fcircle.yisous.xyz/'
+    apiurl: ''
   }
 </script>
 <link rel="stylesheet" href="https://cdn1.tianli0.top/gh/lmm214/immmmm/themes/hello-friend/static/fcircle-beta.css">
