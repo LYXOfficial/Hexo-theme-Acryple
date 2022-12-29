@@ -12,7 +12,20 @@ type: "links"
 
 <link rel="stylesheet" type="text/css" href="https://cdn1.tianli0.top/gh/zhheo/JS-Heo@main/moments/random-friends-post.css">
 
-<!-- - class_name: <a href="https://github.com/Rock-Candy-Tea">冰糖红茶 </a>
+
+
+
+
+
+
+
+
+
+<!-- 一个友链例子 -->
+
+
+{% flink %}
+- class_name: <a href="https://github.com/Rock-Candy-Tea">冰糖红茶 </a>
   class_desc: “冰糖红茶”博客魔改组织的大佬们
   link_list:
   - name: 小冰【冰】
@@ -30,20 +43,7 @@ type: "links"
   - name: 贰猹【茶】
     link: https://noionion.top/
     avatar: /img/72645310.jpg
-    descr: 用这生命中的每一秒，给自己一个不后悔的未来 -->
-
-
-
-
-
-
-
-
-
-
-
-
-{% flink %}
+    descr: 用这生命中的每一秒，给自己一个不后悔的未来
 
 {% endflink %}
 

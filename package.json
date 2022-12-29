@@ -24,7 +24,7 @@
     "onlyPublic": true
   },
   "hexo": {
-    "version": "6.2.0"
+    "version": "6.3.0"
   },
   "dependencies": {
     "butterfly-friend": "^3.2.0",
@@ -70,6 +70,7 @@
     "leancloud-storage": "^4.13.1",
     "live2d-widget-model-hibiki": "^1.0.5",
     "live2d-widget-model-koharu": "^1.0.5",
+    "nunjucks": "^3.2.3",
     "object-assign": "^4.1.1",
     "solarlunar": "^2.0.7",
     "vue": "^3.2.37",
