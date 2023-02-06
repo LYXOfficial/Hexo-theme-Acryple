@@ -41,7 +41,7 @@
     "hexo-butterfly-tag-plugins-plus": "^1.0.17",
     "hexo-butterfly-wowjs": "^1.0.5",
     "hexo-cli": "^4.3.0",
-    "hexo-deployer-git": "^3.0.0",
+    "hexo-deployer-git": "^4.0.0",
     "hexo-douban-list2": "^1.1.1",
     "hexo-filter-nofollow": "^2.0.2",
     "hexo-generator-archive": "^1.0.0",
